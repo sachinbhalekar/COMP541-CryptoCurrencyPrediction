@@ -1,5 +1,3 @@
-# COMP541-CryptoCurrencyPrediction
-Jupyter notebook to predict prices of Bitcoin from Google trends data
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
