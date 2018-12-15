@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Untitled-Copy5</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Untitled-Copy2</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11773,7 +11774,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># importing csv module </span>
@@ -11815,7 +11816,6 @@ div#notebook {
 <span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;C:/Users/sachi/OneDrive/Documents/Assignments/Sem3/COMP541/Project/Data/INTEGRATED_DATA_CLEAN.csv&#39;</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="n">df1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">df1</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11836,300 +11836,6 @@ div#notebook {
 <script>requirejs.config({paths: { 'plotly': ['https://cdn.plot.ly/plotly-latest.min']},});if(!window.Plotly) {{require(['plotly'],function(plotly) {window.Plotly=plotly;});}}</script>
 </div>
 
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>           Date Symbol     Open     High      Low    Close        Volume  \
-0     4/28/2013    BTC   135.30   135.98   132.10   134.21           NaN   
-1     4/29/2013    BTC   134.44   147.49   134.00   144.54           NaN   
-2     4/30/2013    BTC   144.00   146.93   134.05   139.00           NaN   
-3      5/1/2013    BTC   139.00   139.89   107.72   116.99           NaN   
-4      5/2/2013    BTC   116.38   125.60    92.28   105.21           NaN   
-5      5/3/2013    BTC   106.25   108.13    79.10    97.75           NaN   
-6      5/4/2013    BTC    98.10   115.00    92.50   112.50           NaN   
-7      5/5/2013    BTC   112.90   118.80   107.14   115.91           NaN   
-8      5/6/2013    BTC   115.98   124.66   106.64   112.30           NaN   
-9      5/7/2013    BTC   112.25   113.44    97.70   111.50           NaN   
-10     5/8/2013    BTC   109.60   115.78   109.60   113.57           NaN   
-11     5/9/2013    BTC   113.20   113.46   109.26   112.67           NaN   
-12    5/10/2013    BTC   112.80   122.00   111.55   117.20           NaN   
-13    5/11/2013    BTC   117.70   118.68   113.01   115.24           NaN   
-14    5/12/2013    BTC   115.64   117.45   113.44   115.00           NaN   
-15    5/13/2013    BTC   114.82   118.70   114.50   117.98           NaN   
-16    5/14/2013    BTC   117.98   119.80   110.25   111.50           NaN   
-17    5/15/2013    BTC   111.40   115.81   103.50   114.22           NaN   
-18    5/16/2013    BTC   114.22   118.76   112.20   118.76           NaN   
-19    5/17/2013    BTC   118.21   125.30   116.57   123.02           NaN   
-20    5/18/2013    BTC   123.50   125.25   122.30   123.50           NaN   
-21    5/19/2013    BTC   123.21   124.50   119.57   121.99           NaN   
-22    5/20/2013    BTC   122.50   123.62   120.12   122.00           NaN   
-23    5/21/2013    BTC   122.02   123.00   121.21   122.88           NaN   
-24    5/22/2013    BTC   122.89   124.00   122.00   123.89           NaN   
-25    5/23/2013    BTC   123.80   126.93   123.10   126.70           NaN   
-26    5/24/2013    BTC   126.30   133.85   125.72   133.20           NaN   
-27    5/25/2013    BTC   133.10   133.22   128.90   131.98           NaN   
-28    5/26/2013    BTC   131.99   136.00   130.62   133.48           NaN   
-29    5/27/2013    BTC   133.50   135.47   124.70   129.75           NaN   
-...         ...    ...      ...      ...      ...      ...           ...   
-1832   5/4/2018    BTC  9695.50  9779.20  9585.96  9700.76  8.217830e+09   
-1833   5/5/2018    BTC  9700.28  9964.50  9695.12  9858.15  7.651940e+09   
-1834   5/6/2018    BTC  9845.31  9940.14  9465.25  9654.80  7.222280e+09   
-1835   5/7/2018    BTC  9645.67  9665.85  9231.53  9373.01  7.394020e+09   
-1836   5/8/2018    BTC  9380.87  9462.75  9127.77  9234.82  7.415870e+09   
-1837   5/9/2018    BTC  9223.73  9374.76  9031.62  9325.18  7.226890e+09   
-1838  5/10/2018    BTC  9325.96  9396.04  9040.52  9043.94  6.906700e+09   
-1839  5/11/2018    BTC  9052.96  9052.96  8394.46  8441.49  8.488520e+09   
-1840  5/12/2018    BTC  8441.44  8664.86  8223.50  8504.89  6.821380e+09   
-1841  5/13/2018    BTC  8515.49  8773.55  8395.12  8723.94  5.866380e+09   
-1842  5/14/2018    BTC  8713.10  8881.12  8367.97  8716.79  7.364150e+09   
-1843  5/15/2018    BTC  8705.19  8836.19  8456.45  8510.38  6.705710e+09   
-1844  5/16/2018    BTC  8504.41  8508.43  8175.49  8368.83  6.760220e+09   
-1845  5/17/2018    BTC  8370.05  8445.54  8054.12  8094.32  5.862530e+09   
-1846  5/18/2018    BTC  8091.83  8274.12  7974.82  8250.97  5.764190e+09   
-1847  5/19/2018    BTC  8255.73  8372.06  8183.35  8247.18  4.712400e+09   
-1848  5/20/2018    BTC  8246.99  8562.41  8205.24  8513.25  5.191060e+09   
-1849  5/21/2018    BTC  8522.33  8557.52  8365.12  8418.99  5.154990e+09   
-1850  5/22/2018    BTC  8419.87  8423.25  8004.58  8041.78  5.137010e+09   
-1851  5/23/2018    BTC  8037.08  8054.66  7507.88  7557.82  6.491120e+09   
-1852  5/24/2018    BTC  7561.12  7738.60  7331.14  7587.34  6.049220e+09   
-1853  5/25/2018    BTC  7592.30  7659.14  7392.65  7480.14  4.867830e+09   
-1854  5/26/2018    BTC  7486.48  7595.16  7349.12  7355.88  4.051540e+09   
-1855  5/27/2018    BTC  7362.08  7381.74  7270.96  7368.22  4.056520e+09   
-1856  5/28/2018    BTC  7371.31  7419.05  7100.89  7135.99  5.040600e+09   
-1857  5/29/2018    BTC  7129.46  7526.42  7090.68  7472.59  5.662660e+09   
-1858  5/30/2018    BTC  7469.73  7573.77  7313.60  7406.52  4.922540e+09   
-1859  5/31/2018    BTC  7406.15  7608.90  7361.13  7494.17  5.127130e+09   
-1860   6/1/2018    BTC  7500.70  7604.73  7407.34  7541.45  4.921460e+09   
-1861   6/2/2018    BTC  7536.72  7695.83  7497.26  7643.45  4.939300e+09   
-
-         MarketCap  PercentSearch   TotalSearch  
-0     1.500520e+09       0.137806   55122.39347  
-1     1.491160e+09       0.123300   49320.03627  
-2     1.597780e+09       0.116047   46418.85766  
-3     1.542820e+09       0.137482   54992.76411  
-4     1.292190e+09       0.137482   54992.76411  
-5     1.180070e+09       0.144718   57887.12012  
-6     1.089890e+09       0.117221   46888.56729  
-7     1.254760e+09       0.105644   42257.59769  
-8     1.289470e+09       0.117221   46888.56729  
-9     1.248470e+09       0.099855   39942.11288  
-10    1.219450e+09       0.089725   35890.01447  
-11    1.259980e+09       0.098408   39363.24168  
-12    1.255970e+09       0.092619   37047.75687  
-13    1.311050e+09       0.085384   34153.40087  
-14    1.288630e+09       0.092619   37047.75687  
-15    1.279980e+09       0.094067   37626.62808  
-16    1.315720e+09       0.092619   37047.75687  
-17    1.242760e+09       0.108538   43415.34009  
-18    1.274620e+09       0.092619   37047.75687  
-19    1.319590e+09       0.094067   37626.62808  
-20    1.379140e+09       0.094067   37626.62808  
-21    1.376370e+09       0.111433   44573.08249  
-22    1.368910e+09       0.096961   38784.37048  
-23    1.363940e+09       0.086831   34732.27207  
-24    1.374130e+09       0.082489   32995.65847  
-25    1.384780e+09       0.073806   29522.43126  
-26    1.413300e+09       0.078148   31259.04486  
-27    1.489950e+09       0.075253   30101.30246  
-28    1.478030e+09       0.068017   27206.94645  
-29    1.495520e+09       0.069465   27785.81766  
-...            ...            ...           ...  
-1832  1.650000e+11       0.427518  171007.37100  
-1833  1.650000e+11       0.407862  163144.96310  
-1834  1.680000e+11       0.398034  159213.75920  
-1835  1.640000e+11       0.432432  172972.97300  
-1836  1.600000e+11       0.427518  171007.37100  
-1837  1.570000e+11       0.393120  157248.15720  
-1838  1.590000e+11       0.407862  163144.96310  
-1839  1.540000e+11       0.491400  196560.19660  
-1840  1.440000e+11       0.388206  155282.55530  
-1841  1.450000e+11       0.343980  137592.13760  
-1842  1.480000e+11       0.417690  167076.16710  
-1843  1.480000e+11       0.383292  153316.95330  
-1844  1.450000e+11       0.398034  159213.75920  
-1845  1.430000e+11       0.378378  151351.35140  
-1846  1.380000e+11       0.358722  143488.94350  
-1847  1.410000e+11       0.309582  123832.92380  
-1848  1.410000e+11       0.314496  125798.52580  
-1849  1.450000e+11       0.348894  139557.73960  
-1850  1.440000e+11       0.368550  147420.14740  
-1851  1.370000e+11       0.447174  178869.77890  
-1852  1.290000e+11       0.422604  169041.76900  
-1853  1.290000e+11       0.368550  147420.14740  
-1854  1.280000e+11       0.324324  129729.72970  
-1855  1.260000e+11       0.324324  129729.72970  
-1856  1.260000e+11       0.383292  153316.95330  
-1857  1.220000e+11       0.393120  157248.15720  
-1858  1.270000e+11       0.358722  143488.94350  
-1859  1.260000e+11       0.339066  135626.53560  
-1860  1.280000e+11       0.355340  142135.92230  
-1861  1.290000e+11       0.343689  137475.72820  
-
-[1862 rows x 10 columns]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">df1</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>           Date Symbol     Open     High      Low    Close        Volume  \
-0     4/28/2013    BTC   135.30   135.98   132.10   134.21           NaN   
-1     4/29/2013    BTC   134.44   147.49   134.00   144.54           NaN   
-2     4/30/2013    BTC   144.00   146.93   134.05   139.00           NaN   
-3      5/1/2013    BTC   139.00   139.89   107.72   116.99           NaN   
-4      5/2/2013    BTC   116.38   125.60    92.28   105.21           NaN   
-5      5/3/2013    BTC   106.25   108.13    79.10    97.75           NaN   
-6      5/4/2013    BTC    98.10   115.00    92.50   112.50           NaN   
-7      5/5/2013    BTC   112.90   118.80   107.14   115.91           NaN   
-8      5/6/2013    BTC   115.98   124.66   106.64   112.30           NaN   
-9      5/7/2013    BTC   112.25   113.44    97.70   111.50           NaN   
-10     5/8/2013    BTC   109.60   115.78   109.60   113.57           NaN   
-11     5/9/2013    BTC   113.20   113.46   109.26   112.67           NaN   
-12    5/10/2013    BTC   112.80   122.00   111.55   117.20           NaN   
-13    5/11/2013    BTC   117.70   118.68   113.01   115.24           NaN   
-14    5/12/2013    BTC   115.64   117.45   113.44   115.00           NaN   
-15    5/13/2013    BTC   114.82   118.70   114.50   117.98           NaN   
-16    5/14/2013    BTC   117.98   119.80   110.25   111.50           NaN   
-17    5/15/2013    BTC   111.40   115.81   103.50   114.22           NaN   
-18    5/16/2013    BTC   114.22   118.76   112.20   118.76           NaN   
-19    5/17/2013    BTC   118.21   125.30   116.57   123.02           NaN   
-20    5/18/2013    BTC   123.50   125.25   122.30   123.50           NaN   
-21    5/19/2013    BTC   123.21   124.50   119.57   121.99           NaN   
-22    5/20/2013    BTC   122.50   123.62   120.12   122.00           NaN   
-23    5/21/2013    BTC   122.02   123.00   121.21   122.88           NaN   
-24    5/22/2013    BTC   122.89   124.00   122.00   123.89           NaN   
-25    5/23/2013    BTC   123.80   126.93   123.10   126.70           NaN   
-26    5/24/2013    BTC   126.30   133.85   125.72   133.20           NaN   
-27    5/25/2013    BTC   133.10   133.22   128.90   131.98           NaN   
-28    5/26/2013    BTC   131.99   136.00   130.62   133.48           NaN   
-29    5/27/2013    BTC   133.50   135.47   124.70   129.75           NaN   
-...         ...    ...      ...      ...      ...      ...           ...   
-1832   5/4/2018    BTC  9695.50  9779.20  9585.96  9700.76  8.217830e+09   
-1833   5/5/2018    BTC  9700.28  9964.50  9695.12  9858.15  7.651940e+09   
-1834   5/6/2018    BTC  9845.31  9940.14  9465.25  9654.80  7.222280e+09   
-1835   5/7/2018    BTC  9645.67  9665.85  9231.53  9373.01  7.394020e+09   
-1836   5/8/2018    BTC  9380.87  9462.75  9127.77  9234.82  7.415870e+09   
-1837   5/9/2018    BTC  9223.73  9374.76  9031.62  9325.18  7.226890e+09   
-1838  5/10/2018    BTC  9325.96  9396.04  9040.52  9043.94  6.906700e+09   
-1839  5/11/2018    BTC  9052.96  9052.96  8394.46  8441.49  8.488520e+09   
-1840  5/12/2018    BTC  8441.44  8664.86  8223.50  8504.89  6.821380e+09   
-1841  5/13/2018    BTC  8515.49  8773.55  8395.12  8723.94  5.866380e+09   
-1842  5/14/2018    BTC  8713.10  8881.12  8367.97  8716.79  7.364150e+09   
-1843  5/15/2018    BTC  8705.19  8836.19  8456.45  8510.38  6.705710e+09   
-1844  5/16/2018    BTC  8504.41  8508.43  8175.49  8368.83  6.760220e+09   
-1845  5/17/2018    BTC  8370.05  8445.54  8054.12  8094.32  5.862530e+09   
-1846  5/18/2018    BTC  8091.83  8274.12  7974.82  8250.97  5.764190e+09   
-1847  5/19/2018    BTC  8255.73  8372.06  8183.35  8247.18  4.712400e+09   
-1848  5/20/2018    BTC  8246.99  8562.41  8205.24  8513.25  5.191060e+09   
-1849  5/21/2018    BTC  8522.33  8557.52  8365.12  8418.99  5.154990e+09   
-1850  5/22/2018    BTC  8419.87  8423.25  8004.58  8041.78  5.137010e+09   
-1851  5/23/2018    BTC  8037.08  8054.66  7507.88  7557.82  6.491120e+09   
-1852  5/24/2018    BTC  7561.12  7738.60  7331.14  7587.34  6.049220e+09   
-1853  5/25/2018    BTC  7592.30  7659.14  7392.65  7480.14  4.867830e+09   
-1854  5/26/2018    BTC  7486.48  7595.16  7349.12  7355.88  4.051540e+09   
-1855  5/27/2018    BTC  7362.08  7381.74  7270.96  7368.22  4.056520e+09   
-1856  5/28/2018    BTC  7371.31  7419.05  7100.89  7135.99  5.040600e+09   
-1857  5/29/2018    BTC  7129.46  7526.42  7090.68  7472.59  5.662660e+09   
-1858  5/30/2018    BTC  7469.73  7573.77  7313.60  7406.52  4.922540e+09   
-1859  5/31/2018    BTC  7406.15  7608.90  7361.13  7494.17  5.127130e+09   
-1860   6/1/2018    BTC  7500.70  7604.73  7407.34  7541.45  4.921460e+09   
-1861   6/2/2018    BTC  7536.72  7695.83  7497.26  7643.45  4.939300e+09   
-
-         MarketCap  PercentSearch   TotalSearch  
-0     1.500520e+09       0.137806   55122.39347  
-1     1.491160e+09       0.123300   49320.03627  
-2     1.597780e+09       0.116047   46418.85766  
-3     1.542820e+09       0.137482   54992.76411  
-4     1.292190e+09       0.137482   54992.76411  
-5     1.180070e+09       0.144718   57887.12012  
-6     1.089890e+09       0.117221   46888.56729  
-7     1.254760e+09       0.105644   42257.59769  
-8     1.289470e+09       0.117221   46888.56729  
-9     1.248470e+09       0.099855   39942.11288  
-10    1.219450e+09       0.089725   35890.01447  
-11    1.259980e+09       0.098408   39363.24168  
-12    1.255970e+09       0.092619   37047.75687  
-13    1.311050e+09       0.085384   34153.40087  
-14    1.288630e+09       0.092619   37047.75687  
-15    1.279980e+09       0.094067   37626.62808  
-16    1.315720e+09       0.092619   37047.75687  
-17    1.242760e+09       0.108538   43415.34009  
-18    1.274620e+09       0.092619   37047.75687  
-19    1.319590e+09       0.094067   37626.62808  
-20    1.379140e+09       0.094067   37626.62808  
-21    1.376370e+09       0.111433   44573.08249  
-22    1.368910e+09       0.096961   38784.37048  
-23    1.363940e+09       0.086831   34732.27207  
-24    1.374130e+09       0.082489   32995.65847  
-25    1.384780e+09       0.073806   29522.43126  
-26    1.413300e+09       0.078148   31259.04486  
-27    1.489950e+09       0.075253   30101.30246  
-28    1.478030e+09       0.068017   27206.94645  
-29    1.495520e+09       0.069465   27785.81766  
-...            ...            ...           ...  
-1832  1.650000e+11       0.427518  171007.37100  
-1833  1.650000e+11       0.407862  163144.96310  
-1834  1.680000e+11       0.398034  159213.75920  
-1835  1.640000e+11       0.432432  172972.97300  
-1836  1.600000e+11       0.427518  171007.37100  
-1837  1.570000e+11       0.393120  157248.15720  
-1838  1.590000e+11       0.407862  163144.96310  
-1839  1.540000e+11       0.491400  196560.19660  
-1840  1.440000e+11       0.388206  155282.55530  
-1841  1.450000e+11       0.343980  137592.13760  
-1842  1.480000e+11       0.417690  167076.16710  
-1843  1.480000e+11       0.383292  153316.95330  
-1844  1.450000e+11       0.398034  159213.75920  
-1845  1.430000e+11       0.378378  151351.35140  
-1846  1.380000e+11       0.358722  143488.94350  
-1847  1.410000e+11       0.309582  123832.92380  
-1848  1.410000e+11       0.314496  125798.52580  
-1849  1.450000e+11       0.348894  139557.73960  
-1850  1.440000e+11       0.368550  147420.14740  
-1851  1.370000e+11       0.447174  178869.77890  
-1852  1.290000e+11       0.422604  169041.76900  
-1853  1.290000e+11       0.368550  147420.14740  
-1854  1.280000e+11       0.324324  129729.72970  
-1855  1.260000e+11       0.324324  129729.72970  
-1856  1.260000e+11       0.383292  153316.95330  
-1857  1.220000e+11       0.393120  157248.15720  
-1858  1.270000e+11       0.358722  143488.94350  
-1859  1.260000e+11       0.339066  135626.53560  
-1860  1.280000e+11       0.355340  142135.92230  
-1861  1.290000e+11       0.343689  137475.72820  
-
-[1862 rows x 10 columns]
-</pre>
-</div>
 </div>
 
 </div>
@@ -12156,210 +11862,16 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
 <span class="kn">import</span> <span class="nn">plotly.figure_factory</span> <span class="k">as</span> <span class="nn">ff</span>
 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="n">hist_data</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]]</span>
-<span class="n">group_labels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;distplot&#39;</span><span class="p">]</span>
-
-<span class="n">fig</span> <span class="o">=</span> <span class="n">ff</span><span class="o">.</span><span class="n">create_distplot</span><span class="p">(</span><span class="n">hist_data</span><span class="p">,</span> <span class="n">group_labels</span><span class="p">)</span>
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;Basic Distplot&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">OSError</span>                                   Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py</span> in <span class="ansi-cyan-fg">_new_conn</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    140</span>             conn = connection.create_connection(
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 141</span><span class="ansi-yellow-intense-fg ansi-bold">                 (self.host, self.port), self.timeout, **extra_kw)
-</span><span class="ansi-green-fg">    142</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\util\connection.py</span> in <span class="ansi-cyan-fg">create_connection</span><span class="ansi-blue-intense-fg ansi-bold">(address, timeout, source_address, socket_options)</span>
-<span class="ansi-green-fg">     82</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> err <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">not</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 83</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">raise</span> err
-<span class="ansi-green-fg">     84</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\util\connection.py</span> in <span class="ansi-cyan-fg">create_connection</span><span class="ansi-blue-intense-fg ansi-bold">(address, timeout, source_address, socket_options)</span>
-<span class="ansi-green-fg">     72</span>                 sock<span class="ansi-yellow-intense-fg ansi-bold">.</span>bind<span class="ansi-yellow-intense-fg ansi-bold">(</span>source_address<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 73</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>sock<span class="ansi-yellow-intense-fg ansi-bold">.</span>connect<span class="ansi-yellow-intense-fg ansi-bold">(</span>sa<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     74</span>             <span class="ansi-green-intense-fg ansi-bold">return</span> sock
-
-<span class="ansi-red-intense-fg ansi-bold">OSError</span>: [WinError 10065] A socket operation was attempted to an unreachable host
-
-During handling of the above exception, another exception occurred:
-
-<span class="ansi-red-intense-fg ansi-bold">NewConnectionError</span>                        Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py</span> in <span class="ansi-cyan-fg">urlopen</span><span class="ansi-blue-intense-fg ansi-bold">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)</span>
-<span class="ansi-green-fg">    600</span>                                                   body<span class="ansi-yellow-intense-fg ansi-bold">=</span>body<span class="ansi-yellow-intense-fg ansi-bold">,</span> headers<span class="ansi-yellow-intense-fg ansi-bold">=</span>headers<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 601</span><span class="ansi-yellow-intense-fg ansi-bold">                                                   chunked=chunked)
-</span><span class="ansi-green-fg">    602</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py</span> in <span class="ansi-cyan-fg">_make_request</span><span class="ansi-blue-intense-fg ansi-bold">(self, conn, method, url, timeout, chunked, **httplib_request_kw)</span>
-<span class="ansi-green-fg">    345</span>         <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 346</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_validate_conn<span class="ansi-yellow-intense-fg ansi-bold">(</span>conn<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    347</span>         <span class="ansi-green-intense-fg ansi-bold">except</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span>SocketTimeout<span class="ansi-yellow-intense-fg ansi-bold">,</span> BaseSSLError<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">as</span> e<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py</span> in <span class="ansi-cyan-fg">_validate_conn</span><span class="ansi-blue-intense-fg ansi-bold">(self, conn)</span>
-<span class="ansi-green-fg">    849</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> <span class="ansi-green-intense-fg ansi-bold">not</span> getattr<span class="ansi-yellow-intense-fg ansi-bold">(</span>conn<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;sock&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>  <span class="ansi-red-intense-fg ansi-bold"># AppEngine might not have  `.sock`</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 850</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>conn<span class="ansi-yellow-intense-fg ansi-bold">.</span>connect<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    851</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py</span> in <span class="ansi-cyan-fg">connect</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    283</span>         <span class="ansi-red-intense-fg ansi-bold"># Add certificate verification</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 284</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>conn <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_new_conn<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    285</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connection.py</span> in <span class="ansi-cyan-fg">_new_conn</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
-<span class="ansi-green-fg">    149</span>             raise NewConnectionError(
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 150</span><span class="ansi-yellow-intense-fg ansi-bold">                 self, &#34;Failed to establish a new connection: %s&#34; % e)
-</span><span class="ansi-green-fg">    151</span> 
-
-<span class="ansi-red-intense-fg ansi-bold">NewConnectionError</span>: &lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000001DC665CC7B8&gt;: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host
-
-During handling of the above exception, another exception occurred:
-
-<span class="ansi-red-intense-fg ansi-bold">MaxRetryError</span>                             Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\requests\adapters.py</span> in <span class="ansi-cyan-fg">send</span><span class="ansi-blue-intense-fg ansi-bold">(self, request, stream, timeout, verify, cert, proxies)</span>
-<span class="ansi-green-fg">    439</span>                     retries<span class="ansi-yellow-intense-fg ansi-bold">=</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>max_retries<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 440</span><span class="ansi-yellow-intense-fg ansi-bold">                     </span>timeout<span class="ansi-yellow-intense-fg ansi-bold">=</span>timeout
-<span class="ansi-green-fg">    441</span>                 )
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\connectionpool.py</span> in <span class="ansi-cyan-fg">urlopen</span><span class="ansi-blue-intense-fg ansi-bold">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)</span>
-<span class="ansi-green-fg">    638</span>             retries = retries.increment(method, url, error=e, _pool=self,
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 639</span><span class="ansi-yellow-intense-fg ansi-bold">                                         _stacktrace=sys.exc_info()[2])
-</span><span class="ansi-green-fg">    640</span>             retries<span class="ansi-yellow-intense-fg ansi-bold">.</span>sleep<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\urllib3\util\retry.py</span> in <span class="ansi-cyan-fg">increment</span><span class="ansi-blue-intense-fg ansi-bold">(self, method, url, response, error, _pool, _stacktrace)</span>
-<span class="ansi-green-fg">    387</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> new_retry<span class="ansi-yellow-intense-fg ansi-bold">.</span>is_exhausted<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 388</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">raise</span> MaxRetryError<span class="ansi-yellow-intense-fg ansi-bold">(</span>_pool<span class="ansi-yellow-intense-fg ansi-bold">,</span> url<span class="ansi-yellow-intense-fg ansi-bold">,</span> error <span class="ansi-green-intense-fg ansi-bold">or</span> ResponseError<span class="ansi-yellow-intense-fg ansi-bold">(</span>cause<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    389</span> 
-
-<span class="ansi-red-intense-fg ansi-bold">MaxRetryError</span>: HTTPSConnectionPool(host=&#39;plot.ly&#39;, port=443): Max retries exceeded with url: /clientresp (Caused by NewConnectionError(&#39;&lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000001DC665CC7B8&gt;: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host&#39;,))
-
-During handling of the above exception, another exception occurred:
-
-<span class="ansi-red-intense-fg ansi-bold">ConnectionError</span>                           Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\plotly\api\v1\utils.py</span> in <span class="ansi-cyan-fg">request</span><span class="ansi-blue-intense-fg ansi-bold">(method, url, **kwargs)</span>
-<span class="ansi-green-fg">     81</span>     <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 82</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>response <span class="ansi-yellow-intense-fg ansi-bold">=</span> requests<span class="ansi-yellow-intense-fg ansi-bold">.</span>request<span class="ansi-yellow-intense-fg ansi-bold">(</span>method<span class="ansi-yellow-intense-fg ansi-bold">,</span> url<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     83</span>     <span class="ansi-green-intense-fg ansi-bold">except</span> RequestException <span class="ansi-green-intense-fg ansi-bold">as</span> e<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\requests\api.py</span> in <span class="ansi-cyan-fg">request</span><span class="ansi-blue-intense-fg ansi-bold">(method, url, **kwargs)</span>
-<span class="ansi-green-fg">     57</span>     <span class="ansi-green-intense-fg ansi-bold">with</span> sessions<span class="ansi-yellow-intense-fg ansi-bold">.</span>Session<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">as</span> session<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 58</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> session<span class="ansi-yellow-intense-fg ansi-bold">.</span>request<span class="ansi-yellow-intense-fg ansi-bold">(</span>method<span class="ansi-yellow-intense-fg ansi-bold">=</span>method<span class="ansi-yellow-intense-fg ansi-bold">,</span> url<span class="ansi-yellow-intense-fg ansi-bold">=</span>url<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     59</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py</span> in <span class="ansi-cyan-fg">request</span><span class="ansi-blue-intense-fg ansi-bold">(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)</span>
-<span class="ansi-green-fg">    507</span>         send_kwargs<span class="ansi-yellow-intense-fg ansi-bold">.</span>update<span class="ansi-yellow-intense-fg ansi-bold">(</span>settings<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 508</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>resp <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>send<span class="ansi-yellow-intense-fg ansi-bold">(</span>prep<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>send_kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    509</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\requests\sessions.py</span> in <span class="ansi-cyan-fg">send</span><span class="ansi-blue-intense-fg ansi-bold">(self, request, **kwargs)</span>
-<span class="ansi-green-fg">    617</span>         <span class="ansi-red-intense-fg ansi-bold"># Send the request</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 618</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>r <span class="ansi-yellow-intense-fg ansi-bold">=</span> adapter<span class="ansi-yellow-intense-fg ansi-bold">.</span>send<span class="ansi-yellow-intense-fg ansi-bold">(</span>request<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    619</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\requests\adapters.py</span> in <span class="ansi-cyan-fg">send</span><span class="ansi-blue-intense-fg ansi-bold">(self, request, stream, timeout, verify, cert, proxies)</span>
-<span class="ansi-green-fg">    507</span> 
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 508</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">raise</span> ConnectionError<span class="ansi-yellow-intense-fg ansi-bold">(</span>e<span class="ansi-yellow-intense-fg ansi-bold">,</span> request<span class="ansi-yellow-intense-fg ansi-bold">=</span>request<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    509</span> 
-
-<span class="ansi-red-intense-fg ansi-bold">ConnectionError</span>: HTTPSConnectionPool(host=&#39;plot.ly&#39;, port=443): Max retries exceeded with url: /clientresp (Caused by NewConnectionError(&#39;&lt;urllib3.connection.VerifiedHTTPSConnection object at 0x000001DC665CC7B8&gt;: Failed to establish a new connection: [WinError 10065] A socket operation was attempted to an unreachable host&#39;,))
-
-During handling of the above exception, another exception occurred:
-
-<span class="ansi-red-intense-fg ansi-bold">PlotlyRequestError</span>                        Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-5-b1cf617823d7&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-fg">      8</span> 
-<span class="ansi-green-fg">      9</span> fig <span class="ansi-yellow-intense-fg ansi-bold">=</span> ff<span class="ansi-yellow-intense-fg ansi-bold">.</span>create_distplot<span class="ansi-yellow-intense-fg ansi-bold">(</span>hist_data<span class="ansi-yellow-intense-fg ansi-bold">,</span> group_labels<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 10</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>py<span class="ansi-yellow-intense-fg ansi-bold">.</span>iplot<span class="ansi-yellow-intense-fg ansi-bold">(</span>fig<span class="ansi-yellow-intense-fg ansi-bold">,</span> filename<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;Basic Distplot&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\plotly\plotly\plotly.py</span> in <span class="ansi-cyan-fg">iplot</span><span class="ansi-blue-intense-fg ansi-bold">(figure_or_data, **plot_options)</span>
-<span class="ansi-green-fg">    140</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;auto_open&#39;</span> <span class="ansi-green-intense-fg ansi-bold">not</span> <span class="ansi-green-intense-fg ansi-bold">in</span> plot_options<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    141</span>         plot_options<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;auto_open&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-green-intense-fg ansi-bold">False</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 142</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>url <span class="ansi-yellow-intense-fg ansi-bold">=</span> plot<span class="ansi-yellow-intense-fg ansi-bold">(</span>figure_or_data<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>plot_options<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    143</span> 
-<span class="ansi-green-fg">    144</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> isinstance<span class="ansi-yellow-intense-fg ansi-bold">(</span>figure_or_data<span class="ansi-yellow-intense-fg ansi-bold">,</span> dict<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\plotly\plotly\plotly.py</span> in <span class="ansi-cyan-fg">plot</span><span class="ansi-blue-intense-fg ansi-bold">(figure_or_data, validate, **plot_options)</span>
-<span class="ansi-green-fg">    237</span>     data <span class="ansi-yellow-intense-fg ansi-bold">=</span> fig<span class="ansi-yellow-intense-fg ansi-bold">.</span>get<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;data&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    238</span>     plot_options<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;layout&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">=</span> fig<span class="ansi-yellow-intense-fg ansi-bold">.</span>get<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;layout&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">{</span><span class="ansi-yellow-intense-fg ansi-bold">}</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 239</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>response <span class="ansi-yellow-intense-fg ansi-bold">=</span> v1<span class="ansi-yellow-intense-fg ansi-bold">.</span>clientresp<span class="ansi-yellow-intense-fg ansi-bold">(</span>data<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>plot_options<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    240</span> 
-<span class="ansi-green-fg">    241</span>     <span class="ansi-red-intense-fg ansi-bold"># Check if the url needs a secret key</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\plotly\api\v1\clientresp.py</span> in <span class="ansi-cyan-fg">clientresp</span><span class="ansi-blue-intense-fg ansi-bold">(data, **kwargs)</span>
-<span class="ansi-green-fg">     33</span> 
-<span class="ansi-green-fg">     34</span>     url <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;{plotly_domain}/clientresp&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>format<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">**</span>cfg<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 35</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>response <span class="ansi-yellow-intense-fg ansi-bold">=</span> request<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;post&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> url<span class="ansi-yellow-intense-fg ansi-bold">,</span> data<span class="ansi-yellow-intense-fg ansi-bold">=</span>payload<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     36</span> 
-<span class="ansi-green-fg">     37</span>     <span class="ansi-red-intense-fg ansi-bold"># Old functionality, just keeping it around.</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\retrying.py</span> in <span class="ansi-cyan-fg">wrapped_f</span><span class="ansi-blue-intense-fg ansi-bold">(*args, **kw)</span>
-<span class="ansi-green-fg">     47</span>             <span class="ansi-yellow-intense-fg ansi-bold">@</span>six<span class="ansi-yellow-intense-fg ansi-bold">.</span>wraps<span class="ansi-yellow-intense-fg ansi-bold">(</span>f<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     48</span>             <span class="ansi-green-intense-fg ansi-bold">def</span> wrapped_f<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kw<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 49</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span><span class="ansi-green-intense-fg ansi-bold">return</span> Retrying<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">*</span>dargs<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>dkw<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>call<span class="ansi-yellow-intense-fg ansi-bold">(</span>f<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kw<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     50</span> 
-<span class="ansi-green-fg">     51</span>             <span class="ansi-green-intense-fg ansi-bold">return</span> wrapped_f
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\retrying.py</span> in <span class="ansi-cyan-fg">call</span><span class="ansi-blue-intense-fg ansi-bold">(self, fn, *args, **kwargs)</span>
-<span class="ansi-green-fg">    204</span> 
-<span class="ansi-green-fg">    205</span>             <span class="ansi-green-intense-fg ansi-bold">if</span> <span class="ansi-green-intense-fg ansi-bold">not</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>should_reject<span class="ansi-yellow-intense-fg ansi-bold">(</span>attempt<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 206</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span><span class="ansi-green-intense-fg ansi-bold">return</span> attempt<span class="ansi-yellow-intense-fg ansi-bold">.</span>get<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_wrap_exception<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    207</span> 
-<span class="ansi-green-fg">    208</span>             delay_since_first_attempt_ms <span class="ansi-yellow-intense-fg ansi-bold">=</span> int<span class="ansi-yellow-intense-fg ansi-bold">(</span>round<span class="ansi-yellow-intense-fg ansi-bold">(</span>time<span class="ansi-yellow-intense-fg ansi-bold">.</span>time<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span> <span class="ansi-cyan-intense-fg ansi-bold">1000</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-yellow-intense-fg ansi-bold">-</span> start_time
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\retrying.py</span> in <span class="ansi-cyan-fg">get</span><span class="ansi-blue-intense-fg ansi-bold">(self, wrap_exception)</span>
-<span class="ansi-green-fg">    245</span>                 <span class="ansi-green-intense-fg ansi-bold">raise</span> RetryError<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    246</span>             <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 247</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span>six<span class="ansi-yellow-intense-fg ansi-bold">.</span>reraise<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>value<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">0</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>value<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>value<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-cyan-intense-fg ansi-bold">2</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    248</span>         <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    249</span>             <span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>value
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\six.py</span> in <span class="ansi-cyan-fg">reraise</span><span class="ansi-blue-intense-fg ansi-bold">(tp, value, tb)</span>
-<span class="ansi-green-fg">    691</span>             <span class="ansi-green-intense-fg ansi-bold">if</span> value<span class="ansi-yellow-intense-fg ansi-bold">.</span>__traceback__ <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">not</span> tb<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    692</span>                 <span class="ansi-green-intense-fg ansi-bold">raise</span> value<span class="ansi-yellow-intense-fg ansi-bold">.</span>with_traceback<span class="ansi-yellow-intense-fg ansi-bold">(</span>tb<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 693</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">raise</span> value
-<span class="ansi-green-fg">    694</span>         <span class="ansi-green-intense-fg ansi-bold">finally</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    695</span>             value <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-green-intense-fg ansi-bold">None</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\retrying.py</span> in <span class="ansi-cyan-fg">call</span><span class="ansi-blue-intense-fg ansi-bold">(self, fn, *args, **kwargs)</span>
-<span class="ansi-green-fg">    198</span>         <span class="ansi-green-intense-fg ansi-bold">while</span> <span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    199</span>             <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 200</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span>attempt <span class="ansi-yellow-intense-fg ansi-bold">=</span> Attempt<span class="ansi-yellow-intense-fg ansi-bold">(</span>fn<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> attempt_number<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    201</span>             <span class="ansi-green-intense-fg ansi-bold">except</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">    202</span>                 tb <span class="ansi-yellow-intense-fg ansi-bold">=</span> sys<span class="ansi-yellow-intense-fg ansi-bold">.</span>exc_info<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\ProgramData\Anaconda3\lib\site-packages\plotly\api\v1\utils.py</span> in <span class="ansi-cyan-fg">request</span><span class="ansi-blue-intense-fg ansi-bold">(method, url, **kwargs)</span>
-<span class="ansi-green-fg">     87</span>         status_code <span class="ansi-yellow-intense-fg ansi-bold">=</span> response<span class="ansi-yellow-intense-fg ansi-bold">.</span>status_code <span class="ansi-green-intense-fg ansi-bold">if</span> response <span class="ansi-green-intense-fg ansi-bold">else</span> <span class="ansi-green-intense-fg ansi-bold">None</span>
-<span class="ansi-green-fg">     88</span>         content <span class="ansi-yellow-intense-fg ansi-bold">=</span> response<span class="ansi-yellow-intense-fg ansi-bold">.</span>content <span class="ansi-green-intense-fg ansi-bold">if</span> response <span class="ansi-green-intense-fg ansi-bold">else</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;No content&#39;</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 89</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">raise</span> exceptions<span class="ansi-yellow-intense-fg ansi-bold">.</span>PlotlyRequestError<span class="ansi-yellow-intense-fg ansi-bold">(</span>message<span class="ansi-yellow-intense-fg ansi-bold">,</span> status_code<span class="ansi-yellow-intense-fg ansi-bold">,</span> content<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     90</span>     validate_response<span class="ansi-yellow-intense-fg ansi-bold">(</span>response<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     91</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> response
-
-<span class="ansi-red-intense-fg ansi-bold">PlotlyRequestError</span>: No message</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -12407,133 +11919,16 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-
-<span class="n">df_external_source</span> <span class="o">=</span> <span class="n">FF</span><span class="o">.</span><span class="n">create_table</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
 <span class="kn">import</span> <span class="nn">plotly.figure_factory</span> <span class="k">as</span> <span class="nn">ff</span>
 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="n">hist_data</span> <span class="o">=</span> <span class="p">[</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span>
-<span class="n">group_labels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;distplot&#39;</span><span class="p">]</span>
-
-<span class="n">fig</span> <span class="o">=</span> <span class="n">ff</span><span class="o">.</span><span class="n">create_distplot</span><span class="p">(</span><span class="n">hist_data</span><span class="p">,</span> <span class="n">group_labels</span><span class="p">)</span>
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;Basic Distplot&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[7]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~sachinbansibhalekar/27.embed" height="525px" width="100%"></iframe>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">df_external_source</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;df-external-source-table&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[8]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~sachinbansibhalekar/19.embed" height="230px" width="100%"></iframe>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">traceClose</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">],</span>
-                  <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Closing Price (in USD)&#39;</span><span class="p">)</span>
-<span class="n">traceOpen</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Open&#39;</span><span class="p">],</span>
-                  <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Opening Price (in USD)&#39;</span><span class="p">)</span>
-<span class="n">traceHigh</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;High&#39;</span><span class="p">],</span>
-                  <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Highest Price (in USD)&#39;</span><span class="p">)</span>
-<span class="n">traceLow</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Low&#39;</span><span class="p">],</span>
-                  <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Lowest Price (in USD)&#39;</span><span class="p">)</span>
-<span class="n">layout</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;Bitcoin prices over time 2013-2018&#39;</span><span class="p">,</span>
-                   <span class="n">plot_bgcolor</span><span class="o">=</span><span class="s1">&#39;rgb(230, 230,230)&#39;</span><span class="p">,</span> 
-                   <span class="n">showlegend</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">[</span><span class="n">traceClose</span><span class="p">,</span><span class="n">traceOpen</span><span class="p">,</span><span class="n">traceHigh</span><span class="p">,</span><span class="n">traceLow</span><span class="p">],</span> <span class="n">layout</span><span class="o">=</span><span class="n">layout</span><span class="p">)</span>
-
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;bitcoin-prices&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[9]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~sachinbansibhalekar/23.embed" height="525px" width="100%"></iframe>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -12567,962 +11962,6 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[16]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Date</th>
-      <th>Symbol</th>
-      <th>Open</th>
-      <th>High</th>
-      <th>Low</th>
-      <th>Close</th>
-      <th>Volume</th>
-      <th>MarketCap</th>
-      <th>PercentSearch</th>
-      <th>TotalSearch</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>4/28/2013</td>
-      <td>BTC</td>
-      <td>135.30</td>
-      <td>135.98</td>
-      <td>132.10</td>
-      <td>0.003386</td>
-      <td>NaN</td>
-      <td>1.500520e+09</td>
-      <td>0.137806</td>
-      <td>55122.39347</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>4/29/2013</td>
-      <td>BTC</td>
-      <td>134.44</td>
-      <td>147.49</td>
-      <td>134.00</td>
-      <td>0.003917</td>
-      <td>NaN</td>
-      <td>1.491160e+09</td>
-      <td>0.123300</td>
-      <td>49320.03627</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>4/30/2013</td>
-      <td>BTC</td>
-      <td>144.00</td>
-      <td>146.93</td>
-      <td>134.05</td>
-      <td>0.003632</td>
-      <td>NaN</td>
-      <td>1.597780e+09</td>
-      <td>0.116047</td>
-      <td>46418.85766</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>5/1/2013</td>
-      <td>BTC</td>
-      <td>139.00</td>
-      <td>139.89</td>
-      <td>107.72</td>
-      <td>0.002499</td>
-      <td>NaN</td>
-      <td>1.542820e+09</td>
-      <td>0.137482</td>
-      <td>54992.76411</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5/2/2013</td>
-      <td>BTC</td>
-      <td>116.38</td>
-      <td>125.60</td>
-      <td>92.28</td>
-      <td>0.001893</td>
-      <td>NaN</td>
-      <td>1.292190e+09</td>
-      <td>0.137482</td>
-      <td>54992.76411</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>5/3/2013</td>
-      <td>BTC</td>
-      <td>106.25</td>
-      <td>108.13</td>
-      <td>79.10</td>
-      <td>0.001509</td>
-      <td>NaN</td>
-      <td>1.180070e+09</td>
-      <td>0.144718</td>
-      <td>57887.12012</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>5/4/2013</td>
-      <td>BTC</td>
-      <td>98.10</td>
-      <td>115.00</td>
-      <td>92.50</td>
-      <td>0.002268</td>
-      <td>NaN</td>
-      <td>1.089890e+09</td>
-      <td>0.117221</td>
-      <td>46888.56729</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>5/5/2013</td>
-      <td>BTC</td>
-      <td>112.90</td>
-      <td>118.80</td>
-      <td>107.14</td>
-      <td>0.002444</td>
-      <td>NaN</td>
-      <td>1.254760e+09</td>
-      <td>0.105644</td>
-      <td>42257.59769</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>5/6/2013</td>
-      <td>BTC</td>
-      <td>115.98</td>
-      <td>124.66</td>
-      <td>106.64</td>
-      <td>0.002258</td>
-      <td>NaN</td>
-      <td>1.289470e+09</td>
-      <td>0.117221</td>
-      <td>46888.56729</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>5/7/2013</td>
-      <td>BTC</td>
-      <td>112.25</td>
-      <td>113.44</td>
-      <td>97.70</td>
-      <td>0.002217</td>
-      <td>NaN</td>
-      <td>1.248470e+09</td>
-      <td>0.099855</td>
-      <td>39942.11288</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>5/8/2013</td>
-      <td>BTC</td>
-      <td>109.60</td>
-      <td>115.78</td>
-      <td>109.60</td>
-      <td>0.002323</td>
-      <td>NaN</td>
-      <td>1.219450e+09</td>
-      <td>0.089725</td>
-      <td>35890.01447</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>5/9/2013</td>
-      <td>BTC</td>
-      <td>113.20</td>
-      <td>113.46</td>
-      <td>109.26</td>
-      <td>0.002277</td>
-      <td>NaN</td>
-      <td>1.259980e+09</td>
-      <td>0.098408</td>
-      <td>39363.24168</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>5/10/2013</td>
-      <td>BTC</td>
-      <td>112.80</td>
-      <td>122.00</td>
-      <td>111.55</td>
-      <td>0.002510</td>
-      <td>NaN</td>
-      <td>1.255970e+09</td>
-      <td>0.092619</td>
-      <td>37047.75687</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>5/11/2013</td>
-      <td>BTC</td>
-      <td>117.70</td>
-      <td>118.68</td>
-      <td>113.01</td>
-      <td>0.002409</td>
-      <td>NaN</td>
-      <td>1.311050e+09</td>
-      <td>0.085384</td>
-      <td>34153.40087</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>5/12/2013</td>
-      <td>BTC</td>
-      <td>115.64</td>
-      <td>117.45</td>
-      <td>113.44</td>
-      <td>0.002397</td>
-      <td>NaN</td>
-      <td>1.288630e+09</td>
-      <td>0.092619</td>
-      <td>37047.75687</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>5/13/2013</td>
-      <td>BTC</td>
-      <td>114.82</td>
-      <td>118.70</td>
-      <td>114.50</td>
-      <td>0.002550</td>
-      <td>NaN</td>
-      <td>1.279980e+09</td>
-      <td>0.094067</td>
-      <td>37626.62808</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>5/14/2013</td>
-      <td>BTC</td>
-      <td>117.98</td>
-      <td>119.80</td>
-      <td>110.25</td>
-      <td>0.002217</td>
-      <td>NaN</td>
-      <td>1.315720e+09</td>
-      <td>0.092619</td>
-      <td>37047.75687</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>5/15/2013</td>
-      <td>BTC</td>
-      <td>111.40</td>
-      <td>115.81</td>
-      <td>103.50</td>
-      <td>0.002357</td>
-      <td>NaN</td>
-      <td>1.242760e+09</td>
-      <td>0.108538</td>
-      <td>43415.34009</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>5/16/2013</td>
-      <td>BTC</td>
-      <td>114.22</td>
-      <td>118.76</td>
-      <td>112.20</td>
-      <td>0.002590</td>
-      <td>NaN</td>
-      <td>1.274620e+09</td>
-      <td>0.092619</td>
-      <td>37047.75687</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>5/17/2013</td>
-      <td>BTC</td>
-      <td>118.21</td>
-      <td>125.30</td>
-      <td>116.57</td>
-      <td>0.002810</td>
-      <td>NaN</td>
-      <td>1.319590e+09</td>
-      <td>0.094067</td>
-      <td>37626.62808</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>5/18/2013</td>
-      <td>BTC</td>
-      <td>123.50</td>
-      <td>125.25</td>
-      <td>122.30</td>
-      <td>0.002834</td>
-      <td>NaN</td>
-      <td>1.379140e+09</td>
-      <td>0.094067</td>
-      <td>37626.62808</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>5/19/2013</td>
-      <td>BTC</td>
-      <td>123.21</td>
-      <td>124.50</td>
-      <td>119.57</td>
-      <td>0.002757</td>
-      <td>NaN</td>
-      <td>1.376370e+09</td>
-      <td>0.111433</td>
-      <td>44573.08249</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>5/20/2013</td>
-      <td>BTC</td>
-      <td>122.50</td>
-      <td>123.62</td>
-      <td>120.12</td>
-      <td>0.002757</td>
-      <td>NaN</td>
-      <td>1.368910e+09</td>
-      <td>0.096961</td>
-      <td>38784.37048</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>5/21/2013</td>
-      <td>BTC</td>
-      <td>122.02</td>
-      <td>123.00</td>
-      <td>121.21</td>
-      <td>0.002803</td>
-      <td>NaN</td>
-      <td>1.363940e+09</td>
-      <td>0.086831</td>
-      <td>34732.27207</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>5/22/2013</td>
-      <td>BTC</td>
-      <td>122.89</td>
-      <td>124.00</td>
-      <td>122.00</td>
-      <td>0.002855</td>
-      <td>NaN</td>
-      <td>1.374130e+09</td>
-      <td>0.082489</td>
-      <td>32995.65847</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>5/23/2013</td>
-      <td>BTC</td>
-      <td>123.80</td>
-      <td>126.93</td>
-      <td>123.10</td>
-      <td>0.002999</td>
-      <td>NaN</td>
-      <td>1.384780e+09</td>
-      <td>0.073806</td>
-      <td>29522.43126</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>5/24/2013</td>
-      <td>BTC</td>
-      <td>126.30</td>
-      <td>133.85</td>
-      <td>125.72</td>
-      <td>0.003334</td>
-      <td>NaN</td>
-      <td>1.413300e+09</td>
-      <td>0.078148</td>
-      <td>31259.04486</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>5/25/2013</td>
-      <td>BTC</td>
-      <td>133.10</td>
-      <td>133.22</td>
-      <td>128.90</td>
-      <td>0.003271</td>
-      <td>NaN</td>
-      <td>1.489950e+09</td>
-      <td>0.075253</td>
-      <td>30101.30246</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>5/26/2013</td>
-      <td>BTC</td>
-      <td>131.99</td>
-      <td>136.00</td>
-      <td>130.62</td>
-      <td>0.003348</td>
-      <td>NaN</td>
-      <td>1.478030e+09</td>
-      <td>0.068017</td>
-      <td>27206.94645</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>5/27/2013</td>
-      <td>BTC</td>
-      <td>133.50</td>
-      <td>135.47</td>
-      <td>124.70</td>
-      <td>0.003156</td>
-      <td>NaN</td>
-      <td>1.495520e+09</td>
-      <td>0.069465</td>
-      <td>27785.81766</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>1832</th>
-      <td>5/4/2018</td>
-      <td>BTC</td>
-      <td>9695.50</td>
-      <td>9779.20</td>
-      <td>9585.96</td>
-      <td>0.495772</td>
-      <td>8.217830e+09</td>
-      <td>1.650000e+11</td>
-      <td>0.427518</td>
-      <td>171007.37100</td>
-    </tr>
-    <tr>
-      <th>1833</th>
-      <td>5/5/2018</td>
-      <td>BTC</td>
-      <td>9700.28</td>
-      <td>9964.50</td>
-      <td>9695.12</td>
-      <td>0.503872</td>
-      <td>7.651940e+09</td>
-      <td>1.650000e+11</td>
-      <td>0.407862</td>
-      <td>163144.96310</td>
-    </tr>
-    <tr>
-      <th>1834</th>
-      <td>5/6/2018</td>
-      <td>BTC</td>
-      <td>9845.31</td>
-      <td>9940.14</td>
-      <td>9465.25</td>
-      <td>0.493406</td>
-      <td>7.222280e+09</td>
-      <td>1.680000e+11</td>
-      <td>0.398034</td>
-      <td>159213.75920</td>
-    </tr>
-    <tr>
-      <th>1835</th>
-      <td>5/7/2018</td>
-      <td>BTC</td>
-      <td>9645.67</td>
-      <td>9665.85</td>
-      <td>9231.53</td>
-      <td>0.478902</td>
-      <td>7.394020e+09</td>
-      <td>1.640000e+11</td>
-      <td>0.432432</td>
-      <td>172972.97300</td>
-    </tr>
-    <tr>
-      <th>1836</th>
-      <td>5/8/2018</td>
-      <td>BTC</td>
-      <td>9380.87</td>
-      <td>9462.75</td>
-      <td>9127.77</td>
-      <td>0.471790</td>
-      <td>7.415870e+09</td>
-      <td>1.600000e+11</td>
-      <td>0.427518</td>
-      <td>171007.37100</td>
-    </tr>
-    <tr>
-      <th>1837</th>
-      <td>5/9/2018</td>
-      <td>BTC</td>
-      <td>9223.73</td>
-      <td>9374.76</td>
-      <td>9031.62</td>
-      <td>0.476441</td>
-      <td>7.226890e+09</td>
-      <td>1.570000e+11</td>
-      <td>0.393120</td>
-      <td>157248.15720</td>
-    </tr>
-    <tr>
-      <th>1838</th>
-      <td>5/10/2018</td>
-      <td>BTC</td>
-      <td>9325.96</td>
-      <td>9396.04</td>
-      <td>9040.52</td>
-      <td>0.461965</td>
-      <td>6.906700e+09</td>
-      <td>1.590000e+11</td>
-      <td>0.407862</td>
-      <td>163144.96310</td>
-    </tr>
-    <tr>
-      <th>1839</th>
-      <td>5/11/2018</td>
-      <td>BTC</td>
-      <td>9052.96</td>
-      <td>9052.96</td>
-      <td>8394.46</td>
-      <td>0.430957</td>
-      <td>8.488520e+09</td>
-      <td>1.540000e+11</td>
-      <td>0.491400</td>
-      <td>196560.19660</td>
-    </tr>
-    <tr>
-      <th>1840</th>
-      <td>5/12/2018</td>
-      <td>BTC</td>
-      <td>8441.44</td>
-      <td>8664.86</td>
-      <td>8223.50</td>
-      <td>0.434221</td>
-      <td>6.821380e+09</td>
-      <td>1.440000e+11</td>
-      <td>0.388206</td>
-      <td>155282.55530</td>
-    </tr>
-    <tr>
-      <th>1841</th>
-      <td>5/13/2018</td>
-      <td>BTC</td>
-      <td>8515.49</td>
-      <td>8773.55</td>
-      <td>8395.12</td>
-      <td>0.445495</td>
-      <td>5.866380e+09</td>
-      <td>1.450000e+11</td>
-      <td>0.343980</td>
-      <td>137592.13760</td>
-    </tr>
-    <tr>
-      <th>1842</th>
-      <td>5/14/2018</td>
-      <td>BTC</td>
-      <td>8713.10</td>
-      <td>8881.12</td>
-      <td>8367.97</td>
-      <td>0.445127</td>
-      <td>7.364150e+09</td>
-      <td>1.480000e+11</td>
-      <td>0.417690</td>
-      <td>167076.16710</td>
-    </tr>
-    <tr>
-      <th>1843</th>
-      <td>5/15/2018</td>
-      <td>BTC</td>
-      <td>8705.19</td>
-      <td>8836.19</td>
-      <td>8456.45</td>
-      <td>0.434503</td>
-      <td>6.705710e+09</td>
-      <td>1.480000e+11</td>
-      <td>0.383292</td>
-      <td>153316.95330</td>
-    </tr>
-    <tr>
-      <th>1844</th>
-      <td>5/16/2018</td>
-      <td>BTC</td>
-      <td>8504.41</td>
-      <td>8508.43</td>
-      <td>8175.49</td>
-      <td>0.427218</td>
-      <td>6.760220e+09</td>
-      <td>1.450000e+11</td>
-      <td>0.398034</td>
-      <td>159213.75920</td>
-    </tr>
-    <tr>
-      <th>1845</th>
-      <td>5/17/2018</td>
-      <td>BTC</td>
-      <td>8370.05</td>
-      <td>8445.54</td>
-      <td>8054.12</td>
-      <td>0.413089</td>
-      <td>5.862530e+09</td>
-      <td>1.430000e+11</td>
-      <td>0.378378</td>
-      <td>151351.35140</td>
-    </tr>
-    <tr>
-      <th>1846</th>
-      <td>5/18/2018</td>
-      <td>BTC</td>
-      <td>8091.83</td>
-      <td>8274.12</td>
-      <td>7974.82</td>
-      <td>0.421152</td>
-      <td>5.764190e+09</td>
-      <td>1.380000e+11</td>
-      <td>0.358722</td>
-      <td>143488.94350</td>
-    </tr>
-    <tr>
-      <th>1847</th>
-      <td>5/19/2018</td>
-      <td>BTC</td>
-      <td>8255.73</td>
-      <td>8372.06</td>
-      <td>8183.35</td>
-      <td>0.420956</td>
-      <td>4.712400e+09</td>
-      <td>1.410000e+11</td>
-      <td>0.309582</td>
-      <td>123832.92380</td>
-    </tr>
-    <tr>
-      <th>1848</th>
-      <td>5/20/2018</td>
-      <td>BTC</td>
-      <td>8246.99</td>
-      <td>8562.41</td>
-      <td>8205.24</td>
-      <td>0.434651</td>
-      <td>5.191060e+09</td>
-      <td>1.410000e+11</td>
-      <td>0.314496</td>
-      <td>125798.52580</td>
-    </tr>
-    <tr>
-      <th>1849</th>
-      <td>5/21/2018</td>
-      <td>BTC</td>
-      <td>8522.33</td>
-      <td>8557.52</td>
-      <td>8365.12</td>
-      <td>0.429799</td>
-      <td>5.154990e+09</td>
-      <td>1.450000e+11</td>
-      <td>0.348894</td>
-      <td>139557.73960</td>
-    </tr>
-    <tr>
-      <th>1850</th>
-      <td>5/22/2018</td>
-      <td>BTC</td>
-      <td>8419.87</td>
-      <td>8423.25</td>
-      <td>8004.58</td>
-      <td>0.410385</td>
-      <td>5.137010e+09</td>
-      <td>1.440000e+11</td>
-      <td>0.368550</td>
-      <td>147420.14740</td>
-    </tr>
-    <tr>
-      <th>1851</th>
-      <td>5/23/2018</td>
-      <td>BTC</td>
-      <td>8037.08</td>
-      <td>8054.66</td>
-      <td>7507.88</td>
-      <td>0.385475</td>
-      <td>6.491120e+09</td>
-      <td>1.370000e+11</td>
-      <td>0.447174</td>
-      <td>178869.77890</td>
-    </tr>
-    <tr>
-      <th>1852</th>
-      <td>5/24/2018</td>
-      <td>BTC</td>
-      <td>7561.12</td>
-      <td>7738.60</td>
-      <td>7331.14</td>
-      <td>0.386995</td>
-      <td>6.049220e+09</td>
-      <td>1.290000e+11</td>
-      <td>0.422604</td>
-      <td>169041.76900</td>
-    </tr>
-    <tr>
-      <th>1853</th>
-      <td>5/25/2018</td>
-      <td>BTC</td>
-      <td>7592.30</td>
-      <td>7659.14</td>
-      <td>7392.65</td>
-      <td>0.381477</td>
-      <td>4.867830e+09</td>
-      <td>1.290000e+11</td>
-      <td>0.368550</td>
-      <td>147420.14740</td>
-    </tr>
-    <tr>
-      <th>1854</th>
-      <td>5/26/2018</td>
-      <td>BTC</td>
-      <td>7486.48</td>
-      <td>7595.16</td>
-      <td>7349.12</td>
-      <td>0.375082</td>
-      <td>4.051540e+09</td>
-      <td>1.280000e+11</td>
-      <td>0.324324</td>
-      <td>129729.72970</td>
-    </tr>
-    <tr>
-      <th>1855</th>
-      <td>5/27/2018</td>
-      <td>BTC</td>
-      <td>7362.08</td>
-      <td>7381.74</td>
-      <td>7270.96</td>
-      <td>0.375717</td>
-      <td>4.056520e+09</td>
-      <td>1.260000e+11</td>
-      <td>0.324324</td>
-      <td>129729.72970</td>
-    </tr>
-    <tr>
-      <th>1856</th>
-      <td>5/28/2018</td>
-      <td>BTC</td>
-      <td>7371.31</td>
-      <td>7419.05</td>
-      <td>7100.89</td>
-      <td>0.363764</td>
-      <td>5.040600e+09</td>
-      <td>1.260000e+11</td>
-      <td>0.383292</td>
-      <td>153316.95330</td>
-    </tr>
-    <tr>
-      <th>1857</th>
-      <td>5/29/2018</td>
-      <td>BTC</td>
-      <td>7129.46</td>
-      <td>7526.42</td>
-      <td>7090.68</td>
-      <td>0.381089</td>
-      <td>5.662660e+09</td>
-      <td>1.220000e+11</td>
-      <td>0.393120</td>
-      <td>157248.15720</td>
-    </tr>
-    <tr>
-      <th>1858</th>
-      <td>5/30/2018</td>
-      <td>BTC</td>
-      <td>7469.73</td>
-      <td>7573.77</td>
-      <td>7313.60</td>
-      <td>0.377688</td>
-      <td>4.922540e+09</td>
-      <td>1.270000e+11</td>
-      <td>0.358722</td>
-      <td>143488.94350</td>
-    </tr>
-    <tr>
-      <th>1859</th>
-      <td>5/31/2018</td>
-      <td>BTC</td>
-      <td>7406.15</td>
-      <td>7608.90</td>
-      <td>7361.13</td>
-      <td>0.382199</td>
-      <td>5.127130e+09</td>
-      <td>1.260000e+11</td>
-      <td>0.339066</td>
-      <td>135626.53560</td>
-    </tr>
-    <tr>
-      <th>1860</th>
-      <td>6/1/2018</td>
-      <td>BTC</td>
-      <td>7500.70</td>
-      <td>7604.73</td>
-      <td>7407.34</td>
-      <td>0.384633</td>
-      <td>4.921460e+09</td>
-      <td>1.280000e+11</td>
-      <td>0.355340</td>
-      <td>142135.92230</td>
-    </tr>
-    <tr>
-      <th>1861</th>
-      <td>6/2/2018</td>
-      <td>BTC</td>
-      <td>7536.72</td>
-      <td>7695.83</td>
-      <td>7497.26</td>
-      <td>0.389883</td>
-      <td>4.939300e+09</td>
-      <td>1.290000e+11</td>
-      <td>0.343689</td>
-      <td>137475.72820</td>
-    </tr>
-  </tbody>
-</table>
-<p>1862 rows × 10 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">traceClose</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">],</span>
-                  <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Closing Price (in USD)&#39;</span><span class="p">)</span>
-<span class="n">traceOpen</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Open&#39;</span><span class="p">],</span>
-                  <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Opening Price (in USD)&#39;</span><span class="p">)</span>
-<span class="n">traceHigh</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;High&#39;</span><span class="p">],</span>
-                  <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Highest Price (in USD)&#39;</span><span class="p">)</span>
-<span class="n">traceLow</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">],</span> <span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Low&#39;</span><span class="p">],</span>
-                  <span class="n">name</span><span class="o">=</span><span class="s1">&#39;Lowest Price (in USD)&#39;</span><span class="p">)</span>
-<span class="n">layout</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;Bitcoin prices over time 2013-2018&#39;</span><span class="p">,</span>
-                   <span class="n">plot_bgcolor</span><span class="o">=</span><span class="s1">&#39;rgb(230, 230,230)&#39;</span><span class="p">,</span> 
-                   <span class="n">showlegend</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">[</span><span class="n">traceClose</span><span class="p">,</span><span class="n">traceOpen</span><span class="p">,</span><span class="n">traceHigh</span><span class="p">,</span><span class="n">traceLow</span><span class="p">],</span> <span class="n">layout</span><span class="o">=</span><span class="n">layout</span><span class="p">)</span>
-
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;bitcoin-prices&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[17]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~sachinbansibhalekar/23.embed" height="525px" width="100%"></iframe>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 <div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
@@ -13530,869 +11969,6 @@ During handling of the above exception, another exception occurred:
 </pre></div>
 
 </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">df_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="n">df</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[20]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Date</th>
-      <th>Symbol</th>
-      <th>Open</th>
-      <th>High</th>
-      <th>Low</th>
-      <th>Close</th>
-      <th>Volume</th>
-      <th>MarketCap</th>
-      <th>PercentSearch</th>
-      <th>TotalSearch</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>4/28/2013</td>
-      <td>BTC</td>
-      <td>135.30</td>
-      <td>135.98</td>
-      <td>132.10</td>
-      <td>134.21</td>
-      <td>NaN</td>
-      <td>1.500520e+09</td>
-      <td>0.137806</td>
-      <td>0.014292</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>4/29/2013</td>
-      <td>BTC</td>
-      <td>134.44</td>
-      <td>147.49</td>
-      <td>134.00</td>
-      <td>144.54</td>
-      <td>NaN</td>
-      <td>1.491160e+09</td>
-      <td>0.123300</td>
-      <td>0.012037</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>4/30/2013</td>
-      <td>BTC</td>
-      <td>144.00</td>
-      <td>146.93</td>
-      <td>134.05</td>
-      <td>139.00</td>
-      <td>NaN</td>
-      <td>1.597780e+09</td>
-      <td>0.116047</td>
-      <td>0.010909</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>5/1/2013</td>
-      <td>BTC</td>
-      <td>139.00</td>
-      <td>139.89</td>
-      <td>107.72</td>
-      <td>116.99</td>
-      <td>NaN</td>
-      <td>1.542820e+09</td>
-      <td>0.137482</td>
-      <td>0.014242</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5/2/2013</td>
-      <td>BTC</td>
-      <td>116.38</td>
-      <td>125.60</td>
-      <td>92.28</td>
-      <td>105.21</td>
-      <td>NaN</td>
-      <td>1.292190e+09</td>
-      <td>0.137482</td>
-      <td>0.014242</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>5/3/2013</td>
-      <td>BTC</td>
-      <td>106.25</td>
-      <td>108.13</td>
-      <td>79.10</td>
-      <td>97.75</td>
-      <td>NaN</td>
-      <td>1.180070e+09</td>
-      <td>0.144718</td>
-      <td>0.015367</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>5/4/2013</td>
-      <td>BTC</td>
-      <td>98.10</td>
-      <td>115.00</td>
-      <td>92.50</td>
-      <td>112.50</td>
-      <td>NaN</td>
-      <td>1.089890e+09</td>
-      <td>0.117221</td>
-      <td>0.011091</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>5/5/2013</td>
-      <td>BTC</td>
-      <td>112.90</td>
-      <td>118.80</td>
-      <td>107.14</td>
-      <td>115.91</td>
-      <td>NaN</td>
-      <td>1.254760e+09</td>
-      <td>0.105644</td>
-      <td>0.009291</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>5/6/2013</td>
-      <td>BTC</td>
-      <td>115.98</td>
-      <td>124.66</td>
-      <td>106.64</td>
-      <td>112.30</td>
-      <td>NaN</td>
-      <td>1.289470e+09</td>
-      <td>0.117221</td>
-      <td>0.011091</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>5/7/2013</td>
-      <td>BTC</td>
-      <td>112.25</td>
-      <td>113.44</td>
-      <td>97.70</td>
-      <td>111.50</td>
-      <td>NaN</td>
-      <td>1.248470e+09</td>
-      <td>0.099855</td>
-      <td>0.008391</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>5/8/2013</td>
-      <td>BTC</td>
-      <td>109.60</td>
-      <td>115.78</td>
-      <td>109.60</td>
-      <td>113.57</td>
-      <td>NaN</td>
-      <td>1.219450e+09</td>
-      <td>0.089725</td>
-      <td>0.006816</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>5/9/2013</td>
-      <td>BTC</td>
-      <td>113.20</td>
-      <td>113.46</td>
-      <td>109.26</td>
-      <td>112.67</td>
-      <td>NaN</td>
-      <td>1.259980e+09</td>
-      <td>0.098408</td>
-      <td>0.008166</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>5/10/2013</td>
-      <td>BTC</td>
-      <td>112.80</td>
-      <td>122.00</td>
-      <td>111.55</td>
-      <td>117.20</td>
-      <td>NaN</td>
-      <td>1.255970e+09</td>
-      <td>0.092619</td>
-      <td>0.007266</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>5/11/2013</td>
-      <td>BTC</td>
-      <td>117.70</td>
-      <td>118.68</td>
-      <td>113.01</td>
-      <td>115.24</td>
-      <td>NaN</td>
-      <td>1.311050e+09</td>
-      <td>0.085384</td>
-      <td>0.006140</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>5/12/2013</td>
-      <td>BTC</td>
-      <td>115.64</td>
-      <td>117.45</td>
-      <td>113.44</td>
-      <td>115.00</td>
-      <td>NaN</td>
-      <td>1.288630e+09</td>
-      <td>0.092619</td>
-      <td>0.007266</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>5/13/2013</td>
-      <td>BTC</td>
-      <td>114.82</td>
-      <td>118.70</td>
-      <td>114.50</td>
-      <td>117.98</td>
-      <td>NaN</td>
-      <td>1.279980e+09</td>
-      <td>0.094067</td>
-      <td>0.007491</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>5/14/2013</td>
-      <td>BTC</td>
-      <td>117.98</td>
-      <td>119.80</td>
-      <td>110.25</td>
-      <td>111.50</td>
-      <td>NaN</td>
-      <td>1.315720e+09</td>
-      <td>0.092619</td>
-      <td>0.007266</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>5/15/2013</td>
-      <td>BTC</td>
-      <td>111.40</td>
-      <td>115.81</td>
-      <td>103.50</td>
-      <td>114.22</td>
-      <td>NaN</td>
-      <td>1.242760e+09</td>
-      <td>0.108538</td>
-      <td>0.009741</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>5/16/2013</td>
-      <td>BTC</td>
-      <td>114.22</td>
-      <td>118.76</td>
-      <td>112.20</td>
-      <td>118.76</td>
-      <td>NaN</td>
-      <td>1.274620e+09</td>
-      <td>0.092619</td>
-      <td>0.007266</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>5/17/2013</td>
-      <td>BTC</td>
-      <td>118.21</td>
-      <td>125.30</td>
-      <td>116.57</td>
-      <td>123.02</td>
-      <td>NaN</td>
-      <td>1.319590e+09</td>
-      <td>0.094067</td>
-      <td>0.007491</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>5/18/2013</td>
-      <td>BTC</td>
-      <td>123.50</td>
-      <td>125.25</td>
-      <td>122.30</td>
-      <td>123.50</td>
-      <td>NaN</td>
-      <td>1.379140e+09</td>
-      <td>0.094067</td>
-      <td>0.007491</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>5/19/2013</td>
-      <td>BTC</td>
-      <td>123.21</td>
-      <td>124.50</td>
-      <td>119.57</td>
-      <td>121.99</td>
-      <td>NaN</td>
-      <td>1.376370e+09</td>
-      <td>0.111433</td>
-      <td>0.010191</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>5/20/2013</td>
-      <td>BTC</td>
-      <td>122.50</td>
-      <td>123.62</td>
-      <td>120.12</td>
-      <td>122.00</td>
-      <td>NaN</td>
-      <td>1.368910e+09</td>
-      <td>0.096961</td>
-      <td>0.007941</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>5/21/2013</td>
-      <td>BTC</td>
-      <td>122.02</td>
-      <td>123.00</td>
-      <td>121.21</td>
-      <td>122.88</td>
-      <td>NaN</td>
-      <td>1.363940e+09</td>
-      <td>0.086831</td>
-      <td>0.006365</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>5/22/2013</td>
-      <td>BTC</td>
-      <td>122.89</td>
-      <td>124.00</td>
-      <td>122.00</td>
-      <td>123.89</td>
-      <td>NaN</td>
-      <td>1.374130e+09</td>
-      <td>0.082489</td>
-      <td>0.005690</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>5/23/2013</td>
-      <td>BTC</td>
-      <td>123.80</td>
-      <td>126.93</td>
-      <td>123.10</td>
-      <td>126.70</td>
-      <td>NaN</td>
-      <td>1.384780e+09</td>
-      <td>0.073806</td>
-      <td>0.004340</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>5/24/2013</td>
-      <td>BTC</td>
-      <td>126.30</td>
-      <td>133.85</td>
-      <td>125.72</td>
-      <td>133.20</td>
-      <td>NaN</td>
-      <td>1.413300e+09</td>
-      <td>0.078148</td>
-      <td>0.005015</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>5/25/2013</td>
-      <td>BTC</td>
-      <td>133.10</td>
-      <td>133.22</td>
-      <td>128.90</td>
-      <td>131.98</td>
-      <td>NaN</td>
-      <td>1.489950e+09</td>
-      <td>0.075253</td>
-      <td>0.004565</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>5/26/2013</td>
-      <td>BTC</td>
-      <td>131.99</td>
-      <td>136.00</td>
-      <td>130.62</td>
-      <td>133.48</td>
-      <td>NaN</td>
-      <td>1.478030e+09</td>
-      <td>0.068017</td>
-      <td>0.003440</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>5/27/2013</td>
-      <td>BTC</td>
-      <td>133.50</td>
-      <td>135.47</td>
-      <td>124.70</td>
-      <td>129.75</td>
-      <td>NaN</td>
-      <td>1.495520e+09</td>
-      <td>0.069465</td>
-      <td>0.003665</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>1832</th>
-      <td>5/4/2018</td>
-      <td>BTC</td>
-      <td>9695.50</td>
-      <td>9779.20</td>
-      <td>9585.96</td>
-      <td>9700.76</td>
-      <td>8.217830e+09</td>
-      <td>1.650000e+11</td>
-      <td>0.427518</td>
-      <td>0.059343</td>
-    </tr>
-    <tr>
-      <th>1833</th>
-      <td>5/5/2018</td>
-      <td>BTC</td>
-      <td>9700.28</td>
-      <td>9964.50</td>
-      <td>9695.12</td>
-      <td>9858.15</td>
-      <td>7.651940e+09</td>
-      <td>1.650000e+11</td>
-      <td>0.407862</td>
-      <td>0.056287</td>
-    </tr>
-    <tr>
-      <th>1834</th>
-      <td>5/6/2018</td>
-      <td>BTC</td>
-      <td>9845.31</td>
-      <td>9940.14</td>
-      <td>9465.25</td>
-      <td>9654.80</td>
-      <td>7.222280e+09</td>
-      <td>1.680000e+11</td>
-      <td>0.398034</td>
-      <td>0.054758</td>
-    </tr>
-    <tr>
-      <th>1835</th>
-      <td>5/7/2018</td>
-      <td>BTC</td>
-      <td>9645.67</td>
-      <td>9665.85</td>
-      <td>9231.53</td>
-      <td>9373.01</td>
-      <td>7.394020e+09</td>
-      <td>1.640000e+11</td>
-      <td>0.432432</td>
-      <td>0.060107</td>
-    </tr>
-    <tr>
-      <th>1836</th>
-      <td>5/8/2018</td>
-      <td>BTC</td>
-      <td>9380.87</td>
-      <td>9462.75</td>
-      <td>9127.77</td>
-      <td>9234.82</td>
-      <td>7.415870e+09</td>
-      <td>1.600000e+11</td>
-      <td>0.427518</td>
-      <td>0.059343</td>
-    </tr>
-    <tr>
-      <th>1837</th>
-      <td>5/9/2018</td>
-      <td>BTC</td>
-      <td>9223.73</td>
-      <td>9374.76</td>
-      <td>9031.62</td>
-      <td>9325.18</td>
-      <td>7.226890e+09</td>
-      <td>1.570000e+11</td>
-      <td>0.393120</td>
-      <td>0.053994</td>
-    </tr>
-    <tr>
-      <th>1838</th>
-      <td>5/10/2018</td>
-      <td>BTC</td>
-      <td>9325.96</td>
-      <td>9396.04</td>
-      <td>9040.52</td>
-      <td>9043.94</td>
-      <td>6.906700e+09</td>
-      <td>1.590000e+11</td>
-      <td>0.407862</td>
-      <td>0.056287</td>
-    </tr>
-    <tr>
-      <th>1839</th>
-      <td>5/11/2018</td>
-      <td>BTC</td>
-      <td>9052.96</td>
-      <td>9052.96</td>
-      <td>8394.46</td>
-      <td>8441.49</td>
-      <td>8.488520e+09</td>
-      <td>1.540000e+11</td>
-      <td>0.491400</td>
-      <td>0.069277</td>
-    </tr>
-    <tr>
-      <th>1840</th>
-      <td>5/12/2018</td>
-      <td>BTC</td>
-      <td>8441.44</td>
-      <td>8664.86</td>
-      <td>8223.50</td>
-      <td>8504.89</td>
-      <td>6.821380e+09</td>
-      <td>1.440000e+11</td>
-      <td>0.388206</td>
-      <td>0.053230</td>
-    </tr>
-    <tr>
-      <th>1841</th>
-      <td>5/13/2018</td>
-      <td>BTC</td>
-      <td>8515.49</td>
-      <td>8773.55</td>
-      <td>8395.12</td>
-      <td>8723.94</td>
-      <td>5.866380e+09</td>
-      <td>1.450000e+11</td>
-      <td>0.343980</td>
-      <td>0.046353</td>
-    </tr>
-    <tr>
-      <th>1842</th>
-      <td>5/14/2018</td>
-      <td>BTC</td>
-      <td>8713.10</td>
-      <td>8881.12</td>
-      <td>8367.97</td>
-      <td>8716.79</td>
-      <td>7.364150e+09</td>
-      <td>1.480000e+11</td>
-      <td>0.417690</td>
-      <td>0.057815</td>
-    </tr>
-    <tr>
-      <th>1843</th>
-      <td>5/15/2018</td>
-      <td>BTC</td>
-      <td>8705.19</td>
-      <td>8836.19</td>
-      <td>8456.45</td>
-      <td>8510.38</td>
-      <td>6.705710e+09</td>
-      <td>1.480000e+11</td>
-      <td>0.383292</td>
-      <td>0.052466</td>
-    </tr>
-    <tr>
-      <th>1844</th>
-      <td>5/16/2018</td>
-      <td>BTC</td>
-      <td>8504.41</td>
-      <td>8508.43</td>
-      <td>8175.49</td>
-      <td>8368.83</td>
-      <td>6.760220e+09</td>
-      <td>1.450000e+11</td>
-      <td>0.398034</td>
-      <td>0.054758</td>
-    </tr>
-    <tr>
-      <th>1845</th>
-      <td>5/17/2018</td>
-      <td>BTC</td>
-      <td>8370.05</td>
-      <td>8445.54</td>
-      <td>8054.12</td>
-      <td>8094.32</td>
-      <td>5.862530e+09</td>
-      <td>1.430000e+11</td>
-      <td>0.378378</td>
-      <td>0.051702</td>
-    </tr>
-    <tr>
-      <th>1846</th>
-      <td>5/18/2018</td>
-      <td>BTC</td>
-      <td>8091.83</td>
-      <td>8274.12</td>
-      <td>7974.82</td>
-      <td>8250.97</td>
-      <td>5.764190e+09</td>
-      <td>1.380000e+11</td>
-      <td>0.358722</td>
-      <td>0.048645</td>
-    </tr>
-    <tr>
-      <th>1847</th>
-      <td>5/19/2018</td>
-      <td>BTC</td>
-      <td>8255.73</td>
-      <td>8372.06</td>
-      <td>8183.35</td>
-      <td>8247.18</td>
-      <td>4.712400e+09</td>
-      <td>1.410000e+11</td>
-      <td>0.309582</td>
-      <td>0.041004</td>
-    </tr>
-    <tr>
-      <th>1848</th>
-      <td>5/20/2018</td>
-      <td>BTC</td>
-      <td>8246.99</td>
-      <td>8562.41</td>
-      <td>8205.24</td>
-      <td>8513.25</td>
-      <td>5.191060e+09</td>
-      <td>1.410000e+11</td>
-      <td>0.314496</td>
-      <td>0.041768</td>
-    </tr>
-    <tr>
-      <th>1849</th>
-      <td>5/21/2018</td>
-      <td>BTC</td>
-      <td>8522.33</td>
-      <td>8557.52</td>
-      <td>8365.12</td>
-      <td>8418.99</td>
-      <td>5.154990e+09</td>
-      <td>1.450000e+11</td>
-      <td>0.348894</td>
-      <td>0.047117</td>
-    </tr>
-    <tr>
-      <th>1850</th>
-      <td>5/22/2018</td>
-      <td>BTC</td>
-      <td>8419.87</td>
-      <td>8423.25</td>
-      <td>8004.58</td>
-      <td>8041.78</td>
-      <td>5.137010e+09</td>
-      <td>1.440000e+11</td>
-      <td>0.368550</td>
-      <td>0.050173</td>
-    </tr>
-    <tr>
-      <th>1851</th>
-      <td>5/23/2018</td>
-      <td>BTC</td>
-      <td>8037.08</td>
-      <td>8054.66</td>
-      <td>7507.88</td>
-      <td>7557.82</td>
-      <td>6.491120e+09</td>
-      <td>1.370000e+11</td>
-      <td>0.447174</td>
-      <td>0.062400</td>
-    </tr>
-    <tr>
-      <th>1852</th>
-      <td>5/24/2018</td>
-      <td>BTC</td>
-      <td>7561.12</td>
-      <td>7738.60</td>
-      <td>7331.14</td>
-      <td>7587.34</td>
-      <td>6.049220e+09</td>
-      <td>1.290000e+11</td>
-      <td>0.422604</td>
-      <td>0.058579</td>
-    </tr>
-    <tr>
-      <th>1853</th>
-      <td>5/25/2018</td>
-      <td>BTC</td>
-      <td>7592.30</td>
-      <td>7659.14</td>
-      <td>7392.65</td>
-      <td>7480.14</td>
-      <td>4.867830e+09</td>
-      <td>1.290000e+11</td>
-      <td>0.368550</td>
-      <td>0.050173</td>
-    </tr>
-    <tr>
-      <th>1854</th>
-      <td>5/26/2018</td>
-      <td>BTC</td>
-      <td>7486.48</td>
-      <td>7595.16</td>
-      <td>7349.12</td>
-      <td>7355.88</td>
-      <td>4.051540e+09</td>
-      <td>1.280000e+11</td>
-      <td>0.324324</td>
-      <td>0.043296</td>
-    </tr>
-    <tr>
-      <th>1855</th>
-      <td>5/27/2018</td>
-      <td>BTC</td>
-      <td>7362.08</td>
-      <td>7381.74</td>
-      <td>7270.96</td>
-      <td>7368.22</td>
-      <td>4.056520e+09</td>
-      <td>1.260000e+11</td>
-      <td>0.324324</td>
-      <td>0.043296</td>
-    </tr>
-    <tr>
-      <th>1856</th>
-      <td>5/28/2018</td>
-      <td>BTC</td>
-      <td>7371.31</td>
-      <td>7419.05</td>
-      <td>7100.89</td>
-      <td>7135.99</td>
-      <td>5.040600e+09</td>
-      <td>1.260000e+11</td>
-      <td>0.383292</td>
-      <td>0.052466</td>
-    </tr>
-    <tr>
-      <th>1857</th>
-      <td>5/29/2018</td>
-      <td>BTC</td>
-      <td>7129.46</td>
-      <td>7526.42</td>
-      <td>7090.68</td>
-      <td>7472.59</td>
-      <td>5.662660e+09</td>
-      <td>1.220000e+11</td>
-      <td>0.393120</td>
-      <td>0.053994</td>
-    </tr>
-    <tr>
-      <th>1858</th>
-      <td>5/30/2018</td>
-      <td>BTC</td>
-      <td>7469.73</td>
-      <td>7573.77</td>
-      <td>7313.60</td>
-      <td>7406.52</td>
-      <td>4.922540e+09</td>
-      <td>1.270000e+11</td>
-      <td>0.358722</td>
-      <td>0.048645</td>
-    </tr>
-    <tr>
-      <th>1859</th>
-      <td>5/31/2018</td>
-      <td>BTC</td>
-      <td>7406.15</td>
-      <td>7608.90</td>
-      <td>7361.13</td>
-      <td>7494.17</td>
-      <td>5.127130e+09</td>
-      <td>1.260000e+11</td>
-      <td>0.339066</td>
-      <td>0.045589</td>
-    </tr>
-    <tr>
-      <th>1860</th>
-      <td>6/1/2018</td>
-      <td>BTC</td>
-      <td>7500.70</td>
-      <td>7604.73</td>
-      <td>7407.34</td>
-      <td>7541.45</td>
-      <td>4.921460e+09</td>
-      <td>1.280000e+11</td>
-      <td>0.355340</td>
-      <td>0.048119</td>
-    </tr>
-    <tr>
-      <th>1861</th>
-      <td>6/2/2018</td>
-      <td>BTC</td>
-      <td>7536.72</td>
-      <td>7695.83</td>
-      <td>7497.26</td>
-      <td>7643.45</td>
-      <td>4.939300e+09</td>
-      <td>1.290000e+11</td>
-      <td>0.343689</td>
-      <td>0.046307</td>
-    </tr>
-  </tbody>
-</table>
-<p>1862 rows × 10 columns</p>
-</div>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14544,101 +12120,6 @@ During handling of the above exception, another exception occurred:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span>
-<span class="n">x</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[56]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>0        6/2/2013
-1        6/3/2013
-2        6/4/2013
-3        6/5/2013
-4        6/6/2013
-5        6/7/2013
-6        6/8/2013
-7        6/9/2013
-8       6/10/2013
-9       6/11/2013
-10      6/12/2013
-11      6/13/2013
-12      6/14/2013
-13      6/15/2013
-14      6/16/2013
-15      6/17/2013
-16      6/18/2013
-17      6/19/2013
-18      6/20/2013
-19      6/21/2013
-20      6/22/2013
-21      6/23/2013
-22      6/24/2013
-23      6/25/2013
-24      6/26/2013
-25      6/27/2013
-26      6/28/2013
-27      6/29/2013
-28      6/30/2013
-29       7/1/2013
-          ...    
-1797     5/4/2018
-1798     5/5/2018
-1799     5/6/2018
-1800     5/7/2018
-1801     5/8/2018
-1802     5/9/2018
-1803    5/10/2018
-1804    5/11/2018
-1805    5/12/2018
-1806    5/13/2018
-1807    5/14/2018
-1808    5/15/2018
-1809    5/16/2018
-1810    5/17/2018
-1811    5/18/2018
-1812    5/19/2018
-1813    5/20/2018
-1814    5/21/2018
-1815    5/22/2018
-1816    5/23/2018
-1817    5/24/2018
-1818    5/25/2018
-1819    5/26/2018
-1820    5/27/2018
-1821    5/28/2018
-1822    5/29/2018
-1823    5/30/2018
-1824    5/31/2018
-1825     6/1/2018
-1826     6/2/2018
-Name: Date, Length: 1827, dtype: object</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 <div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
@@ -14711,7 +12192,7 @@ Name: Date, Length: 1827, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
@@ -14721,45 +12202,9 @@ Name: Date, Length: 1827, dtype: object</pre>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
 <span class="n">N</span> <span class="o">=</span> <span class="mi">1000</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DayAvgSearchNotNormalizedReduced.csv&#39;</span><span class="p">)</span>
-<span class="n">random_x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span>
-<span class="n">random_y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]</span>
-
-<span class="c1"># Create a trace</span>
-<span class="n">trace</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">random_x</span><span class="p">,</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="n">random_y</span><span class="p">,</span>
-    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span>
-<span class="p">)</span>
-
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">trace</span><span class="p">]</span>
-
-<span class="c1"># Plot and embed in ipython notebook!</span>
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;basic-scatter&#39;</span><span class="p">)</span>
-
-<span class="c1"># or plot with: plot_url = py.plot(data, filename=&#39;basic-line&#39;)</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[33]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~sachinbansibhalekar/29.embed" height="525px" width="100%"></iframe>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -14816,53 +12261,13 @@ Name: Date, Length: 1827, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
-<span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
-
-<span class="c1"># Create random data with numpy</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="n">N</span> <span class="o">=</span> <span class="mi">1000</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;FinalNormalized.csv&#39;</span><span class="p">)</span>
-<span class="n">random_x</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span>
-<span class="n">random_y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]</span>
-
-<span class="c1"># Create a trace</span>
-<span class="n">trace</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">random_x</span><span class="p">,</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="n">random_y</span><span class="p">,</span>
-    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span>
-<span class="p">)</span>
-
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">trace</span><span class="p">]</span>
-
-<span class="c1"># Plot and embed in ipython notebook!</span>
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;basic-scatter&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[35]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~sachinbansibhalekar/29.embed" height="525px" width="100%"></iframe>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -15051,572 +12456,6 @@ Name: Date, Length: 1827, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
-<span class="o">%</span><span class="k">matplotlib</span> inline
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[5]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Unnamed: 0</th>
-      <th>Date</th>
-      <th>Open</th>
-      <th>High</th>
-      <th>Low</th>
-      <th>Close</th>
-      <th>TotalSearch</th>
-      <th>Avg_5WeekSearch</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1498</td>
-      <td>7/9/2017</td>
-      <td>2572.61</td>
-      <td>2635.49</td>
-      <td>2517.59</td>
-      <td>7.831379</td>
-      <td>96867.46988</td>
-      <td>2.467703</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1499</td>
-      <td>7/10/2017</td>
-      <td>2525.25</td>
-      <td>2537.16</td>
-      <td>2321.13</td>
-      <td>7.771742</td>
-      <td>111325.30120</td>
-      <td>2.467196</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>1500</td>
-      <td>7/11/2017</td>
-      <td>2385.89</td>
-      <td>2413.47</td>
-      <td>2296.81</td>
-      <td>7.756966</td>
-      <td>122891.56630</td>
-      <td>2.466706</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>1501</td>
-      <td>7/12/2017</td>
-      <td>2332.77</td>
-      <td>2423.71</td>
-      <td>2275.14</td>
-      <td>7.782724</td>
-      <td>114216.86750</td>
-      <td>2.465564</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>1502</td>
-      <td>7/13/2017</td>
-      <td>2402.70</td>
-      <td>2425.22</td>
-      <td>2340.83</td>
-      <td>7.765527</td>
-      <td>108433.73490</td>
-      <td>2.464493</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span><span class="mi">5</span><span class="p">]]</span>
-
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[6]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Avg_5WeekSearch</th>
-      <th>Close</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2.467703</td>
-      <td>7.831379</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2.467196</td>
-      <td>7.771742</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2.466706</td>
-      <td>7.756966</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2.465564</td>
-      <td>7.782724</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2.464493</td>
-      <td>7.765527</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn</span> <span class="k">import</span> <span class="n">preprocessing</span>
-<span class="n">min_max_scaler</span> <span class="o">=</span> <span class="n">preprocessing</span><span class="o">.</span><span class="n">MinMaxScaler</span><span class="p">()</span>
-
-<span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-<span class="n">Y</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span>
-
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[7]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Avg_5WeekSearch</th>
-      <th>Close</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>0.062257</td>
-      <td>0.115099</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>0.059510</td>
-      <td>0.089313</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>0.056850</td>
-      <td>0.082925</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0.050662</td>
-      <td>0.094062</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>0.044853</td>
-      <td>0.086626</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[8]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Avg_5WeekSearch</th>
-      <th>Close</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Avg_5WeekSearch</th>
-      <td>1.000000</td>
-      <td>0.841864</td>
-    </tr>
-    <tr>
-      <th>Close</th>
-      <td>0.841864</td>
-      <td>1.000000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="k">import</span> <span class="n">train_test_split</span>
-<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">Y_train</span><span class="p">,</span> <span class="n">Y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">test_size</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="k">import</span> <span class="n">LinearRegression</span>
-<span class="n">regressor</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">(</span><span class="n">copy_X</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">fit_intercept</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">normalize</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">regressor</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">Y_train</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[10]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=True)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Y_pred</span> <span class="o">=</span> <span class="n">regressor</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">regressor</span><span class="o">.</span><span class="n">coef_</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[0.66058206]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">regressor</span><span class="o">.</span><span class="n">intercept_</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>0.28862004202094627
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="k">import</span> <span class="n">r2_score</span>
-<span class="n">r2_score</span><span class="p">(</span><span class="n">Y_test</span><span class="p">,</span> <span class="n">Y_pred</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[14]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>0.7620264753305597</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="k">import</span> <span class="n">r2_score</span>
-<span class="n">r2_score</span><span class="p">(</span><span class="n">Y_test</span><span class="p">,</span> <span class="n">Y_pred</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[15]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>0.7620264753305597</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
@@ -15685,1714 +12524,10 @@ Name: Date, Length: 1827, dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
-<span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
-
-<span class="c1"># Create random data with numpy</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="n">N</span> <span class="o">=</span> <span class="mi">100</span>
-
-
-<span class="c1"># Create traces</span>
-<span class="n">trace0</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">X_test</span><span class="o">.</span><span class="n">values</span><span class="p">,</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="n">Y_test</span><span class="o">.</span><span class="n">values</span><span class="p">,</span>
-    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span><span class="p">,</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;test values&#39;</span>
-<span class="p">)</span>
-<span class="n">trace1</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">X_test</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">Y_pred</span><span class="p">,</span>
-    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span><span class="p">,</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;predicted values&#39;</span>
-<span class="p">)</span>
-
-
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">trace0</span><span class="p">,</span> <span class="n">trace1</span><span class="p">]</span>
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;scatter-mode&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[18]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~sach1990/4.embed" height="525px" width="100%"></iframe>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DayAvgSearchNotNormalizedReduced.csv&#39;</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">round</span><span class="p">()</span>
-<span class="n">df</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">[</span><span class="mi">6</span> <span class="p">,</span><span class="mi">5</span><span class="p">]]</span>
-
-<span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-<span class="n">Y</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span>
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-<span class="n">diff_df</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">diff</span><span class="p">()</span>
-<span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
-<span class="kn">from</span> <span class="nn">plotly.plotly</span> <span class="k">import</span> <span class="n">iplot</span>
-
-<span class="n">trace1</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Histogram</span><span class="p">(</span>
-    <span class="n">x</span><span class="o">=</span><span class="n">diff_df</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">],</span>
-    <span class="n">opacity</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Close Values&quot;</span><span class="p">,</span>
-    <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;rgba(171, 50, 96, 0.6)&#39;</span><span class="p">))</span>
-<span class="n">trace2</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Histogram</span><span class="p">(</span>
-     <span class="n">x</span><span class="o">=</span><span class="n">diff_df</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">],</span>
-    <span class="n">opacity</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Close Values&quot;</span><span class="p">,</span>
-    <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;rgba(12, 50, 196, 0.6)&#39;</span><span class="p">))</span>
-
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">trace1</span><span class="p">,</span> <span class="n">trace2</span><span class="p">]</span>
-<span class="n">layout</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span><span class="n">barmode</span><span class="o">=</span><span class="s1">&#39;overlay&#39;</span><span class="p">,</span>
-                   <span class="n">title</span><span class="o">=</span><span class="s1">&#39; students-staff ratio in 2011 and 2012&#39;</span><span class="p">,</span>
-                   <span class="n">xaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;students-staff ratio&#39;</span><span class="p">),</span>
-                   <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Count&#39;</span><span class="p">),</span>
-<span class="p">)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">layout</span><span class="p">)</span>
-<span class="n">iplot</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[19]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~sach1990/14.embed" height="525px" width="100%"></iframe>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[420]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[420]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Unnamed: 0</th>
-      <th>Date</th>
-      <th>Open</th>
-      <th>High</th>
-      <th>Low</th>
-      <th>Close</th>
-      <th>TotalSearch</th>
-      <th>Avg_5WeekSearch</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1498</td>
-      <td>7/9/2017</td>
-      <td>2573.0</td>
-      <td>2635.0</td>
-      <td>2518.0</td>
-      <td>2518.0</td>
-      <td>96867.0</td>
-      <td>132625.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>1499</td>
-      <td>7/10/2017</td>
-      <td>2525.0</td>
-      <td>2537.0</td>
-      <td>2321.0</td>
-      <td>2373.0</td>
-      <td>111325.0</td>
-      <td>131837.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>1500</td>
-      <td>7/11/2017</td>
-      <td>2386.0</td>
-      <td>2413.0</td>
-      <td>2297.0</td>
-      <td>2338.0</td>
-      <td>122892.0</td>
-      <td>131082.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>1501</td>
-      <td>7/12/2017</td>
-      <td>2333.0</td>
-      <td>2424.0</td>
-      <td>2275.0</td>
-      <td>2399.0</td>
-      <td>114217.0</td>
-      <td>129331.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>1502</td>
-      <td>7/13/2017</td>
-      <td>2403.0</td>
-      <td>2425.0</td>
-      <td>2341.0</td>
-      <td>2358.0</td>
-      <td>108434.0</td>
-      <td>127708.0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>1503</td>
-      <td>7/14/2017</td>
-      <td>2361.0</td>
-      <td>2363.0</td>
-      <td>2183.0</td>
-      <td>2233.0</td>
-      <td>109880.0</td>
-      <td>126714.0</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>1504</td>
-      <td>7/15/2017</td>
-      <td>2230.0</td>
-      <td>2231.0</td>
-      <td>1990.0</td>
-      <td>1999.0</td>
-      <td>122892.0</td>
-      <td>125708.0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>1505</td>
-      <td>7/16/2017</td>
-      <td>1992.0</td>
-      <td>2059.0</td>
-      <td>1843.0</td>
-      <td>1930.0</td>
-      <td>144578.0</td>
-      <td>125327.0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>1506</td>
-      <td>7/17/2017</td>
-      <td>1933.0</td>
-      <td>2230.0</td>
-      <td>1933.0</td>
-      <td>2228.0</td>
-      <td>134458.0</td>
-      <td>125390.0</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>1507</td>
-      <td>7/18/2017</td>
-      <td>2234.0</td>
-      <td>2388.0</td>
-      <td>2165.0</td>
-      <td>2319.0</td>
-      <td>134458.0</td>
-      <td>123907.0</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>1508</td>
-      <td>7/19/2017</td>
-      <td>2323.0</td>
-      <td>2397.0</td>
-      <td>2260.0</td>
-      <td>2273.0</td>
-      <td>120000.0</td>
-      <td>123004.0</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>1509</td>
-      <td>7/20/2017</td>
-      <td>2270.0</td>
-      <td>2901.0</td>
-      <td>2270.0</td>
-      <td>2818.0</td>
-      <td>134458.0</td>
-      <td>121858.0</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>1510</td>
-      <td>7/21/2017</td>
-      <td>2838.0</td>
-      <td>2838.0</td>
-      <td>2622.0</td>
-      <td>2668.0</td>
-      <td>137349.0</td>
-      <td>120322.0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>1511</td>
-      <td>7/22/2017</td>
-      <td>2669.0</td>
-      <td>2862.0</td>
-      <td>2658.0</td>
-      <td>2810.0</td>
-      <td>117108.0</td>
-      <td>119816.0</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>1512</td>
-      <td>7/23/2017</td>
-      <td>2808.0</td>
-      <td>2832.0</td>
-      <td>2654.0</td>
-      <td>2730.0</td>
-      <td>122892.0</td>
-      <td>119327.0</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>1513</td>
-      <td>7/24/2017</td>
-      <td>2733.0</td>
-      <td>2777.0</td>
-      <td>2699.0</td>
-      <td>2755.0</td>
-      <td>118554.0</td>
-      <td>119262.0</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>1514</td>
-      <td>7/25/2017</td>
-      <td>2758.0</td>
-      <td>2768.0</td>
-      <td>2481.0</td>
-      <td>2576.0</td>
-      <td>125783.0</td>
-      <td>118813.0</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>1515</td>
-      <td>7/26/2017</td>
-      <td>2578.0</td>
-      <td>2611.0</td>
-      <td>2451.0</td>
-      <td>2529.0</td>
-      <td>122892.0</td>
-      <td>118459.0</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>1516</td>
-      <td>7/27/2017</td>
-      <td>2539.0</td>
-      <td>2693.0</td>
-      <td>2529.0</td>
-      <td>2672.0</td>
-      <td>115663.0</td>
-      <td>117815.0</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>1517</td>
-      <td>7/28/2017</td>
-      <td>2680.0</td>
-      <td>2897.0</td>
-      <td>2680.0</td>
-      <td>2809.0</td>
-      <td>130120.0</td>
-      <td>117180.0</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>1518</td>
-      <td>7/29/2017</td>
-      <td>2807.0</td>
-      <td>2809.0</td>
-      <td>2693.0</td>
-      <td>2726.0</td>
-      <td>108434.0</td>
-      <td>117105.0</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>1519</td>
-      <td>7/30/2017</td>
-      <td>2724.0</td>
-      <td>2759.0</td>
-      <td>2645.0</td>
-      <td>2757.0</td>
-      <td>109880.0</td>
-      <td>116639.0</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>1520</td>
-      <td>7/31/2017</td>
-      <td>2763.0</td>
-      <td>2890.0</td>
-      <td>2721.0</td>
-      <td>2875.0</td>
-      <td>137349.0</td>
-      <td>116213.0</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>1521</td>
-      <td>8/1/2017</td>
-      <td>2871.0</td>
-      <td>2921.0</td>
-      <td>2686.0</td>
-      <td>2718.0</td>
-      <td>263830.0</td>
-      <td>115917.0</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>1522</td>
-      <td>8/2/2017</td>
-      <td>2727.0</td>
-      <td>2763.0</td>
-      <td>2669.0</td>
-      <td>2711.0</td>
-      <td>238298.0</td>
-      <td>118607.0</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>1523</td>
-      <td>8/3/2017</td>
-      <td>2710.0</td>
-      <td>2813.0</td>
-      <td>2685.0</td>
-      <td>2805.0</td>
-      <td>164539.0</td>
-      <td>120747.0</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>1524</td>
-      <td>8/4/2017</td>
-      <td>2807.0</td>
-      <td>2899.0</td>
-      <td>2744.0</td>
-      <td>2896.0</td>
-      <td>147518.0</td>
-      <td>121628.0</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>1525</td>
-      <td>8/5/2017</td>
-      <td>2898.0</td>
-      <td>3290.0</td>
-      <td>2875.0</td>
-      <td>3253.0</td>
-      <td>192908.0</td>
-      <td>122616.0</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>1526</td>
-      <td>8/6/2017</td>
-      <td>3258.0</td>
-      <td>3293.0</td>
-      <td>3156.0</td>
-      <td>3214.0</td>
-      <td>164539.0</td>
-      <td>125284.0</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>1527</td>
-      <td>8/7/2017</td>
-      <td>3213.0</td>
-      <td>3398.0</td>
-      <td>3181.0</td>
-      <td>3379.0</td>
-      <td>184397.0</td>
-      <td>127043.0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>299</th>
-      <td>1797</td>
-      <td>5/4/2018</td>
-      <td>9696.0</td>
-      <td>9779.0</td>
-      <td>9586.0</td>
-      <td>9701.0</td>
-      <td>171007.0</td>
-      <td>206511.0</td>
-    </tr>
-    <tr>
-      <th>300</th>
-      <td>1798</td>
-      <td>5/5/2018</td>
-      <td>9700.0</td>
-      <td>9964.0</td>
-      <td>9695.0</td>
-      <td>9858.0</td>
-      <td>163145.0</td>
-      <td>202696.0</td>
-    </tr>
-    <tr>
-      <th>301</th>
-      <td>1799</td>
-      <td>5/6/2018</td>
-      <td>9845.0</td>
-      <td>9940.0</td>
-      <td>9465.0</td>
-      <td>9655.0</td>
-      <td>159214.0</td>
-      <td>200874.0</td>
-    </tr>
-    <tr>
-      <th>302</th>
-      <td>1800</td>
-      <td>5/7/2018</td>
-      <td>9646.0</td>
-      <td>9666.0</td>
-      <td>9232.0</td>
-      <td>9373.0</td>
-      <td>172973.0</td>
-      <td>198515.0</td>
-    </tr>
-    <tr>
-      <th>303</th>
-      <td>1801</td>
-      <td>5/8/2018</td>
-      <td>9381.0</td>
-      <td>9463.0</td>
-      <td>9128.0</td>
-      <td>9235.0</td>
-      <td>171007.0</td>
-      <td>195950.0</td>
-    </tr>
-    <tr>
-      <th>304</th>
-      <td>1802</td>
-      <td>5/9/2018</td>
-      <td>9224.0</td>
-      <td>9375.0</td>
-      <td>9032.0</td>
-      <td>9325.0</td>
-      <td>157248.0</td>
-      <td>193993.0</td>
-    </tr>
-    <tr>
-      <th>305</th>
-      <td>1803</td>
-      <td>5/10/2018</td>
-      <td>9326.0</td>
-      <td>9396.0</td>
-      <td>9041.0</td>
-      <td>9044.0</td>
-      <td>163145.0</td>
-      <td>192022.0</td>
-    </tr>
-    <tr>
-      <th>306</th>
-      <td>1804</td>
-      <td>5/11/2018</td>
-      <td>9053.0</td>
-      <td>9053.0</td>
-      <td>8394.0</td>
-      <td>8441.0</td>
-      <td>196560.0</td>
-      <td>189846.0</td>
-    </tr>
-    <tr>
-      <th>307</th>
-      <td>1805</td>
-      <td>5/12/2018</td>
-      <td>8441.0</td>
-      <td>8665.0</td>
-      <td>8224.0</td>
-      <td>8505.0</td>
-      <td>155283.0</td>
-      <td>188304.0</td>
-    </tr>
-    <tr>
-      <th>308</th>
-      <td>1806</td>
-      <td>5/13/2018</td>
-      <td>8515.0</td>
-      <td>8774.0</td>
-      <td>8395.0</td>
-      <td>8724.0</td>
-      <td>137592.0</td>
-      <td>186943.0</td>
-    </tr>
-    <tr>
-      <th>309</th>
-      <td>1807</td>
-      <td>5/14/2018</td>
-      <td>8713.0</td>
-      <td>8881.0</td>
-      <td>8368.0</td>
-      <td>8717.0</td>
-      <td>167076.0</td>
-      <td>185458.0</td>
-    </tr>
-    <tr>
-      <th>310</th>
-      <td>1808</td>
-      <td>5/15/2018</td>
-      <td>8705.0</td>
-      <td>8836.0</td>
-      <td>8456.0</td>
-      <td>8510.0</td>
-      <td>153317.0</td>
-      <td>183686.0</td>
-    </tr>
-    <tr>
-      <th>311</th>
-      <td>1809</td>
-      <td>5/16/2018</td>
-      <td>8504.0</td>
-      <td>8508.0</td>
-      <td>8175.0</td>
-      <td>8369.0</td>
-      <td>159214.0</td>
-      <td>181754.0</td>
-    </tr>
-    <tr>
-      <th>312</th>
-      <td>1810</td>
-      <td>5/17/2018</td>
-      <td>8370.0</td>
-      <td>8446.0</td>
-      <td>8054.0</td>
-      <td>8094.0</td>
-      <td>151351.0</td>
-      <td>180722.0</td>
-    </tr>
-    <tr>
-      <th>313</th>
-      <td>1811</td>
-      <td>5/18/2018</td>
-      <td>8092.0</td>
-      <td>8274.0</td>
-      <td>7975.0</td>
-      <td>8251.0</td>
-      <td>143489.0</td>
-      <td>177777.0</td>
-    </tr>
-    <tr>
-      <th>314</th>
-      <td>1812</td>
-      <td>5/19/2018</td>
-      <td>8256.0</td>
-      <td>8372.0</td>
-      <td>8183.0</td>
-      <td>8247.0</td>
-      <td>123833.0</td>
-      <td>174540.0</td>
-    </tr>
-    <tr>
-      <th>315</th>
-      <td>1813</td>
-      <td>5/20/2018</td>
-      <td>8247.0</td>
-      <td>8562.0</td>
-      <td>8205.0</td>
-      <td>8513.0</td>
-      <td>125799.0</td>
-      <td>172673.0</td>
-    </tr>
-    <tr>
-      <th>316</th>
-      <td>1814</td>
-      <td>5/21/2018</td>
-      <td>8522.0</td>
-      <td>8558.0</td>
-      <td>8365.0</td>
-      <td>8419.0</td>
-      <td>139558.0</td>
-      <td>171008.0</td>
-    </tr>
-    <tr>
-      <th>317</th>
-      <td>1815</td>
-      <td>5/22/2018</td>
-      <td>8420.0</td>
-      <td>8423.0</td>
-      <td>8005.0</td>
-      <td>8042.0</td>
-      <td>147420.0</td>
-      <td>169135.0</td>
-    </tr>
-    <tr>
-      <th>318</th>
-      <td>1816</td>
-      <td>5/23/2018</td>
-      <td>8037.0</td>
-      <td>8055.0</td>
-      <td>7508.0</td>
-      <td>7558.0</td>
-      <td>178870.0</td>
-      <td>167702.0</td>
-    </tr>
-    <tr>
-      <th>319</th>
-      <td>1817</td>
-      <td>5/24/2018</td>
-      <td>7561.0</td>
-      <td>7739.0</td>
-      <td>7331.0</td>
-      <td>7587.0</td>
-      <td>169042.0</td>
-      <td>167217.0</td>
-    </tr>
-    <tr>
-      <th>320</th>
-      <td>1818</td>
-      <td>5/25/2018</td>
-      <td>7592.0</td>
-      <td>7659.0</td>
-      <td>7393.0</td>
-      <td>7480.0</td>
-      <td>147420.0</td>
-      <td>166163.0</td>
-    </tr>
-    <tr>
-      <th>321</th>
-      <td>1819</td>
-      <td>5/26/2018</td>
-      <td>7486.0</td>
-      <td>7595.0</td>
-      <td>7349.0</td>
-      <td>7356.0</td>
-      <td>129730.0</td>
-      <td>164509.0</td>
-    </tr>
-    <tr>
-      <th>322</th>
-      <td>1820</td>
-      <td>5/27/2018</td>
-      <td>7362.0</td>
-      <td>7382.0</td>
-      <td>7271.0</td>
-      <td>7368.0</td>
-      <td>129730.0</td>
-      <td>162806.0</td>
-    </tr>
-    <tr>
-      <th>323</th>
-      <td>1821</td>
-      <td>5/28/2018</td>
-      <td>7371.0</td>
-      <td>7419.0</td>
-      <td>7101.0</td>
-      <td>7136.0</td>
-      <td>153317.0</td>
-      <td>161250.0</td>
-    </tr>
-    <tr>
-      <th>324</th>
-      <td>1822</td>
-      <td>5/29/2018</td>
-      <td>7129.0</td>
-      <td>7526.0</td>
-      <td>7091.0</td>
-      <td>7473.0</td>
-      <td>157248.0</td>
-      <td>159686.0</td>
-    </tr>
-    <tr>
-      <th>325</th>
-      <td>1823</td>
-      <td>5/30/2018</td>
-      <td>7470.0</td>
-      <td>7574.0</td>
-      <td>7314.0</td>
-      <td>7407.0</td>
-      <td>143489.0</td>
-      <td>157126.0</td>
-    </tr>
-    <tr>
-      <th>326</th>
-      <td>1824</td>
-      <td>5/31/2018</td>
-      <td>7406.0</td>
-      <td>7609.0</td>
-      <td>7361.0</td>
-      <td>7494.0</td>
-      <td>135627.0</td>
-      <td>154700.0</td>
-    </tr>
-    <tr>
-      <th>327</th>
-      <td>1825</td>
-      <td>6/1/2018</td>
-      <td>7501.0</td>
-      <td>7605.0</td>
-      <td>7407.0</td>
-      <td>7541.0</td>
-      <td>142136.0</td>
-      <td>153086.0</td>
-    </tr>
-    <tr>
-      <th>328</th>
-      <td>1826</td>
-      <td>6/2/2018</td>
-      <td>7537.0</td>
-      <td>7696.0</td>
-      <td>7497.0</td>
-      <td>7643.0</td>
-      <td>137476.0</td>
-      <td>151654.0</td>
-    </tr>
-  </tbody>
-</table>
-<p>329 rows × 8 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[421]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[421]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TotalSearch</th>
-      <th>Close</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>96867.0</td>
-      <td>2518.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>111325.0</td>
-      <td>2373.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>122892.0</td>
-      <td>2338.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>114217.0</td>
-      <td>2399.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>108434.0</td>
-      <td>2358.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[422]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[422]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TotalSearch</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>96867.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>111325.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>122892.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>114217.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>108434.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[423]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Y</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[423]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>0    2518.0
-1    2373.0
-2    2338.0
-3    2399.0
-4    2358.0
-Name: Close, dtype: float64</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[425]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diff_df</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[425]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TotalSearch</th>
-      <th>Close</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>14458.0</td>
-      <td>-145.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>11567.0</td>
-      <td>-35.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>-8675.0</td>
-      <td>61.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>-5783.0</td>
-      <td>-41.0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>1446.0</td>
-      <td>-125.0</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>13012.0</td>
-      <td>-234.0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>21686.0</td>
-      <td>-69.0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>-10120.0</td>
-      <td>298.0</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>0.0</td>
-      <td>91.0</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>-14458.0</td>
-      <td>-46.0</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>14458.0</td>
-      <td>545.0</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2891.0</td>
-      <td>-150.0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>-20241.0</td>
-      <td>142.0</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>5784.0</td>
-      <td>-80.0</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>-4338.0</td>
-      <td>25.0</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>7229.0</td>
-      <td>-179.0</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>-2891.0</td>
-      <td>-47.0</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>-7229.0</td>
-      <td>143.0</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>14457.0</td>
-      <td>137.0</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>-21686.0</td>
-      <td>-83.0</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>1446.0</td>
-      <td>31.0</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>27469.0</td>
-      <td>118.0</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>126481.0</td>
-      <td>-157.0</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>-25532.0</td>
-      <td>-7.0</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>-73759.0</td>
-      <td>94.0</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>-17021.0</td>
-      <td>91.0</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>45390.0</td>
-      <td>357.0</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>-28369.0</td>
-      <td>-39.0</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>19858.0</td>
-      <td>165.0</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>299</th>
-      <td>0.0</td>
-      <td>-43.0</td>
-    </tr>
-    <tr>
-      <th>300</th>
-      <td>-7862.0</td>
-      <td>157.0</td>
-    </tr>
-    <tr>
-      <th>301</th>
-      <td>-3931.0</td>
-      <td>-203.0</td>
-    </tr>
-    <tr>
-      <th>302</th>
-      <td>13759.0</td>
-      <td>-282.0</td>
-    </tr>
-    <tr>
-      <th>303</th>
-      <td>-1966.0</td>
-      <td>-138.0</td>
-    </tr>
-    <tr>
-      <th>304</th>
-      <td>-13759.0</td>
-      <td>90.0</td>
-    </tr>
-    <tr>
-      <th>305</th>
-      <td>5897.0</td>
-      <td>-281.0</td>
-    </tr>
-    <tr>
-      <th>306</th>
-      <td>33415.0</td>
-      <td>-603.0</td>
-    </tr>
-    <tr>
-      <th>307</th>
-      <td>-41277.0</td>
-      <td>64.0</td>
-    </tr>
-    <tr>
-      <th>308</th>
-      <td>-17691.0</td>
-      <td>219.0</td>
-    </tr>
-    <tr>
-      <th>309</th>
-      <td>29484.0</td>
-      <td>-7.0</td>
-    </tr>
-    <tr>
-      <th>310</th>
-      <td>-13759.0</td>
-      <td>-207.0</td>
-    </tr>
-    <tr>
-      <th>311</th>
-      <td>5897.0</td>
-      <td>-141.0</td>
-    </tr>
-    <tr>
-      <th>312</th>
-      <td>-7863.0</td>
-      <td>-275.0</td>
-    </tr>
-    <tr>
-      <th>313</th>
-      <td>-7862.0</td>
-      <td>157.0</td>
-    </tr>
-    <tr>
-      <th>314</th>
-      <td>-19656.0</td>
-      <td>-4.0</td>
-    </tr>
-    <tr>
-      <th>315</th>
-      <td>1966.0</td>
-      <td>266.0</td>
-    </tr>
-    <tr>
-      <th>316</th>
-      <td>13759.0</td>
-      <td>-94.0</td>
-    </tr>
-    <tr>
-      <th>317</th>
-      <td>7862.0</td>
-      <td>-377.0</td>
-    </tr>
-    <tr>
-      <th>318</th>
-      <td>31450.0</td>
-      <td>-484.0</td>
-    </tr>
-    <tr>
-      <th>319</th>
-      <td>-9828.0</td>
-      <td>29.0</td>
-    </tr>
-    <tr>
-      <th>320</th>
-      <td>-21622.0</td>
-      <td>-107.0</td>
-    </tr>
-    <tr>
-      <th>321</th>
-      <td>-17690.0</td>
-      <td>-124.0</td>
-    </tr>
-    <tr>
-      <th>322</th>
-      <td>0.0</td>
-      <td>12.0</td>
-    </tr>
-    <tr>
-      <th>323</th>
-      <td>23587.0</td>
-      <td>-232.0</td>
-    </tr>
-    <tr>
-      <th>324</th>
-      <td>3931.0</td>
-      <td>337.0</td>
-    </tr>
-    <tr>
-      <th>325</th>
-      <td>-13759.0</td>
-      <td>-66.0</td>
-    </tr>
-    <tr>
-      <th>326</th>
-      <td>-7862.0</td>
-      <td>87.0</td>
-    </tr>
-    <tr>
-      <th>327</th>
-      <td>6509.0</td>
-      <td>47.0</td>
-    </tr>
-    <tr>
-      <th>328</th>
-      <td>-4660.0</td>
-      <td>102.0</td>
-    </tr>
-  </tbody>
-</table>
-<p>329 rows × 2 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[461]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># prepare data</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DayAvgSearchNotNormalizedReduced.csv&#39;</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">round</span><span class="p">()</span>
-
-
-
-
-
-<span class="n">df</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">[</span><span class="mi">6</span> <span class="p">,</span><span class="mi">5</span><span class="p">]]</span>
-
-<span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-<span class="n">Y</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span>
-
-
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-<span class="n">diff_df</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">diff</span><span class="p">()</span>
-<span class="n">diff_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[461]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TotalSearch</th>
-      <th>Close</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>0.005798</td>
-      <td>-0.008254</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>0.004638</td>
-      <td>-0.001992</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>-0.003479</td>
-      <td>0.003472</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>-0.002319</td>
-      <td>-0.002334</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[462]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># prepare data</span>
-<span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
-<span class="kn">from</span> <span class="nn">plotly.plotly</span> <span class="k">import</span> <span class="n">iplot</span>
-
-<span class="n">trace1</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Histogram</span><span class="p">(</span>
-    <span class="n">x</span><span class="o">=</span><span class="n">diff_df</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">],</span>
-    <span class="n">opacity</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;TotalSearch Values&quot;</span><span class="p">,</span>
-    <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;rgba(171, 50, 96, 0.6)&#39;</span><span class="p">))</span>
-<span class="n">trace2</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Histogram</span><span class="p">(</span>
-     <span class="n">x</span><span class="o">=</span><span class="n">diff_df</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">],</span>
-    <span class="n">opacity</span><span class="o">=</span><span class="mf">0.75</span><span class="p">,</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;TotalSearch Values&quot;</span><span class="p">,</span>
-    <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;rgba(12, 50, 196, 0.6)&#39;</span><span class="p">))</span>
-
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">trace1</span><span class="p">,</span> <span class="n">trace2</span><span class="p">]</span>
-<span class="n">layout</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span><span class="n">barmode</span><span class="o">=</span><span class="s1">&#39;overlay&#39;</span><span class="p">,</span>
-                   <span class="n">title</span><span class="o">=</span><span class="s1">&#39; students-staff ratio in 2011 and 2012&#39;</span><span class="p">,</span>
-                   <span class="n">xaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;students-staff ratio&#39;</span><span class="p">),</span>
-                   <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Count&#39;</span><span class="p">),</span>
-<span class="p">)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">layout</span><span class="p">)</span>
-<span class="n">iplot</span><span class="p">(</span><span class="n">fig</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[462]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~sach1990/10.embed" height="525px" width="100%"></iframe>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[463]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diff_df</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[463]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>TotalSearch</th>
-      <th>Close</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>TotalSearch</th>
-      <td>1.000000</td>
-      <td>0.025299</td>
-    </tr>
-    <tr>
-      <th>Close</th>
-      <td>0.025299</td>
-      <td>1.000000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
-<span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
-
-<span class="c1"># Create random data with numpy</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="n">N</span> <span class="o">=</span> <span class="mi">100</span>
-
-
-
-<span class="n">trace1</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
-    <span class="n">x</span> <span class="o">=</span> <span class="n">diff_df</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">diff_df</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span>
-    <span class="n">mode</span> <span class="o">=</span> <span class="s1">&#39;markers&#39;</span><span class="p">,</span>
-    <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;predicted values&#39;</span>
-<span class="p">)</span>
-
-
-<span class="n">data</span> <span class="o">=</span> <span class="p">[</span> <span class="n">trace1</span><span class="p">]</span>
-<span class="n">py</span><span class="o">.</span><span class="n">iplot</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s1">&#39;scatter-mode&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-34-f3ffb9c9a95e&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-<span class="ansi-green-fg">     10</span> 
-<span class="ansi-green-fg">     11</span> trace1 = go.Scatter(
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 12</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>x <span class="ansi-yellow-intense-fg ansi-bold">=</span> diff_df<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;TotalSearch&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>values<span class="ansi-yellow-intense-fg ansi-bold">,</span> y <span class="ansi-yellow-intense-fg ansi-bold">=</span> diff_df<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;Close&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>values<span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">     13</span>     mode <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;markers&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>
-<span class="ansi-green-fg">     14</span>     name <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;predicted values&#39;</span>
-
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name &#39;diff_df&#39; is not defined</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="k">import</span> <span class="n">load_breast_cancer</span>
-<span class="n">cancer</span> <span class="o">=</span> <span class="n">load_breast_cancer</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -17402,7 +12537,27 @@ Name: Close, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[123]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
+<span class="kn">import</span> <span class="nn">plotly.tools</span> <span class="k">as</span> <span class="nn">tls</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DayAvgSearchNotNormalizedReduced.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">round</span><span class="p">({</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Close&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">})</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -17418,7 +12573,7 @@ Name: Close, dtype: float64</pre>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[123]:</div>
+<div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -17520,10 +12675,628 @@ Name: Close, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[125]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">]]</span> 
+<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">round</span><span class="p">()</span>
+<span class="n">data</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[10]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Open</th>
+      <th>High</th>
+      <th>Low</th>
+      <th>Close</th>
+      <th>TotalSearch</th>
+      <th>Avg_5WeekSearch</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2573.0</td>
+      <td>2635.0</td>
+      <td>2518.0</td>
+      <td>2518.0</td>
+      <td>96867.0</td>
+      <td>132630.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2525.0</td>
+      <td>2537.0</td>
+      <td>2321.0</td>
+      <td>2373.0</td>
+      <td>111325.0</td>
+      <td>131840.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2386.0</td>
+      <td>2413.0</td>
+      <td>2297.0</td>
+      <td>2338.0</td>
+      <td>122892.0</td>
+      <td>131080.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2333.0</td>
+      <td>2424.0</td>
+      <td>2275.0</td>
+      <td>2399.0</td>
+      <td>114217.0</td>
+      <td>129330.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2403.0</td>
+      <td>2425.0</td>
+      <td>2341.0</td>
+      <td>2358.0</td>
+      <td>108434.0</td>
+      <td>127710.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2361.0</td>
+      <td>2363.0</td>
+      <td>2183.0</td>
+      <td>2233.0</td>
+      <td>109880.0</td>
+      <td>126710.0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2230.0</td>
+      <td>2231.0</td>
+      <td>1990.0</td>
+      <td>1999.0</td>
+      <td>122892.0</td>
+      <td>125710.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1992.0</td>
+      <td>2059.0</td>
+      <td>1843.0</td>
+      <td>1930.0</td>
+      <td>144578.0</td>
+      <td>125330.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1933.0</td>
+      <td>2230.0</td>
+      <td>1933.0</td>
+      <td>2228.0</td>
+      <td>134458.0</td>
+      <td>125390.0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2234.0</td>
+      <td>2388.0</td>
+      <td>2165.0</td>
+      <td>2319.0</td>
+      <td>134458.0</td>
+      <td>123910.0</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2323.0</td>
+      <td>2397.0</td>
+      <td>2260.0</td>
+      <td>2273.0</td>
+      <td>120000.0</td>
+      <td>123000.0</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2270.0</td>
+      <td>2901.0</td>
+      <td>2270.0</td>
+      <td>2818.0</td>
+      <td>134458.0</td>
+      <td>121860.0</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2838.0</td>
+      <td>2838.0</td>
+      <td>2622.0</td>
+      <td>2668.0</td>
+      <td>137349.0</td>
+      <td>120320.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2669.0</td>
+      <td>2862.0</td>
+      <td>2658.0</td>
+      <td>2810.0</td>
+      <td>117108.0</td>
+      <td>119820.0</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2808.0</td>
+      <td>2832.0</td>
+      <td>2654.0</td>
+      <td>2730.0</td>
+      <td>122892.0</td>
+      <td>119330.0</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2733.0</td>
+      <td>2777.0</td>
+      <td>2699.0</td>
+      <td>2755.0</td>
+      <td>118554.0</td>
+      <td>119260.0</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2758.0</td>
+      <td>2768.0</td>
+      <td>2481.0</td>
+      <td>2576.0</td>
+      <td>125783.0</td>
+      <td>118810.0</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2578.0</td>
+      <td>2611.0</td>
+      <td>2451.0</td>
+      <td>2529.0</td>
+      <td>122892.0</td>
+      <td>118460.0</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2539.0</td>
+      <td>2693.0</td>
+      <td>2529.0</td>
+      <td>2672.0</td>
+      <td>115663.0</td>
+      <td>117810.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2680.0</td>
+      <td>2897.0</td>
+      <td>2680.0</td>
+      <td>2809.0</td>
+      <td>130120.0</td>
+      <td>117180.0</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2807.0</td>
+      <td>2809.0</td>
+      <td>2693.0</td>
+      <td>2726.0</td>
+      <td>108434.0</td>
+      <td>117110.0</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2724.0</td>
+      <td>2759.0</td>
+      <td>2645.0</td>
+      <td>2757.0</td>
+      <td>109880.0</td>
+      <td>116640.0</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2763.0</td>
+      <td>2890.0</td>
+      <td>2721.0</td>
+      <td>2875.0</td>
+      <td>137349.0</td>
+      <td>116210.0</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2871.0</td>
+      <td>2921.0</td>
+      <td>2686.0</td>
+      <td>2718.0</td>
+      <td>263830.0</td>
+      <td>115920.0</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2727.0</td>
+      <td>2763.0</td>
+      <td>2669.0</td>
+      <td>2711.0</td>
+      <td>238298.0</td>
+      <td>118610.0</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>2710.0</td>
+      <td>2813.0</td>
+      <td>2685.0</td>
+      <td>2805.0</td>
+      <td>164539.0</td>
+      <td>120750.0</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2807.0</td>
+      <td>2899.0</td>
+      <td>2744.0</td>
+      <td>2896.0</td>
+      <td>147518.0</td>
+      <td>121630.0</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2898.0</td>
+      <td>3290.0</td>
+      <td>2875.0</td>
+      <td>3253.0</td>
+      <td>192908.0</td>
+      <td>122620.0</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>3258.0</td>
+      <td>3293.0</td>
+      <td>3156.0</td>
+      <td>3214.0</td>
+      <td>164539.0</td>
+      <td>125280.0</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>3213.0</td>
+      <td>3398.0</td>
+      <td>3181.0</td>
+      <td>3379.0</td>
+      <td>184397.0</td>
+      <td>127040.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>298</th>
+      <td>9234.0</td>
+      <td>9798.0</td>
+      <td>9188.0</td>
+      <td>9744.0</td>
+      <td>171007.0</td>
+      <td>209310.0</td>
+    </tr>
+    <tr>
+      <th>299</th>
+      <td>9696.0</td>
+      <td>9779.0</td>
+      <td>9586.0</td>
+      <td>9701.0</td>
+      <td>171007.0</td>
+      <td>206510.0</td>
+    </tr>
+    <tr>
+      <th>300</th>
+      <td>9700.0</td>
+      <td>9964.0</td>
+      <td>9695.0</td>
+      <td>9858.0</td>
+      <td>163145.0</td>
+      <td>202700.0</td>
+    </tr>
+    <tr>
+      <th>301</th>
+      <td>9845.0</td>
+      <td>9940.0</td>
+      <td>9465.0</td>
+      <td>9655.0</td>
+      <td>159214.0</td>
+      <td>200870.0</td>
+    </tr>
+    <tr>
+      <th>302</th>
+      <td>9646.0</td>
+      <td>9666.0</td>
+      <td>9232.0</td>
+      <td>9373.0</td>
+      <td>172973.0</td>
+      <td>198520.0</td>
+    </tr>
+    <tr>
+      <th>303</th>
+      <td>9381.0</td>
+      <td>9463.0</td>
+      <td>9128.0</td>
+      <td>9235.0</td>
+      <td>171007.0</td>
+      <td>195950.0</td>
+    </tr>
+    <tr>
+      <th>304</th>
+      <td>9224.0</td>
+      <td>9375.0</td>
+      <td>9032.0</td>
+      <td>9325.0</td>
+      <td>157248.0</td>
+      <td>193990.0</td>
+    </tr>
+    <tr>
+      <th>305</th>
+      <td>9326.0</td>
+      <td>9396.0</td>
+      <td>9041.0</td>
+      <td>9044.0</td>
+      <td>163145.0</td>
+      <td>192020.0</td>
+    </tr>
+    <tr>
+      <th>306</th>
+      <td>9053.0</td>
+      <td>9053.0</td>
+      <td>8394.0</td>
+      <td>8442.0</td>
+      <td>196560.0</td>
+      <td>189850.0</td>
+    </tr>
+    <tr>
+      <th>307</th>
+      <td>8441.0</td>
+      <td>8665.0</td>
+      <td>8224.0</td>
+      <td>8505.0</td>
+      <td>155283.0</td>
+      <td>188300.0</td>
+    </tr>
+    <tr>
+      <th>308</th>
+      <td>8515.0</td>
+      <td>8774.0</td>
+      <td>8395.0</td>
+      <td>8724.0</td>
+      <td>137592.0</td>
+      <td>186940.0</td>
+    </tr>
+    <tr>
+      <th>309</th>
+      <td>8713.0</td>
+      <td>8881.0</td>
+      <td>8368.0</td>
+      <td>8717.0</td>
+      <td>167076.0</td>
+      <td>185460.0</td>
+    </tr>
+    <tr>
+      <th>310</th>
+      <td>8705.0</td>
+      <td>8836.0</td>
+      <td>8456.0</td>
+      <td>8510.0</td>
+      <td>153317.0</td>
+      <td>183690.0</td>
+    </tr>
+    <tr>
+      <th>311</th>
+      <td>8504.0</td>
+      <td>8508.0</td>
+      <td>8175.0</td>
+      <td>8369.0</td>
+      <td>159214.0</td>
+      <td>181750.0</td>
+    </tr>
+    <tr>
+      <th>312</th>
+      <td>8370.0</td>
+      <td>8446.0</td>
+      <td>8054.0</td>
+      <td>8094.0</td>
+      <td>151351.0</td>
+      <td>180720.0</td>
+    </tr>
+    <tr>
+      <th>313</th>
+      <td>8092.0</td>
+      <td>8274.0</td>
+      <td>7975.0</td>
+      <td>8251.0</td>
+      <td>143489.0</td>
+      <td>177780.0</td>
+    </tr>
+    <tr>
+      <th>314</th>
+      <td>8256.0</td>
+      <td>8372.0</td>
+      <td>8183.0</td>
+      <td>8247.0</td>
+      <td>123833.0</td>
+      <td>174540.0</td>
+    </tr>
+    <tr>
+      <th>315</th>
+      <td>8247.0</td>
+      <td>8562.0</td>
+      <td>8205.0</td>
+      <td>8513.0</td>
+      <td>125799.0</td>
+      <td>172670.0</td>
+    </tr>
+    <tr>
+      <th>316</th>
+      <td>8522.0</td>
+      <td>8558.0</td>
+      <td>8365.0</td>
+      <td>8419.0</td>
+      <td>139558.0</td>
+      <td>171010.0</td>
+    </tr>
+    <tr>
+      <th>317</th>
+      <td>8420.0</td>
+      <td>8423.0</td>
+      <td>8005.0</td>
+      <td>8042.0</td>
+      <td>147420.0</td>
+      <td>169140.0</td>
+    </tr>
+    <tr>
+      <th>318</th>
+      <td>8037.0</td>
+      <td>8055.0</td>
+      <td>7508.0</td>
+      <td>7558.0</td>
+      <td>178870.0</td>
+      <td>167700.0</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>7561.0</td>
+      <td>7739.0</td>
+      <td>7331.0</td>
+      <td>7587.0</td>
+      <td>169042.0</td>
+      <td>167220.0</td>
+    </tr>
+    <tr>
+      <th>320</th>
+      <td>7592.0</td>
+      <td>7659.0</td>
+      <td>7393.0</td>
+      <td>7480.0</td>
+      <td>147420.0</td>
+      <td>166160.0</td>
+    </tr>
+    <tr>
+      <th>321</th>
+      <td>7486.0</td>
+      <td>7595.0</td>
+      <td>7349.0</td>
+      <td>7356.0</td>
+      <td>129730.0</td>
+      <td>164510.0</td>
+    </tr>
+    <tr>
+      <th>322</th>
+      <td>7362.0</td>
+      <td>7382.0</td>
+      <td>7271.0</td>
+      <td>7368.0</td>
+      <td>129730.0</td>
+      <td>162810.0</td>
+    </tr>
+    <tr>
+      <th>323</th>
+      <td>7371.0</td>
+      <td>7419.0</td>
+      <td>7101.0</td>
+      <td>7136.0</td>
+      <td>153317.0</td>
+      <td>161250.0</td>
+    </tr>
+    <tr>
+      <th>324</th>
+      <td>7129.0</td>
+      <td>7526.0</td>
+      <td>7091.0</td>
+      <td>7473.0</td>
+      <td>157248.0</td>
+      <td>159690.0</td>
+    </tr>
+    <tr>
+      <th>325</th>
+      <td>7470.0</td>
+      <td>7574.0</td>
+      <td>7314.0</td>
+      <td>7406.0</td>
+      <td>143489.0</td>
+      <td>157130.0</td>
+    </tr>
+    <tr>
+      <th>326</th>
+      <td>7406.0</td>
+      <td>7609.0</td>
+      <td>7361.0</td>
+      <td>7494.0</td>
+      <td>135627.0</td>
+      <td>154700.0</td>
+    </tr>
+    <tr>
+      <th>327</th>
+      <td>7501.0</td>
+      <td>7605.0</td>
+      <td>7407.0</td>
+      <td>7541.0</td>
+      <td>142136.0</td>
+      <td>153090.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>328 rows × 6 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">target</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">[</span><span class="mi">5</span><span class="p">]]</span> 
+<span class="n">target</span><span class="o">.</span><span class="n">Close</span> <span class="o">=</span> <span class="n">target</span><span class="o">.</span><span class="n">Close</span><span class="o">.</span><span class="n">shift</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">target</span> <span class="o">=</span> <span class="n">target</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="n">target</span> <span class="o">=</span> <span class="n">target</span><span class="o">.</span><span class="n">round</span><span class="p">()</span>
+<span class="n">target</span>
 </pre></div>
 
 </div>
@@ -17539,670 +13312,22 @@ Name: Close, dtype: float64</pre>
 <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>D
-D
-I
-D
-D
-D
-D
-I
-I
-D
-I
-D
-I
-D
-I
-D
-D
-I
-I
-D
-I
-I
-D
-D
-I
-I
-I
-D
-I
-I
-D
-I
-I
-I
-I
-I
-D
-I
-D
-D
-I
-D
-D
-I
-I
-I
-I
-D
-I
-S
-I
-D
-I
-I
-D
-I
-D
-I
-I
-I
-D
-D
-D
-I
-D
-D
-D
-I
-D
-D
-I
-D
-D
-D
-S
-I
-D
-I
-D
-I
-D
-D
-I
-I
-I
-D
-D
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-D
-I
-D
-D
-I
-I
-I
-D
-D
-D
-I
-I
-D
-D
-I
-D
-I
-I
-I
-I
-I
-I
-D
-I
-I
-D
-D
-D
-D
-I
-I
-I
-I
-D
-I
-I
-I
-D
-I
-D
-I
-I
-I
-I
-I
-D
-I
-I
-I
-I
-I
-I
-I
-I
-D
-D
-I
-I
-I
-D
-I
-I
-I
-D
-D
-D
-D
-D
-D
-I
-D
-I
-I
-D
-D
-I
-D
-I
-D
-I
-I
-I
-I
-I
-D
-D
-D
-I
-D
-I
-I
-D
-I
-D
-D
-I
-I
-I
-D
-D
-D
-I
-D
-D
-I
-I
-D
-D
-I
-D
-D
-I
-D
-D
-I
-D
-I
-I
-D
-D
-I
-D
-I
-I
-I
-I
-D
-I
-I
-D
-D
-I
-D
-D
-I
-I
-D
-I
-I
-I
-I
-I
-D
-D
-D
-D
-D
-I
-D
-D
-D
-I
-I
-D
-I
-I
-I
-I
-D
-I
-D
-D
-D
-D
-I
-D
-D
-I
-D
-I
-I
-D
-D
-D
-I
-I
-D
-I
-I
-I
-I
-I
-I
-D
-D
-I
-I
-I
-I
-D
-I
-I
-D
-I
-D
-I
-I
-D
-D
-I
-I
-D
-I
-D
-D
-D
-I
-D
-D
-I
-I
-D
-D
-D
-D
-I
-D
-I
-D
-D
-D
-I
-D
-D
-I
-D
-I
-D
-I
-I
-I
-D
-D
-D
-D
-D
-D
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-I
-D
-D
-I
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-I
-I
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-I
-I
-D
-D
-D
-D
-D
-D
-D
-I
-D
-I
-I
-D
-D
-D
-D
-D
-D
-I
-I
-I
-I
-I
-I
-I
-I
-I
-D
-I
-I
-I
-I
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-I
-I
-I
-I
-I
-D
-D
-D
-D
-I
-I
-I
-I
-I
-I
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-I
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
-D
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py:3643: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+
 </pre>
 </div>
 </div>
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[125]:</div>
+<div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -18225,691 +13350,257 @@ D
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Open</th>
-      <th>High</th>
-      <th>Low</th>
       <th>Close</th>
-      <th>TotalSearch</th>
-      <th>Avg_5WeekSearch</th>
-      <th>nextClose</th>
-      <th>newcol</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>2573.0</td>
-      <td>0.031947</td>
-      <td>0.039402</td>
-      <td>0.033472</td>
-      <td>0.000000</td>
-      <td>0.015001</td>
-      <td>0.025218</td>
-      <td>D</td>
+      <td>2373.0</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2525.0</td>
-      <td>0.026511</td>
-      <td>0.027903</td>
-      <td>0.025218</td>
-      <td>0.005798</td>
-      <td>0.014292</td>
-      <td>0.023225</td>
-      <td>D</td>
+      <td>2338.0</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2386.0</td>
-      <td>0.019634</td>
-      <td>0.026502</td>
-      <td>0.023225</td>
-      <td>0.010436</td>
-      <td>0.013610</td>
-      <td>0.026698</td>
-      <td>D</td>
+      <td>2399.0</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2333.0</td>
-      <td>0.020244</td>
-      <td>0.025217</td>
-      <td>0.026698</td>
-      <td>0.006957</td>
-      <td>0.012039</td>
-      <td>0.024364</td>
-      <td>D</td>
+      <td>2358.0</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2403.0</td>
-      <td>0.020300</td>
-      <td>0.029070</td>
-      <td>0.024364</td>
-      <td>0.004638</td>
-      <td>0.010584</td>
-      <td>0.017248</td>
-      <td>D</td>
+      <td>2233.0</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>2361.0</td>
-      <td>0.016861</td>
-      <td>0.019847</td>
-      <td>0.017248</td>
-      <td>0.005218</td>
-      <td>0.009687</td>
-      <td>0.003928</td>
-      <td>D</td>
+      <td>1999.0</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>2230.0</td>
-      <td>0.009540</td>
-      <td>0.008581</td>
-      <td>0.003928</td>
-      <td>0.010436</td>
-      <td>0.008789</td>
-      <td>0.000000</td>
-      <td>I</td>
+      <td>1930.0</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>1992.0</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.019132</td>
-      <td>0.008448</td>
-      <td>0.016964</td>
-      <td>I</td>
+      <td>2228.0</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>1933.0</td>
-      <td>0.009484</td>
-      <td>0.005254</td>
-      <td>0.016964</td>
-      <td>0.015074</td>
-      <td>0.008502</td>
-      <td>0.022144</td>
-      <td>I</td>
+      <td>2319.0</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>2234.0</td>
-      <td>0.018247</td>
-      <td>0.018796</td>
-      <td>0.022144</td>
-      <td>0.015074</td>
-      <td>0.007173</td>
-      <td>0.019525</td>
-      <td>I</td>
+      <td>2273.0</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>2323.0</td>
-      <td>0.018747</td>
-      <td>0.024342</td>
-      <td>0.019525</td>
-      <td>0.009276</td>
-      <td>0.006356</td>
-      <td>0.050549</td>
-      <td>I</td>
+      <td>2818.0</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>2270.0</td>
-      <td>0.046700</td>
-      <td>0.024926</td>
-      <td>0.050549</td>
-      <td>0.015074</td>
-      <td>0.005333</td>
-      <td>0.042011</td>
-      <td>I</td>
+      <td>2668.0</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>2838.0</td>
-      <td>0.043206</td>
-      <td>0.045473</td>
-      <td>0.042011</td>
-      <td>0.016233</td>
-      <td>0.003950</td>
-      <td>0.050094</td>
-      <td>I</td>
+      <td>2810.0</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>2669.0</td>
-      <td>0.044537</td>
-      <td>0.047575</td>
-      <td>0.050094</td>
-      <td>0.008117</td>
-      <td>0.003501</td>
-      <td>0.045540</td>
-      <td>I</td>
+      <td>2730.0</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>2808.0</td>
-      <td>0.042873</td>
-      <td>0.047341</td>
-      <td>0.045540</td>
-      <td>0.010436</td>
-      <td>0.003061</td>
-      <td>0.046963</td>
-      <td>I</td>
+      <td>2755.0</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>2733.0</td>
-      <td>0.039823</td>
-      <td>0.049968</td>
-      <td>0.046963</td>
-      <td>0.008696</td>
-      <td>0.002998</td>
-      <td>0.036773</td>
-      <td>I</td>
+      <td>2576.0</td>
     </tr>
     <tr>
       <th>16</th>
-      <td>2758.0</td>
-      <td>0.039323</td>
-      <td>0.037242</td>
-      <td>0.036773</td>
-      <td>0.011595</td>
-      <td>0.002594</td>
-      <td>0.034098</td>
-      <td>I</td>
+      <td>2529.0</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>2578.0</td>
-      <td>0.030616</td>
-      <td>0.035491</td>
-      <td>0.034098</td>
-      <td>0.010436</td>
-      <td>0.002280</td>
-      <td>0.042238</td>
-      <td>I</td>
+      <td>2672.0</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>2539.0</td>
-      <td>0.035164</td>
-      <td>0.040044</td>
-      <td>0.042238</td>
-      <td>0.007537</td>
-      <td>0.001697</td>
-      <td>0.050037</td>
-      <td>I</td>
+      <td>2809.0</td>
     </tr>
     <tr>
       <th>19</th>
-      <td>2680.0</td>
-      <td>0.046478</td>
-      <td>0.048859</td>
-      <td>0.050037</td>
-      <td>0.013334</td>
-      <td>0.001131</td>
-      <td>0.045312</td>
-      <td>I</td>
+      <td>2726.0</td>
     </tr>
     <tr>
       <th>20</th>
-      <td>2807.0</td>
-      <td>0.041597</td>
-      <td>0.049618</td>
-      <td>0.045312</td>
-      <td>0.004638</td>
-      <td>0.001068</td>
-      <td>0.047077</td>
-      <td>I</td>
+      <td>2757.0</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>2724.0</td>
-      <td>0.038824</td>
-      <td>0.046816</td>
-      <td>0.047077</td>
-      <td>0.005218</td>
-      <td>0.000646</td>
-      <td>0.053794</td>
-      <td>I</td>
+      <td>2875.0</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>2763.0</td>
-      <td>0.046090</td>
-      <td>0.051252</td>
-      <td>0.053794</td>
-      <td>0.016233</td>
-      <td>0.000260</td>
-      <td>0.044857</td>
-      <td>I</td>
+      <td>2718.0</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>2871.0</td>
-      <td>0.047809</td>
-      <td>0.049209</td>
-      <td>0.044857</td>
-      <td>0.066951</td>
-      <td>0.000000</td>
-      <td>0.044458</td>
-      <td>I</td>
+      <td>2711.0</td>
     </tr>
     <tr>
       <th>24</th>
-      <td>2727.0</td>
-      <td>0.039046</td>
-      <td>0.048217</td>
-      <td>0.044458</td>
-      <td>0.056713</td>
-      <td>0.002415</td>
-      <td>0.049809</td>
-      <td>I</td>
+      <td>2805.0</td>
     </tr>
     <tr>
       <th>25</th>
-      <td>2710.0</td>
-      <td>0.041819</td>
-      <td>0.049151</td>
-      <td>0.049809</td>
-      <td>0.027136</td>
-      <td>0.004336</td>
-      <td>0.054989</td>
-      <td>I</td>
+      <td>2896.0</td>
     </tr>
     <tr>
       <th>26</th>
-      <td>2807.0</td>
-      <td>0.046589</td>
-      <td>0.052595</td>
-      <td>0.054989</td>
-      <td>0.020311</td>
-      <td>0.005126</td>
-      <td>0.075312</td>
-      <td>I</td>
+      <td>3253.0</td>
     </tr>
     <tr>
       <th>27</th>
-      <td>2898.0</td>
-      <td>0.068275</td>
-      <td>0.060242</td>
-      <td>0.075312</td>
-      <td>0.038512</td>
-      <td>0.006015</td>
-      <td>0.073092</td>
-      <td>I</td>
+      <td>3214.0</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>3258.0</td>
-      <td>0.068441</td>
-      <td>0.076645</td>
-      <td>0.073092</td>
-      <td>0.027136</td>
-      <td>0.008403</td>
-      <td>0.082484</td>
-      <td>I</td>
+      <td>3379.0</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>3213.0</td>
-      <td>0.074265</td>
-      <td>0.078104</td>
-      <td>0.082484</td>
-      <td>0.035099</td>
-      <td>0.009983</td>
-      <td>0.084818</td>
-      <td>I</td>
+      <td>3420.0</td>
     </tr>
     <tr>
       <th>...</th>
       <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
     </tr>
     <tr>
       <th>298</th>
-      <td>9234.0</td>
-      <td>0.429229</td>
-      <td>0.428755</td>
-      <td>0.444811</td>
-      <td>0.029730</td>
-      <td>0.083839</td>
-      <td>0.442364</td>
-      <td>D</td>
+      <td>9701.0</td>
     </tr>
     <tr>
       <th>299</th>
-      <td>9696.0</td>
-      <td>0.428175</td>
-      <td>0.451988</td>
-      <td>0.442364</td>
-      <td>0.029730</td>
-      <td>0.081325</td>
-      <td>0.451301</td>
-      <td>D</td>
+      <td>9858.0</td>
     </tr>
     <tr>
       <th>300</th>
-      <td>9700.0</td>
-      <td>0.438436</td>
-      <td>0.458350</td>
-      <td>0.451301</td>
-      <td>0.026577</td>
-      <td>0.077905</td>
-      <td>0.439745</td>
-      <td>D</td>
+      <td>9655.0</td>
     </tr>
     <tr>
       <th>301</th>
-      <td>9845.0</td>
-      <td>0.437105</td>
-      <td>0.444924</td>
-      <td>0.439745</td>
-      <td>0.025001</td>
-      <td>0.076262</td>
-      <td>0.423692</td>
-      <td>D</td>
+      <td>9373.0</td>
     </tr>
     <tr>
       <th>302</th>
-      <td>9646.0</td>
-      <td>0.421908</td>
-      <td>0.431323</td>
-      <td>0.423692</td>
-      <td>0.030518</td>
-      <td>0.074153</td>
-      <td>0.415837</td>
-      <td>D</td>
+      <td>9235.0</td>
     </tr>
     <tr>
       <th>303</th>
-      <td>9381.0</td>
-      <td>0.410649</td>
-      <td>0.425252</td>
-      <td>0.415837</td>
-      <td>0.029730</td>
-      <td>0.071845</td>
-      <td>0.420960</td>
-      <td>D</td>
+      <td>9325.0</td>
     </tr>
     <tr>
       <th>304</th>
-      <td>9224.0</td>
-      <td>0.405768</td>
-      <td>0.419649</td>
-      <td>0.420960</td>
-      <td>0.024212</td>
-      <td>0.070086</td>
-      <td>0.404964</td>
-      <td>D</td>
+      <td>9044.0</td>
     </tr>
     <tr>
       <th>305</th>
-      <td>9326.0</td>
-      <td>0.406933</td>
-      <td>0.420174</td>
-      <td>0.404964</td>
-      <td>0.026577</td>
-      <td>0.068317</td>
-      <td>0.370695</td>
-      <td>D</td>
+      <td>8442.0</td>
     </tr>
     <tr>
       <th>306</th>
-      <td>9053.0</td>
-      <td>0.387909</td>
-      <td>0.382406</td>
-      <td>0.370695</td>
-      <td>0.039976</td>
-      <td>0.066369</td>
-      <td>0.374281</td>
-      <td>D</td>
+      <td>8505.0</td>
     </tr>
     <tr>
       <th>307</th>
-      <td>8441.0</td>
-      <td>0.366389</td>
-      <td>0.372483</td>
-      <td>0.374281</td>
-      <td>0.023424</td>
-      <td>0.064978</td>
-      <td>0.386748</td>
-      <td>D</td>
+      <td>8724.0</td>
     </tr>
     <tr>
       <th>308</th>
-      <td>8515.0</td>
-      <td>0.372435</td>
-      <td>0.382465</td>
-      <td>0.386748</td>
-      <td>0.016330</td>
-      <td>0.063757</td>
-      <td>0.386349</td>
-      <td>D</td>
+      <td>8717.0</td>
     </tr>
     <tr>
       <th>309</th>
-      <td>8713.0</td>
-      <td>0.378369</td>
-      <td>0.380888</td>
-      <td>0.386349</td>
-      <td>0.028153</td>
-      <td>0.062428</td>
-      <td>0.374566</td>
-      <td>D</td>
+      <td>8510.0</td>
     </tr>
     <tr>
       <th>310</th>
-      <td>8705.0</td>
-      <td>0.375874</td>
-      <td>0.386025</td>
-      <td>0.374566</td>
-      <td>0.022636</td>
-      <td>0.060839</td>
-      <td>0.366540</td>
-      <td>D</td>
+      <td>8369.0</td>
     </tr>
     <tr>
       <th>311</th>
-      <td>8504.0</td>
-      <td>0.357682</td>
-      <td>0.369622</td>
-      <td>0.366540</td>
-      <td>0.025001</td>
-      <td>0.059098</td>
-      <td>0.350885</td>
-      <td>D</td>
+      <td>8094.0</td>
     </tr>
     <tr>
       <th>312</th>
-      <td>8370.0</td>
-      <td>0.354243</td>
-      <td>0.362559</td>
-      <td>0.350885</td>
-      <td>0.021848</td>
-      <td>0.058173</td>
-      <td>0.359822</td>
-      <td>D</td>
+      <td>8251.0</td>
     </tr>
     <tr>
       <th>313</th>
-      <td>8092.0</td>
-      <td>0.344703</td>
-      <td>0.357948</td>
-      <td>0.359822</td>
-      <td>0.018695</td>
-      <td>0.055534</td>
-      <td>0.359595</td>
-      <td>D</td>
+      <td>8247.0</td>
     </tr>
     <tr>
       <th>314</th>
-      <td>8256.0</td>
-      <td>0.350139</td>
-      <td>0.370089</td>
-      <td>0.359595</td>
-      <td>0.010813</td>
-      <td>0.052625</td>
-      <td>0.374737</td>
-      <td>D</td>
+      <td>8513.0</td>
     </tr>
     <tr>
       <th>315</th>
-      <td>8247.0</td>
-      <td>0.360677</td>
-      <td>0.371374</td>
-      <td>0.374737</td>
-      <td>0.011602</td>
-      <td>0.050946</td>
-      <td>0.369386</td>
-      <td>D</td>
+      <td>8419.0</td>
     </tr>
     <tr>
       <th>316</th>
-      <td>8522.0</td>
-      <td>0.360455</td>
-      <td>0.380713</td>
-      <td>0.369386</td>
-      <td>0.017119</td>
-      <td>0.049456</td>
-      <td>0.347925</td>
-      <td>D</td>
+      <td>8042.0</td>
     </tr>
     <tr>
       <th>317</th>
-      <td>8420.0</td>
-      <td>0.352967</td>
-      <td>0.359699</td>
-      <td>0.347925</td>
-      <td>0.020271</td>
-      <td>0.047777</td>
-      <td>0.320373</td>
-      <td>D</td>
+      <td>7558.0</td>
     </tr>
     <tr>
       <th>318</th>
-      <td>8037.0</td>
-      <td>0.332557</td>
-      <td>0.330687</td>
-      <td>0.320373</td>
-      <td>0.032883</td>
-      <td>0.046484</td>
-      <td>0.322024</td>
-      <td>D</td>
+      <td>7587.0</td>
     </tr>
     <tr>
       <th>319</th>
-      <td>7561.0</td>
-      <td>0.315031</td>
-      <td>0.320355</td>
-      <td>0.322024</td>
-      <td>0.028942</td>
-      <td>0.046054</td>
-      <td>0.315933</td>
-      <td>D</td>
+      <td>7480.0</td>
     </tr>
     <tr>
       <th>320</th>
-      <td>7592.0</td>
-      <td>0.310593</td>
-      <td>0.323974</td>
-      <td>0.315933</td>
-      <td>0.020271</td>
-      <td>0.045102</td>
-      <td>0.308875</td>
-      <td>D</td>
+      <td>7356.0</td>
     </tr>
     <tr>
       <th>321</th>
-      <td>7486.0</td>
-      <td>0.307044</td>
-      <td>0.321406</td>
-      <td>0.308875</td>
-      <td>0.013178</td>
-      <td>0.043621</td>
-      <td>0.309558</td>
-      <td>D</td>
+      <td>7368.0</td>
     </tr>
     <tr>
       <th>322</th>
-      <td>7362.0</td>
-      <td>0.295230</td>
-      <td>0.316852</td>
-      <td>0.309558</td>
-      <td>0.013178</td>
-      <td>0.042095</td>
-      <td>0.296351</td>
-      <td>D</td>
+      <td>7136.0</td>
     </tr>
     <tr>
       <th>323</th>
-      <td>7371.0</td>
-      <td>0.297282</td>
-      <td>0.306929</td>
-      <td>0.296351</td>
-      <td>0.022636</td>
-      <td>0.040694</td>
-      <td>0.315535</td>
-      <td>D</td>
+      <td>7473.0</td>
     </tr>
     <tr>
       <th>324</th>
-      <td>7129.0</td>
-      <td>0.303217</td>
-      <td>0.306345</td>
-      <td>0.315535</td>
-      <td>0.024212</td>
-      <td>0.039294</td>
-      <td>0.311721</td>
-      <td>D</td>
+      <td>7406.0</td>
     </tr>
     <tr>
       <th>325</th>
-      <td>7470.0</td>
-      <td>0.305879</td>
-      <td>0.319363</td>
-      <td>0.311721</td>
-      <td>0.018695</td>
-      <td>0.036995</td>
-      <td>0.316730</td>
-      <td>D</td>
+      <td>7494.0</td>
     </tr>
     <tr>
       <th>326</th>
-      <td>7406.0</td>
-      <td>0.307820</td>
-      <td>0.322106</td>
-      <td>0.316730</td>
-      <td>0.015543</td>
-      <td>0.034814</td>
-      <td>0.319406</td>
-      <td>D</td>
+      <td>7541.0</td>
     </tr>
     <tr>
       <th>327</th>
-      <td>7501.0</td>
-      <td>0.307598</td>
-      <td>0.324791</td>
-      <td>0.319406</td>
-      <td>0.018153</td>
-      <td>0.033369</td>
-      <td>0.325212</td>
-      <td>D</td>
+      <td>7643.0</td>
     </tr>
   </tbody>
 </table>
-<p>328 rows × 8 columns</p>
+<p>328 rows × 1 columns</p>
 </div>
 </div>
 
@@ -18921,10 +13612,24 @@ D
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[126]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">values</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">target</span><span class="o">.</span><span class="n">Close</span><span class="o">.</span><span class="n">values</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span>
 </pre></div>
 
 </div>
@@ -18937,715 +13642,53 @@ D
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[126]:</div>
+<div class="prompt output_prompt">Out[13]:</div>
 
 
 
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Open</th>
-      <th>High</th>
-      <th>Low</th>
-      <th>Close</th>
-      <th>TotalSearch</th>
-      <th>Avg_5WeekSearch</th>
-      <th>nextClose</th>
-      <th>newcol</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2573.0</td>
-      <td>0.031947</td>
-      <td>0.039402</td>
-      <td>0.033472</td>
-      <td>0.000000</td>
-      <td>0.015001</td>
-      <td>0.025218</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2525.0</td>
-      <td>0.026511</td>
-      <td>0.027903</td>
-      <td>0.025218</td>
-      <td>0.005798</td>
-      <td>0.014292</td>
-      <td>0.023225</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2386.0</td>
-      <td>0.019634</td>
-      <td>0.026502</td>
-      <td>0.023225</td>
-      <td>0.010436</td>
-      <td>0.013610</td>
-      <td>0.026698</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2333.0</td>
-      <td>0.020244</td>
-      <td>0.025217</td>
-      <td>0.026698</td>
-      <td>0.006957</td>
-      <td>0.012039</td>
-      <td>0.024364</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2403.0</td>
-      <td>0.020300</td>
-      <td>0.029070</td>
-      <td>0.024364</td>
-      <td>0.004638</td>
-      <td>0.010584</td>
-      <td>0.017248</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2361.0</td>
-      <td>0.016861</td>
-      <td>0.019847</td>
-      <td>0.017248</td>
-      <td>0.005218</td>
-      <td>0.009687</td>
-      <td>0.003928</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2230.0</td>
-      <td>0.009540</td>
-      <td>0.008581</td>
-      <td>0.003928</td>
-      <td>0.010436</td>
-      <td>0.008789</td>
-      <td>0.000000</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>1992.0</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.000000</td>
-      <td>0.019132</td>
-      <td>0.008448</td>
-      <td>0.016964</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>1933.0</td>
-      <td>0.009484</td>
-      <td>0.005254</td>
-      <td>0.016964</td>
-      <td>0.015074</td>
-      <td>0.008502</td>
-      <td>0.022144</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2234.0</td>
-      <td>0.018247</td>
-      <td>0.018796</td>
-      <td>0.022144</td>
-      <td>0.015074</td>
-      <td>0.007173</td>
-      <td>0.019525</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2323.0</td>
-      <td>0.018747</td>
-      <td>0.024342</td>
-      <td>0.019525</td>
-      <td>0.009276</td>
-      <td>0.006356</td>
-      <td>0.050549</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2270.0</td>
-      <td>0.046700</td>
-      <td>0.024926</td>
-      <td>0.050549</td>
-      <td>0.015074</td>
-      <td>0.005333</td>
-      <td>0.042011</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2838.0</td>
-      <td>0.043206</td>
-      <td>0.045473</td>
-      <td>0.042011</td>
-      <td>0.016233</td>
-      <td>0.003950</td>
-      <td>0.050094</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2669.0</td>
-      <td>0.044537</td>
-      <td>0.047575</td>
-      <td>0.050094</td>
-      <td>0.008117</td>
-      <td>0.003501</td>
-      <td>0.045540</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>2808.0</td>
-      <td>0.042873</td>
-      <td>0.047341</td>
-      <td>0.045540</td>
-      <td>0.010436</td>
-      <td>0.003061</td>
-      <td>0.046963</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>2733.0</td>
-      <td>0.039823</td>
-      <td>0.049968</td>
-      <td>0.046963</td>
-      <td>0.008696</td>
-      <td>0.002998</td>
-      <td>0.036773</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>2758.0</td>
-      <td>0.039323</td>
-      <td>0.037242</td>
-      <td>0.036773</td>
-      <td>0.011595</td>
-      <td>0.002594</td>
-      <td>0.034098</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>2578.0</td>
-      <td>0.030616</td>
-      <td>0.035491</td>
-      <td>0.034098</td>
-      <td>0.010436</td>
-      <td>0.002280</td>
-      <td>0.042238</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>2539.0</td>
-      <td>0.035164</td>
-      <td>0.040044</td>
-      <td>0.042238</td>
-      <td>0.007537</td>
-      <td>0.001697</td>
-      <td>0.050037</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>2680.0</td>
-      <td>0.046478</td>
-      <td>0.048859</td>
-      <td>0.050037</td>
-      <td>0.013334</td>
-      <td>0.001131</td>
-      <td>0.045312</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>2807.0</td>
-      <td>0.041597</td>
-      <td>0.049618</td>
-      <td>0.045312</td>
-      <td>0.004638</td>
-      <td>0.001068</td>
-      <td>0.047077</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>2724.0</td>
-      <td>0.038824</td>
-      <td>0.046816</td>
-      <td>0.047077</td>
-      <td>0.005218</td>
-      <td>0.000646</td>
-      <td>0.053794</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>2763.0</td>
-      <td>0.046090</td>
-      <td>0.051252</td>
-      <td>0.053794</td>
-      <td>0.016233</td>
-      <td>0.000260</td>
-      <td>0.044857</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>2871.0</td>
-      <td>0.047809</td>
-      <td>0.049209</td>
-      <td>0.044857</td>
-      <td>0.066951</td>
-      <td>0.000000</td>
-      <td>0.044458</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>2727.0</td>
-      <td>0.039046</td>
-      <td>0.048217</td>
-      <td>0.044458</td>
-      <td>0.056713</td>
-      <td>0.002415</td>
-      <td>0.049809</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>2710.0</td>
-      <td>0.041819</td>
-      <td>0.049151</td>
-      <td>0.049809</td>
-      <td>0.027136</td>
-      <td>0.004336</td>
-      <td>0.054989</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>2807.0</td>
-      <td>0.046589</td>
-      <td>0.052595</td>
-      <td>0.054989</td>
-      <td>0.020311</td>
-      <td>0.005126</td>
-      <td>0.075312</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>2898.0</td>
-      <td>0.068275</td>
-      <td>0.060242</td>
-      <td>0.075312</td>
-      <td>0.038512</td>
-      <td>0.006015</td>
-      <td>0.073092</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>3258.0</td>
-      <td>0.068441</td>
-      <td>0.076645</td>
-      <td>0.073092</td>
-      <td>0.027136</td>
-      <td>0.008403</td>
-      <td>0.082484</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>3213.0</td>
-      <td>0.074265</td>
-      <td>0.078104</td>
-      <td>0.082484</td>
-      <td>0.035099</td>
-      <td>0.009983</td>
-      <td>0.084818</td>
-      <td>I</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>298</th>
-      <td>9234.0</td>
-      <td>0.429229</td>
-      <td>0.428755</td>
-      <td>0.444811</td>
-      <td>0.029730</td>
-      <td>0.083839</td>
-      <td>0.442364</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>299</th>
-      <td>9696.0</td>
-      <td>0.428175</td>
-      <td>0.451988</td>
-      <td>0.442364</td>
-      <td>0.029730</td>
-      <td>0.081325</td>
-      <td>0.451301</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>300</th>
-      <td>9700.0</td>
-      <td>0.438436</td>
-      <td>0.458350</td>
-      <td>0.451301</td>
-      <td>0.026577</td>
-      <td>0.077905</td>
-      <td>0.439745</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>301</th>
-      <td>9845.0</td>
-      <td>0.437105</td>
-      <td>0.444924</td>
-      <td>0.439745</td>
-      <td>0.025001</td>
-      <td>0.076262</td>
-      <td>0.423692</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>302</th>
-      <td>9646.0</td>
-      <td>0.421908</td>
-      <td>0.431323</td>
-      <td>0.423692</td>
-      <td>0.030518</td>
-      <td>0.074153</td>
-      <td>0.415837</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>303</th>
-      <td>9381.0</td>
-      <td>0.410649</td>
-      <td>0.425252</td>
-      <td>0.415837</td>
-      <td>0.029730</td>
-      <td>0.071845</td>
-      <td>0.420960</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>304</th>
-      <td>9224.0</td>
-      <td>0.405768</td>
-      <td>0.419649</td>
-      <td>0.420960</td>
-      <td>0.024212</td>
-      <td>0.070086</td>
-      <td>0.404964</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>305</th>
-      <td>9326.0</td>
-      <td>0.406933</td>
-      <td>0.420174</td>
-      <td>0.404964</td>
-      <td>0.026577</td>
-      <td>0.068317</td>
-      <td>0.370695</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>306</th>
-      <td>9053.0</td>
-      <td>0.387909</td>
-      <td>0.382406</td>
-      <td>0.370695</td>
-      <td>0.039976</td>
-      <td>0.066369</td>
-      <td>0.374281</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>307</th>
-      <td>8441.0</td>
-      <td>0.366389</td>
-      <td>0.372483</td>
-      <td>0.374281</td>
-      <td>0.023424</td>
-      <td>0.064978</td>
-      <td>0.386748</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>308</th>
-      <td>8515.0</td>
-      <td>0.372435</td>
-      <td>0.382465</td>
-      <td>0.386748</td>
-      <td>0.016330</td>
-      <td>0.063757</td>
-      <td>0.386349</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>309</th>
-      <td>8713.0</td>
-      <td>0.378369</td>
-      <td>0.380888</td>
-      <td>0.386349</td>
-      <td>0.028153</td>
-      <td>0.062428</td>
-      <td>0.374566</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>310</th>
-      <td>8705.0</td>
-      <td>0.375874</td>
-      <td>0.386025</td>
-      <td>0.374566</td>
-      <td>0.022636</td>
-      <td>0.060839</td>
-      <td>0.366540</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>311</th>
-      <td>8504.0</td>
-      <td>0.357682</td>
-      <td>0.369622</td>
-      <td>0.366540</td>
-      <td>0.025001</td>
-      <td>0.059098</td>
-      <td>0.350885</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>312</th>
-      <td>8370.0</td>
-      <td>0.354243</td>
-      <td>0.362559</td>
-      <td>0.350885</td>
-      <td>0.021848</td>
-      <td>0.058173</td>
-      <td>0.359822</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>313</th>
-      <td>8092.0</td>
-      <td>0.344703</td>
-      <td>0.357948</td>
-      <td>0.359822</td>
-      <td>0.018695</td>
-      <td>0.055534</td>
-      <td>0.359595</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>314</th>
-      <td>8256.0</td>
-      <td>0.350139</td>
-      <td>0.370089</td>
-      <td>0.359595</td>
-      <td>0.010813</td>
-      <td>0.052625</td>
-      <td>0.374737</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>315</th>
-      <td>8247.0</td>
-      <td>0.360677</td>
-      <td>0.371374</td>
-      <td>0.374737</td>
-      <td>0.011602</td>
-      <td>0.050946</td>
-      <td>0.369386</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>316</th>
-      <td>8522.0</td>
-      <td>0.360455</td>
-      <td>0.380713</td>
-      <td>0.369386</td>
-      <td>0.017119</td>
-      <td>0.049456</td>
-      <td>0.347925</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>317</th>
-      <td>8420.0</td>
-      <td>0.352967</td>
-      <td>0.359699</td>
-      <td>0.347925</td>
-      <td>0.020271</td>
-      <td>0.047777</td>
-      <td>0.320373</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>318</th>
-      <td>8037.0</td>
-      <td>0.332557</td>
-      <td>0.330687</td>
-      <td>0.320373</td>
-      <td>0.032883</td>
-      <td>0.046484</td>
-      <td>0.322024</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>319</th>
-      <td>7561.0</td>
-      <td>0.315031</td>
-      <td>0.320355</td>
-      <td>0.322024</td>
-      <td>0.028942</td>
-      <td>0.046054</td>
-      <td>0.315933</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>320</th>
-      <td>7592.0</td>
-      <td>0.310593</td>
-      <td>0.323974</td>
-      <td>0.315933</td>
-      <td>0.020271</td>
-      <td>0.045102</td>
-      <td>0.308875</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>321</th>
-      <td>7486.0</td>
-      <td>0.307044</td>
-      <td>0.321406</td>
-      <td>0.308875</td>
-      <td>0.013178</td>
-      <td>0.043621</td>
-      <td>0.309558</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>322</th>
-      <td>7362.0</td>
-      <td>0.295230</td>
-      <td>0.316852</td>
-      <td>0.309558</td>
-      <td>0.013178</td>
-      <td>0.042095</td>
-      <td>0.296351</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>323</th>
-      <td>7371.0</td>
-      <td>0.297282</td>
-      <td>0.306929</td>
-      <td>0.296351</td>
-      <td>0.022636</td>
-      <td>0.040694</td>
-      <td>0.315535</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>324</th>
-      <td>7129.0</td>
-      <td>0.303217</td>
-      <td>0.306345</td>
-      <td>0.315535</td>
-      <td>0.024212</td>
-      <td>0.039294</td>
-      <td>0.311721</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>325</th>
-      <td>7470.0</td>
-      <td>0.305879</td>
-      <td>0.319363</td>
-      <td>0.311721</td>
-      <td>0.018695</td>
-      <td>0.036995</td>
-      <td>0.316730</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>326</th>
-      <td>7406.0</td>
-      <td>0.307820</td>
-      <td>0.322106</td>
-      <td>0.316730</td>
-      <td>0.015543</td>
-      <td>0.034814</td>
-      <td>0.319406</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <th>327</th>
-      <td>7501.0</td>
-      <td>0.307598</td>
-      <td>0.324791</td>
-      <td>0.319406</td>
-      <td>0.018153</td>
-      <td>0.033369</td>
-      <td>0.325212</td>
-      <td>D</td>
-    </tr>
-  </tbody>
-</table>
-<p>328 rows × 8 columns</p>
-</div>
+<div class="output_text output_subarea output_execute_result">
+<pre>array([ 2373.,  2338.,  2399.,  2358.,  2233.,  1999.,  1930.,  2228.,
+        2319.,  2273.,  2818.,  2668.,  2810.,  2730.,  2755.,  2576.,
+        2529.,  2672.,  2809.,  2726.,  2757.,  2875.,  2718.,  2711.,
+        2805.,  2896.,  3253.,  3214.,  3379.,  3420.,  3342.,  3381.,
+        3651.,  3885.,  4073.,  4325.,  4182.,  4377.,  4332.,  4161.,
+        4194.,  4088.,  4002.,  4100.,  4152.,  4335.,  4372.,  4352.,
+        4383.,  4383.,  4579.,  4565.,  4703.,  4892.,  4579.,  4583.,
+        4236.,  4376.,  4597.,  4600.,  4229.,  4226.,  4123.,  4161.,
+        4131.,  3883.,  3155.,  3638.,  3625.,  3583.,  4065.,  3925.,
+        3906.,  3631.,  3631.,  3792.,  3683.,  3926.,  3892.,  4201.,
+        4175.,  4163.,  4339.,  4404.,  4409.,  4318.,  4229.,  4328.,
+        4371.,  4427.,  4610.,  4772.,  4782.,  4826.,  5447.,  5647.,
+        5832.,  5678.,  5726.,  5606.,  5591.,  5708.,  6011.,  6032.,
+        6008.,  5930.,  5527.,  5751.,  5905.,  5781.,  5753.,  6154.,
+        6130.,  6468.,  6767.,  7078.,  7208.,  7380.,  7407.,  7023.,
+        7144.,  7460.,  7144.,  6618.,  6358.,  5950.,  6560.,  6636.,
+        7316.,  7872.,  7709.,  7790.,  8036.,  8201.,  8071.,  8254.,
+        8039.,  8254.,  8791.,  9331.,  9818., 10059.,  9889., 10234.,
+       10976., 11075., 11323., 11657., 11917., 14292., 17900., 16569.,
+       15178., 15455., 16937., 17415., 16408., 16564., 17707., 19497.,
+       19141., 19114., 17777., 16625., 15803., 13832., 14699., 13926.,
+       14027., 16100., 15838., 14606., 14656., 12952., 14156., 13657.,
+       14982., 15201., 15599., 17430., 17527., 16478., 15170., 14595.,
+       14973., 13406., 13981., 14360., 13772., 13820., 11490., 11189.,
+       11475., 11607., 12899., 11600., 10931., 10868., 11359., 11259.,
+       11171., 11441., 11786., 11296., 10106., 10221.,  9170.,  8831.,
+        9175.,  8277.,  6955.,  7754.,  7621.,  8266.,  8737.,  8622.,
+        8130.,  8927.,  8598.,  9495., 10166., 10234., 11113., 10552.,
+       11225., 11404., 10690., 10005., 10301.,  9813.,  9665., 10367.,
+       10726., 10398., 10951., 11086., 11490., 11513., 11573., 10780.,
+        9966.,  9395.,  9338.,  8866.,  9579.,  9205.,  9195.,  8270.,
+        8301.,  8338.,  7917.,  8224.,  8631.,  8914.,  8929.,  8728.,
+        8880.,  8668.,  8496.,  8209.,  7833.,  7954.,  7166.,  6890.,
+        6974.,  6844.,  7084.,  7456.,  6854.,  6812.,  6636.,  6911.,
+        7024.,  6771.,  6835.,  6968.,  7889.,  7896.,  7986.,  8329.,
+        8059.,  7902.,  8163.,  8294.,  8846.,  8896.,  8802.,  8931.,
+        9698.,  8846.,  9282.,  8987.,  9348.,  9419.,  9241.,  9119.,
+        9236.,  9744.,  9701.,  9858.,  9655.,  9373.,  9235.,  9325.,
+        9044.,  8442.,  8505.,  8724.,  8717.,  8510.,  8369.,  8094.,
+        8251.,  8247.,  8513.,  8419.,  8042.,  7558.,  7587.,  7480.,
+        7356.,  7368.,  7136.,  7473.,  7406.,  7494.,  7541.,  7643.])</pre>
 </div>
 
 </div>
@@ -19656,98 +13699,27 @@ D
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[193]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
-<span class="kn">import</span> <span class="nn">plotly.tools</span> <span class="k">as</span> <span class="nn">tls</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="k">import</span> <span class="n">train_test_split</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</pre></div>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DayAvgSearchNotNormalizedReduced.csv&#39;</span><span class="p">)</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">round</span><span class="p">({</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Close&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">})</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">]]</span> 
-<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">round</span><span class="p">()</span>
+</div>
+</div>
+</div>
 
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Low&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Low&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;High&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;High&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-
-
-<span class="n">target</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">[</span><span class="mi">5</span><span class="p">]]</span> 
-<span class="n">target</span><span class="o">.</span><span class="n">Close</span> <span class="o">=</span> <span class="n">target</span><span class="o">.</span><span class="n">Close</span><span class="o">.</span><span class="n">shift</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">target</span> <span class="o">=</span> <span class="n">target</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-<span class="n">target</span> <span class="o">=</span> <span class="n">target</span><span class="o">.</span><span class="n">round</span><span class="p">()</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">target</span><span class="p">[[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">target</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;nextClose&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">target</span>
-
-<span class="n">d</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">s</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">-</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;nextClose&#39;</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-        
-        <span class="n">d</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">)</span>
-    <span class="k">elif</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">-</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;nextClose&#39;</span><span class="p">])</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-        
-        <span class="n">d</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="s1">&#39;I&#39;</span><span class="p">)</span>
-    <span class="k">else</span> <span class="p">:</span>
-       
-        <span class="n">d</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;S&#39;</span><span class="p">)</span>
-        
-<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]</span><span class="o">-</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-        
-        <span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">)</span>
-    <span class="k">elif</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]</span><span class="o">-</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">])</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-       
-        <span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="s1">&#39;I&#39;</span><span class="p">)</span>
-    <span class="k">else</span> <span class="p">:</span>
-       
-        <span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;S&#39;</span><span class="p">)</span>
-
-
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;SearchTrend&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">s</span>
-<span class="n">data</span>
-        
-<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="k">import</span> <span class="n">StandardScaler</span>
+<span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
+<span class="c1"># Fit only to the training data</span>
+<span class="n">scaler</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -19760,113 +13732,7 @@ D
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[193]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Open</th>
-      <th>High</th>
-      <th>Low</th>
-      <th>Close</th>
-      <th>TotalSearch</th>
-      <th>Avg_5WeekSearch</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2573.0</td>
-      <td>0.031947</td>
-      <td>0.039402</td>
-      <td>0.033472</td>
-      <td>0.000000</td>
-      <td>0.015001</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2525.0</td>
-      <td>0.026511</td>
-      <td>0.027903</td>
-      <td>0.025218</td>
-      <td>0.005798</td>
-      <td>0.014292</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2386.0</td>
-      <td>0.019634</td>
-      <td>0.026502</td>
-      <td>0.023225</td>
-      <td>0.010436</td>
-      <td>0.013610</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2333.0</td>
-      <td>0.020244</td>
-      <td>0.025217</td>
-      <td>0.026698</td>
-      <td>0.006957</td>
-      <td>0.012039</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2403.0</td>
-      <td>0.020300</td>
-      <td>0.029070</td>
-      <td>0.024364</td>
-      <td>0.004638</td>
-      <td>0.010584</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[130]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[130]:</div>
+<div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -19883,454 +13749,56 @@ D
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[131]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_test</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[131]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>array([[-9.55068153e-01, -9.22267519e-01, -9.29534754e-01,
-        -9.04839386e-01, -5.06872702e-01, -6.49117134e-01,
-        -9.00995748e-01],
-       [-2.99385662e-01, -1.81656047e-01, -2.28866018e-01,
-        -1.26473361e-01,  5.98150865e-02, -1.64451783e-01,
-         1.61463885e-02],
-       [ 1.08918022e+00,  1.57298887e+00,  1.25023030e+00,
-         1.69502325e+00,  2.28783203e+00,  6.79208027e-01,
-         2.64388963e+00],
-       [-1.80433251e-01, -1.51941696e-01, -1.25933446e-01,
-        -1.54673136e-01,  3.35322161e-01, -5.13611741e-01,
-        -1.12777592e-01],
-       [ 1.92972474e+00,  1.85490065e+00,  1.94978020e+00,
-         1.77413929e+00,  6.93649827e-01,  2.80848316e+00,
-         1.87689676e+00],
-       [ 3.87544813e-01,  2.96270574e-01,  4.02155406e-01,
-         3.44306224e-01, -5.85279185e-01, -5.14981546e-01,
-         3.73569781e-01],
-       [ 1.30471062e-01,  1.66676051e-01,  1.20769079e-01,
-         2.44562574e-01,  5.06717547e-01,  9.79090103e-01,
-         2.12676846e-01],
-       [-4.80888479e-02, -1.02501011e-01, -1.68472951e-02,
-        -8.36514794e-02, -6.39036130e-01, -6.81290006e-01,
-        -1.19066567e-01],
-       [ 7.57531449e-01,  7.41486439e-01,  6.95289472e-01,
-         5.75648827e-01,  1.23784667e-02,  6.58344833e-01,
-         6.52643031e-01],
-       [ 1.89815973e-01,  1.14988063e-01,  1.30838570e-01,
-         1.06697005e-01, -3.07772908e-01, -2.93951106e-01,
-         5.92680470e-03],
-       [ 2.20281636e+00,  2.21272137e+00,  2.14277878e+00,
-         2.09869781e+00,  1.65016298e+00,  2.82467497e+00,
-         1.78072786e+00],
-       [ 1.56204696e-01,  9.40132266e-02,  1.68039745e-01,
-         7.66694664e-02, -6.28285288e-01, -6.30150594e-01,
-         1.15459780e-01],
-       [-2.24548053e-01, -2.39087146e-01, -1.49149216e-01,
-        -2.02717198e-01, -5.19726672e-01, -3.95492343e-01,
-        -2.72360324e-01],
-       [ 2.97850162e+00,  2.77379823e+00,  2.74722793e+00,
-         2.60498823e+00,  2.57124020e+00,  1.98098003e+00,
-         2.30978785e+00],
-       [ 1.59151126e+00,  1.44164644e+00,  7.66894740e-01,
-         9.63395740e-01,  1.63390681e+00,  2.10015313e+00,
-         8.85335094e-01],
-       [-1.31612679e+00, -1.29332236e+00, -1.32364344e+00,
-        -1.28605857e+00, -6.66579179e-01, -8.56730504e-01,
-        -1.33441092e+00],
-       [-1.58638439e-01, -1.97886575e-01, -2.15160322e-01,
-        -2.37705808e-01, -1.98965418e-01, -3.52185409e-01,
-        -2.19166080e-01],
-       [-1.02412882e+00, -1.03588121e+00, -1.20252984e+00,
-        -1.21294804e+00, -1.92445446e-01, -5.40375636e-01,
-        -1.09333356e+00],
-       [ 2.13296793e+00,  1.96601734e+00,  1.22505657e+00,
-         1.57491309e+00,  6.04298815e+00,  2.29526263e+00,
-         1.80509764e+00],
-       [-9.46140157e-01, -9.62469289e-01, -9.54988189e-01,
-        -9.49750139e-01, -6.31980120e-01, -5.74129053e-01,
-        -9.09643088e-01],
-       [-3.00436014e-01, -2.54318872e-01, -2.29984851e-01,
-        -2.32222519e-01, -4.83442922e-01, -3.90856077e-01,
-        -2.06064049e-01],
-       [ 8.40771878e-01,  7.78941503e-01,  9.50103531e-01,
-         8.57907691e-01, -3.44040248e-01,  4.32326894e-01,
-         9.64209317e-01],
-       [ 1.34520362e+00,  1.57498647e+00,  1.48322713e+00,
-         1.65951242e+00,  9.41643936e-01,  3.03868076e+00,
-         1.53205132e+00],
-       [ 7.79534411e-02,  5.40611579e-02,  1.19929955e-01,
-         2.65365322e-02, -4.97956969e-01, -4.36305527e-01,
-         9.24002062e-02],
-       [ 3.05092149e-01,  2.76544240e-01,  3.89568542e-01,
-         2.94695508e-01, -3.53106399e-01, -1.98415940e-01,
-         2.40453151e-01],
-       [ 2.82772161e-01,  3.39968149e-01,  2.23421944e-01,
-         3.58928330e-01,  7.04452632e-01,  9.28301923e-01,
-         1.22272836e-01],
-       [-7.87536943e-01, -7.85931085e-01, -7.51920124e-01,
-        -7.88123648e-01, -5.65434843e-01, -6.39388001e-01,
-        -7.82029311e-01],
-       [ 7.64621328e-01,  7.54221161e-01,  8.22276939e-01,
-         6.78264677e-01, -1.85359353e-01,  4.75844567e-01,
-         8.22969428e-01],
-       [ 1.34284033e+00,  1.20518014e+00,  1.07261567e+00,
-         9.92117733e-01,  3.68173627e-01,  1.91688015e+00,
-         8.17728616e-01],
-       [ 8.32052031e-02,  5.10647528e-02,  1.45942806e-01,
-         1.17663584e-01, -6.49786971e-01, -6.40476821e-01,
-         1.14411617e-01],
-       [ 6.87683014e-01,  7.01284670e-01,  7.81159852e-01,
-         7.63908439e-01, -1.19445835e-01,  4.99693236e-01,
-         6.78060971e-01],
-       [ 1.73199590e+00,  1.60869603e+00,  1.62643766e+00,
-         1.55924655e+00,  3.32010213e-01,  2.30035550e+00,
-         1.57476394e+00],
-       [ 1.11564718e-01,  4.08270352e-02,  9.61547685e-02,
-         8.52000895e-03, -3.62175286e-01, -3.05401276e-01,
-         3.76337186e-02],
-       [ 2.28474385e+00,  2.11458910e+00,  1.88936326e+00,
-         1.92427698e+00,  8.02140071e-01,  2.82860877e+00,
-         1.77784541e+00],
-       [ 2.95901566e-01,  2.31348463e-01,  3.39221088e-01,
-         2.26546051e-01, -5.07250116e-01, -2.53699892e-01,
-         1.79659729e-01],
-       [ 1.89138687e+00,  1.87362818e+00,  2.06725760e+00,
-         1.93237136e+00,  8.74466900e-01,  3.01978447e+00,
-         2.04093419e+00],
-       [-9.71928230e-02, -1.12988429e-01, -3.36297798e-02,
-        -1.02712439e-01,  2.04573237e-02, -4.55131575e-01,
-        -2.06326090e-01],
-       [-2.39851815e-03,  8.11627899e-03,  6.73448364e-02,
-         6.15251425e-02, -9.76186996e-02, -1.04566689e-01,
-         1.02357749e-01],
-       [-5.59610471e-01, -5.57205492e-01, -5.20601544e-01,
-        -5.13959165e-01, -4.00395335e-01, -6.30150594e-01,
-        -5.58770711e-01],
-       [ 5.04396519e-01,  4.26863898e-01,  5.96552520e-01,
-         4.96271681e-01, -5.74528343e-01, -5.39567802e-01,
-         5.36559041e-01],
-       [ 1.49120261e+00,  1.53828051e+00,  1.59566978e+00,
-         1.61381834e+00,  6.21320263e-01,  2.55591206e+00,
-         1.71626587e+00],
-       [-1.36470559e+00, -1.36298878e+00, -1.39916462e+00,
-        -1.37640230e+00, -7.06117445e-01, -8.48827778e-01,
-        -1.34646479e+00],
-       [-2.43191808e-01, -2.83533822e-01, -2.26068938e-01,
-        -2.58072313e-01, -3.81850065e-01, -3.88854053e-01,
-        -3.07735806e-01],
-       [-1.21030379e+00, -1.08282490e+00, -1.26042941e+00,
-        -1.08683238e+00, -6.54673648e-02, -5.25588760e-01,
-        -1.09674008e+00],
-       [-9.91830487e-01, -9.83943525e-01, -1.05680193e+00,
-        -9.66200008e-01, -4.37045560e-01, -6.65519679e-01,
-        -9.58644683e-01],
-       [-1.08484111e-01, -1.71668030e-01, -5.09716806e-02,
-        -1.12895691e-01, -6.87416285e-01, -6.93056286e-01,
-        -1.76715501e-01],
-       [ 8.92764322e-01,  8.85313886e-01,  9.88982954e-01,
-         9.50601397e-01,  1.51193140e-01,  1.30278572e+00,
-         1.04177334e+00],
-       [-2.44242160e-01, -2.33344036e-01, -1.77959148e-01,
-        -1.87050656e-01, -3.16538222e-01, -3.66515684e-01,
-        -9.28625055e-02],
-       [ 2.55363407e+00,  2.39300508e+00,  2.40178846e+00,
-         2.24752996e+00,  2.78379563e+00,  1.55012346e+00,
-         2.29380338e+00],
-       [ 8.32106470e-01,  8.26134884e-01,  7.48713715e-01,
-         8.00985922e-01,  5.48993435e-01,  1.78260407e+00,
-         9.29881997e-01],
-       [ 2.16599959e-01,  3.61941787e-01,  3.20760355e-01,
-         4.42483221e-01,  1.11244642e-01,  9.00238468e-01,
-         6.17267549e-01],
-       [-1.37862276e+00, -1.38146661e+00, -1.43552667e+00,
-        -1.41713531e+00, -7.37751886e-01, -8.01832906e-01,
-        -1.43398635e+00],
-       [ 6.92880337e-02,  6.67958798e-02,  1.38670396e-01,
-         1.04608133e-01,  1.77888375e-01, -9.24842999e-02,
-         6.82924700e-02],
-       [ 2.02241834e+00,  2.40598950e+00,  2.16767280e+00,
-         2.51438339e+00,  7.65976656e-01,  2.89829324e+00,
-         2.54614848e+00],
-       [ 1.74848451e-01,  1.48697621e-01,  2.15590118e-01,
-         1.83985279e-01, -6.17531711e-01, -6.03527191e-01,
-         2.39404989e-01],
-       [ 2.62190697e+00,  2.90838676e+00,  2.81435787e+00,
-         3.05409576e+00,  1.93357114e+00,  1.78520319e+00,
-         2.96908203e+00],
-       [ 1.57339268e+00,  1.59221580e+00,  1.73104849e+00,
-         1.57177979e+00,  3.32010213e-01,  2.21036980e+00,
-         9.64209317e-01],
-       [ 8.99066436e-01,  1.00816650e+00,  9.75836674e-01,
-         9.59479104e-01,  1.48925315e+00,  2.03900360e+00,
-         9.94868069e-01],
-       [ 2.20801369e-01,  1.36462299e-01,  1.33635651e-01,
-         8.60693915e-02,  7.82892501e-02,  9.57735183e-01,
-         2.92599233e-01],
-       [-7.84123298e-01, -7.97916706e-01, -7.55556329e-01,
-        -7.76634851e-01, -5.83772262e-01, -6.46096537e-01,
-        -6.19302092e-01],
-       [-8.41630092e-01, -8.59592712e-01, -8.34154299e-01,
-        -8.44784308e-01, -4.68081061e-01, -6.12975338e-01,
-        -8.14260306e-01],
-       [ 7.84786173e-02,  7.60347957e-02,  1.36432732e-01,
-         1.18446912e-01, -5.82582019e-02, -9.20713879e-03,
-         2.56961710e-01],
-       [-4.82409569e-01, -3.14246975e-01, -4.50115108e-01,
-        -3.23871789e-01,  4.14037687e-01, -2.22018745e-01,
-        -3.07735806e-01],
-       [-8.61641227e-02, -1.55437502e-01, -9.82423458e-02,
-        -1.71384114e-01,  5.98150865e-02, -3.55803101e-01,
-        -3.12452537e-01],
-       [-9.47715686e-01, -9.26762127e-01, -9.20863804e-01,
-        -9.03794950e-01, -6.51515420e-01, -5.79151674e-01,
-        -8.92610449e-01],
-       [ 2.62190697e+00,  2.46342060e+00,  2.41241736e+00,
-         2.30419062e+00,  3.77572284e+00,  2.07057937e+00,
-         2.09439047e+00],
-       [ 5.35327476e-02, -1.88513673e-02, -1.04116215e-01,
-        -1.65639716e-01, -2.98704022e-01, -3.41121594e-01,
-        -2.41177491e-01],
-       [-9.39575455e-01, -9.46488461e-01, -9.35128916e-01,
-        -9.46616831e-01, -6.12444821e-01, -5.70370869e-01,
-        -9.55762236e-01],
-       [-1.19796215e+00, -1.16647454e+00, -1.19497772e+00,
-        -1.15445962e+00, -5.37908203e-01, -8.18692053e-01,
-        -1.15045841e+00],
-       [-1.01940224e+00, -9.63717791e-01, -9.98063233e-01,
-        -9.39827996e-01, -5.83143238e-01, -5.67069286e-01,
-        -9.52617749e-01],
-       [-1.44558273e+00, -1.29057565e+00, -1.44979178e+00,
-        -1.30094179e+00, -6.74485738e-01, -8.36885883e-01,
-        -1.34751295e+00],
-       [ 3.30508756e-02,  2.85917142e-02,  8.55258615e-02,
-         2.49698780e-02, -3.31052268e-01, -4.16741892e-01,
-         4.60190181e-02],
-       [-1.89886423e-01, -5.45585287e-02, -3.93054660e-01,
-        -1.21076046e-02,  2.25338339e+00,  9.26616008e-01,
-        -4.96258047e-02],
-       [-9.31172635e-01, -9.54978276e-01, -9.79602500e-01,
-        -9.60194501e-01, -5.83143238e-01, -5.50912603e-01,
-        -9.56286317e-01],
-       [-8.06968463e-01, -7.93422098e-01, -7.75975019e-01,
-        -7.59401655e-01, -4.07328275e-01, -5.93095594e-01,
-        -8.46753342e-01],
-       [-2.05170972e-02, -4.60687141e-02,  2.73227037e-03,
-        -2.70767944e-03, -5.82582019e-02, -1.16789570e-01,
-         5.91210486e-02],
-       [ 1.01302967e+00,  9.72958737e-01,  7.79481603e-01,
-         8.17435791e-01,  5.85156849e-01,  1.84842499e+00,
-         8.01220058e-01],
-       [-9.77179992e-02, -1.55687202e-01, -1.24814613e-01,
-        -2.02978307e-01,  9.91728494e-02, -4.30650688e-01,
-        -1.74619176e-01],
-       [-1.01021165e+00, -1.02364589e+00, -1.00225885e+00,
-        -1.02051069e+00, -6.41746403e-01, -5.59763655e-01,
-        -9.45804693e-01],
-       [ 5.30655329e-01,  4.62820760e-01,  5.46484774e-01,
-         4.86871756e-01, -2.84225528e-01,  5.50446292e-01,
-         6.69937712e-01],
-       [ 3.83080816e-01,  4.31608207e-01,  4.85228705e-01,
-         5.07499370e-01, -5.74528343e-01, -5.29733300e-01,
-         4.95418665e-01],
-       [ 2.44171710e-01,  1.91396394e-01,  2.80482392e-01,
-         1.85290824e-01, -6.22908499e-01, -6.19718997e-01,
-         1.46380572e-01]])</pre>
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.neural_network</span> <span class="k">import</span> <span class="n">MLPClassifier</span>
+</pre></div>
 
 </div>
-
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[192]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
-<span class="kn">import</span> <span class="nn">plotly.tools</span> <span class="k">as</span> <span class="nn">tls</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;DayAvgSearchNotNormalizedReduced.csv&#39;</span><span class="p">)</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">round</span><span class="p">({</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Close&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">})</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">]]</span> 
-<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">round</span><span class="p">()</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;Low&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Low&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;High&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;High&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-
-
-<span class="n">target</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="p">[</span><span class="mi">5</span><span class="p">]]</span> 
-<span class="n">target</span><span class="o">.</span><span class="n">Close</span> <span class="o">=</span> <span class="n">target</span><span class="o">.</span><span class="n">Close</span><span class="o">.</span><span class="n">shift</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">target</span> <span class="o">=</span> <span class="n">target</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-<span class="n">target</span> <span class="o">=</span> <span class="n">target</span><span class="o">.</span><span class="n">round</span><span class="p">()</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">target</span><span class="p">[[</span><span class="s1">&#39;Close&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
-<span class="n">x_scaled</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">data_normalized</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">x_scaled</span><span class="p">)</span>
-<span class="n">target</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data_normalized</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;nextClose&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">target</span>
-
-<span class="n">d</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">s</span> <span class="o">=</span> <span class="p">[]</span>
-
-<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">-</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;nextClose&#39;</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-       
-        <span class="n">d</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">)</span>
-    <span class="k">elif</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">-</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;nextClose&#39;</span><span class="p">])</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-       
-        <span class="n">d</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="s1">&#39;I&#39;</span><span class="p">)</span>
-    <span class="k">else</span> <span class="p">:</span>
-       
-        <span class="n">d</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;S&#39;</span><span class="p">)</span>
-        
-<span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]</span><span class="o">-</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
-       
-        <span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">)</span>
-    <span class="k">elif</span> <span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;Avg_5WeekSearch&#39;</span><span class="p">]</span><span class="o">-</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;TotalSearch&#39;</span><span class="p">])</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-       
-        <span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="s1">&#39;I&#39;</span><span class="p">)</span>
-    <span class="k">else</span> <span class="p">:</span>
-       
-        <span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;S&#39;</span><span class="p">)</span>
-
-
-<span class="n">data</span><span class="p">[</span><span class="s1">&#39;newcol&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">s</span>
-<span class="n">data</span>
-        
-<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
-<span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">values</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">d</span>
-<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="k">import</span> <span class="n">train_test_split</span>
-<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="k">import</span> <span class="n">StandardScaler</span>
-<span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
-<span class="c1"># Fit only to the training data</span>
-<span class="n">scaler</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
-<span class="n">X_train</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
-<span class="n">X_test</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="n">X_test</span>
-<span class="kn">from</span> <span class="nn">sklearn.neural_network</span> <span class="k">import</span> <span class="n">MLPClassifier</span>
-
-<span class="n">mlp</span> <span class="o">=</span> <span class="n">MLPClassifier</span><span class="p">(</span><span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.0001</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span> <span class="n">beta_1</span><span class="o">=</span><span class="mf">0.9</span><span class="p">,</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mlp</span> <span class="o">=</span> <span class="n">MLPClassifier</span><span class="p">(</span><span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.0001</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span> <span class="n">beta_1</span><span class="o">=</span><span class="mf">0.9</span><span class="p">,</span>
        <span class="n">beta_2</span><span class="o">=</span><span class="mf">0.999</span><span class="p">,</span> <span class="n">early_stopping</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">epsilon</span><span class="o">=</span><span class="mf">1e-08</span><span class="p">,</span>
        <span class="n">hidden_layer_sizes</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="n">learning_rate</span><span class="o">=</span><span class="s1">&#39;constant&#39;</span><span class="p">,</span>
-       <span class="n">learning_rate_init</span><span class="o">=</span><span class="mf">0.001</span><span class="p">,</span> <span class="n">max_iter</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">momentum</span><span class="o">=</span><span class="mf">0.9</span><span class="p">,</span>
+       <span class="n">learning_rate_init</span><span class="o">=</span><span class="mf">0.001</span><span class="p">,</span> <span class="n">max_iter</span><span class="o">=</span><span class="mi">2000</span><span class="p">,</span> <span class="n">momentum</span><span class="o">=</span><span class="mf">0.9</span><span class="p">,</span>
        <span class="n">nesterovs_momentum</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">power_t</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
        <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">solver</span><span class="o">=</span><span class="s1">&#39;adam&#39;</span><span class="p">,</span> <span class="n">tol</span><span class="o">=</span><span class="mf">0.0001</span><span class="p">,</span> <span class="n">validation_fraction</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
        <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">warm_start</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="n">mlp</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
-<span class="n">predictions</span> <span class="o">=</span> <span class="n">mlp</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="k">import</span> <span class="n">classification_report</span><span class="p">,</span><span class="n">confusion_matrix</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">predictions</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">predictions</span><span class="p">))</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[[ 9 25]
- [15 33]]
-             precision    recall  f1-score   support
-
-          D       0.38      0.26      0.31        34
-          I       0.57      0.69      0.62        48
-
-avg / total       0.49      0.51      0.49        82
-
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>C:\ProgramData\Anaconda3\lib\site-packages\sklearn\neural_network\multilayer_perceptron.py:564: ConvergenceWarning:
-
-Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn&#39;t converged yet.
-
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[134]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mlp</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -20343,7 +13811,7 @@ Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[134]:</div>
+<div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -20352,7 +13820,7 @@ Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn
 <pre>MLPClassifier(activation=&#39;relu&#39;, alpha=0.0001, batch_size=&#39;auto&#39;, beta_1=0.9,
        beta_2=0.999, early_stopping=False, epsilon=1e-08,
        hidden_layer_sizes=(6, 6, 6), learning_rate=&#39;constant&#39;,
-       learning_rate_init=0.001, max_iter=200, momentum=0.9,
+       learning_rate_init=0.001, max_iter=2000, momentum=0.9,
        nesterovs_momentum=True, power_t=0.5, random_state=None,
        shuffle=True, solver=&#39;adam&#39;, tol=0.0001, validation_fraction=0.1,
        verbose=False, warm_start=False)</pre>
@@ -20366,10 +13834,38 @@ Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[136]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictions</span> <span class="o">=</span> <span class="n">mlp</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="k">import</span> <span class="n">mean_squared_error</span>
+<span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">predictions</span><span class="p">,</span> <span class="n">multioutput</span><span class="o">=</span><span class="s1">&#39;raw_values&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="k">import</span> <span class="n">classification_report</span><span class="p">,</span><span class="n">confusion_matrix</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">confusion_matrix</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">predictions</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -20386,8 +13882,13 @@ Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[[16 20]
- [14 32]]
+<pre>[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 1]
+ [0 0 0 ... 0 0 1]
+ [0 0 0 ... 0 0 0]]
 </pre>
 </div>
 </div>
@@ -20398,10 +13899,10 @@ Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[137]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">predictions</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -20420,10 +13921,135 @@ Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>             precision    recall  f1-score   support
 
-          D       0.53      0.44      0.48        36
-          I       0.62      0.70      0.65        46
+     1930.0       0.00      0.00      0.00         1
+     2273.0       0.00      0.00      0.00         1
+     2338.0       0.00      0.00      0.00         1
+     2358.0       0.00      0.00      0.00         1
+     2373.0       0.00      0.00      0.00         1
+     2529.0       0.00      0.00      0.00         1
+     2576.0       0.00      0.00      0.00         1
+     2668.0       0.00      0.00      0.00         0
+     2672.0       0.00      0.00      0.00         0
+     2718.0       0.00      0.00      0.00         1
+     2875.0       0.00      0.00      0.00         1
+     2896.0       0.00      0.00      0.00         0
+     3155.0       0.00      0.00      0.00         1
+     3214.0       0.00      0.00      0.00         1
+     3381.0       0.00      0.00      0.00         1
+     3420.0       0.00      0.00      0.00         0
+     3638.0       0.00      0.00      0.00         1
+     3883.0       0.00      0.00      0.00         1
+     3892.0       0.00      0.00      0.00         0
+     3906.0       0.00      0.00      0.00         1
+     4065.0       0.00      0.00      0.00         1
+     4175.0       0.00      0.00      0.00         1
+     4201.0       0.00      0.00      0.00         1
+     4226.0       0.00      0.00      0.00         1
+     4229.0       0.00      0.00      0.00         1
+     4335.0       0.00      0.00      0.00         1
+     4339.0       0.00      0.00      0.00         1
+     4377.0       0.00      0.00      0.00         1
+     4383.0       0.00      0.00      0.00         0
+     4409.0       0.00      0.00      0.00         1
+     4579.0       0.00      0.00      0.00         1
+     4597.0       0.00      0.00      0.00         1
+     4892.0       0.00      0.00      0.00         1
+     5527.0       0.00      0.00      0.00         1
+     5606.0       0.00      0.00      0.00         1
+     5647.0       0.00      0.00      0.00         1
+     5708.0       0.00      0.00      0.00         0
+     5726.0       0.00      0.00      0.00         1
+     5930.0       0.00      0.00      0.00         1
+     6008.0       0.00      0.00      0.00         1
+     6468.0       0.00      0.00      0.00         0
+     6636.0       0.00      0.00      0.00         0
+     6771.0       0.00      0.00      0.00         1
+     6844.0       0.00      0.00      0.00         1
+     7024.0       0.00      0.00      0.00         1
+     7144.0       0.00      0.00      0.00         0
+     7208.0       0.00      0.00      0.00         1
+     7368.0       0.00      0.00      0.00         1
+     7473.0       0.00      0.00      0.00         1
+     7480.0       0.00      0.00      0.00         1
+     7494.0       0.00      0.00      0.00         0
+     7558.0       0.00      0.00      0.00         1
+     7587.0       0.00      0.00      0.00         0
+     7790.0       0.00      0.00      0.00         1
+     7872.0       0.00      0.00      0.00         1
+     7902.0       0.00      0.00      0.00         0
+     7917.0       0.00      0.00      0.00         1
+     7986.0       0.00      0.00      0.00         0
+     8036.0       0.00      0.00      0.00         1
+     8042.0       0.00      0.00      0.00         1
+     8059.0       0.00      0.00      0.00         1
+     8130.0       0.00      0.00      0.00         1
+     8163.0       0.00      0.00      0.00         0
+     8209.0       0.00      0.00      0.00         0
+     8247.0       0.00      0.00      0.00         1
+     8301.0       0.00      0.00      0.00         1
+     8329.0       0.00      0.00      0.00         1
+     8369.0       0.00      0.00      0.00         1
+     8419.0       0.00      0.00      0.00         1
+     8513.0       0.00      0.00      0.00         1
+     8668.0       0.00      0.00      0.00         1
+     8802.0       0.00      0.00      0.00         0
+     8846.0       0.00      0.00      0.00         1
+     8880.0       0.00      0.00      0.00         1
+     8931.0       0.00      0.00      0.00         1
+     8987.0       0.00      0.00      0.00         0
+     9119.0       0.00      0.00      0.00         0
+     9170.0       0.00      0.00      0.00         1
+     9175.0       0.00      0.00      0.00         1
+     9236.0       0.00      0.00      0.00         0
+     9282.0       0.00      0.00      0.00         1
+     9325.0       0.00      0.00      0.00         1
+     9348.0       0.00      0.00      0.00         1
+     9373.0       0.00      0.00      0.00         1
+     9579.0       0.00      0.00      0.00         1
+     9655.0       0.00      0.00      0.00         1
+     9744.0       0.00      0.00      0.00         1
+     9818.0       0.00      0.00      0.00         1
+     9858.0       0.00      0.00      0.00         1
+    10166.0       0.00      0.00      0.00         0
+    10690.0       0.00      0.00      0.00         0
+    10780.0       0.00      0.00      0.00         0
+    10976.0       0.00      0.00      0.00         1
+    11075.0       0.00      0.00      0.00         0
+    11225.0       0.00      0.00      0.00         1
+    11296.0       0.00      0.00      0.00         1
+    11475.0       0.00      0.00      0.00         1
+    11513.0       0.00      0.00      0.00         1
+    13926.0       0.00      0.00      0.00         0
+    14292.0       0.00      0.00      0.00         1
+    15178.0       0.00      0.00      0.00         0
+    15455.0       0.00      0.00      0.00         1
+    15803.0       0.00      0.00      0.00         1
+    15838.0       0.00      0.00      0.00         1
+    16100.0       0.00      0.00      0.00         1
+    16569.0       0.00      0.00      0.00         1
+    16625.0       0.00      0.00      0.00         1
+    17707.0       0.00      0.00      0.00         1
+    19497.0       0.00      0.00      0.00         0
 
-avg / total       0.58      0.59      0.58        82
+avg / total       0.00      0.00      0.00        82
+
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning:
+
+Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1137: UndefinedMetricWarning:
+
+Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
 
 </pre>
 </div>
@@ -20435,11 +14061,11 @@ avg / total       0.58      0.59      0.58        82
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[164]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">predictions</span><span class="p">)))</span>
-<span class="nb">len</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
+<span class="n">l</span>
 </pre></div>
 
 </div>
@@ -20452,13 +14078,94 @@ avg / total       0.58      0.59      0.58        82
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[164]:</div>
+<div class="prompt output_prompt">Out[23]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>82</pre>
+<pre>[0,
+ 1,
+ 2,
+ 3,
+ 4,
+ 5,
+ 6,
+ 7,
+ 8,
+ 9,
+ 10,
+ 11,
+ 12,
+ 13,
+ 14,
+ 15,
+ 16,
+ 17,
+ 18,
+ 19,
+ 20,
+ 21,
+ 22,
+ 23,
+ 24,
+ 25,
+ 26,
+ 27,
+ 28,
+ 29,
+ 30,
+ 31,
+ 32,
+ 33,
+ 34,
+ 35,
+ 36,
+ 37,
+ 38,
+ 39,
+ 40,
+ 41,
+ 42,
+ 43,
+ 44,
+ 45,
+ 46,
+ 47,
+ 48,
+ 49,
+ 50,
+ 51,
+ 52,
+ 53,
+ 54,
+ 55,
+ 56,
+ 57,
+ 58,
+ 59,
+ 60,
+ 61,
+ 62,
+ 63,
+ 64,
+ 65,
+ 66,
+ 67,
+ 68,
+ 69,
+ 70,
+ 71,
+ 72,
+ 73,
+ 74,
+ 75,
+ 76,
+ 77,
+ 78,
+ 79,
+ 80,
+ 81]</pre>
 </div>
 
 </div>
@@ -20469,7 +14176,7 @@ avg / total       0.58      0.59      0.58        82
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[165]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_test</span>
@@ -20485,94 +14192,23 @@ avg / total       0.58      0.59      0.58        82
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[165]:</div>
+<div class="prompt output_prompt">Out[24]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;I&#39;,
- &#39;I&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;D&#39;,
- &#39;I&#39;]</pre>
+<pre>array([ 4229.,  5726.,  9348.,  8329.,  7872.,  6771.,  9175.,  8668.,
+        7473.,  9170.,  4377.,  3155.,  2358., 15455.,  9325.,  2718.,
+        4579.,  2338.,  8059.,  9579.,  7368.,  8880.,  3906., 14292.,
+        8036.,  9655.,  4409.,  3214., 15803.,  8301., 17707.,  4335.,
+        3381.,  9744., 16625.,  8846.,  2875., 15838.,  6844.,  8130.,
+        7558.,  4339.,  8931.,  4201.,  2576.,  7917.,  2373.,  8247.,
+       16100.,  8042.,  8419.,  7024., 11296.,  4597.,  7480.,  9818.,
+       11225.,  9282.,  9858.,  5647.,  8513.,  2273.,  4175.,  8369.,
+        4226.,  9373., 11513.,  1930.,  6008.,  5930., 16569.,  7208.,
+       11475.,  4065.,  2529.,  5606.,  7790.,  4892., 10976.,  3883.,
+        3638.,  5527.])</pre>
 </div>
 
 </div>
@@ -20583,7 +14219,7 @@ avg / total       0.58      0.59      0.58        82
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[160]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">plotly.plotly</span> <span class="k">as</span> <span class="nn">py</span>
@@ -20623,7 +14259,7 @@ avg / total       0.58      0.59      0.58        82
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[160]:</div>
+<div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -20639,7 +14275,7 @@ avg / total       0.58      0.59      0.58        82
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[141]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_test</span>
@@ -20655,258 +14291,176 @@ avg / total       0.58      0.59      0.58        82
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[141]:</div>
+<div class="prompt output_prompt">Out[26]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[-9.55068153e-01, -9.22267519e-01, -9.29534754e-01,
-        -9.04839386e-01, -5.06872702e-01, -6.49117134e-01,
-        -9.00995748e-01],
-       [-2.99385662e-01, -1.81656047e-01, -2.28866018e-01,
-        -1.26473361e-01,  5.98150865e-02, -1.64451783e-01,
-         1.61463885e-02],
-       [ 1.08918022e+00,  1.57298887e+00,  1.25023030e+00,
-         1.69502325e+00,  2.28783203e+00,  6.79208027e-01,
-         2.64388963e+00],
-       [-1.80433251e-01, -1.51941696e-01, -1.25933446e-01,
-        -1.54673136e-01,  3.35322161e-01, -5.13611741e-01,
-        -1.12777592e-01],
-       [ 1.92972474e+00,  1.85490065e+00,  1.94978020e+00,
-         1.77413929e+00,  6.93649827e-01,  2.80848316e+00,
-         1.87689676e+00],
-       [ 3.87544813e-01,  2.96270574e-01,  4.02155406e-01,
-         3.44306224e-01, -5.85279185e-01, -5.14981546e-01,
-         3.73569781e-01],
-       [ 1.30471062e-01,  1.66676051e-01,  1.20769079e-01,
-         2.44562574e-01,  5.06717547e-01,  9.79090103e-01,
-         2.12676846e-01],
-       [-4.80888479e-02, -1.02501011e-01, -1.68472951e-02,
-        -8.36514794e-02, -6.39036130e-01, -6.81290006e-01,
-        -1.19066567e-01],
-       [ 7.57531449e-01,  7.41486439e-01,  6.95289472e-01,
-         5.75648827e-01,  1.23784667e-02,  6.58344833e-01,
-         6.52643031e-01],
-       [ 1.89815973e-01,  1.14988063e-01,  1.30838570e-01,
-         1.06697005e-01, -3.07772908e-01, -2.93951106e-01,
-         5.92680470e-03],
-       [ 2.20281636e+00,  2.21272137e+00,  2.14277878e+00,
-         2.09869781e+00,  1.65016298e+00,  2.82467497e+00,
-         1.78072786e+00],
-       [ 1.56204696e-01,  9.40132266e-02,  1.68039745e-01,
-         7.66694664e-02, -6.28285288e-01, -6.30150594e-01,
-         1.15459780e-01],
-       [-2.24548053e-01, -2.39087146e-01, -1.49149216e-01,
-        -2.02717198e-01, -5.19726672e-01, -3.95492343e-01,
-        -2.72360324e-01],
-       [ 2.97850162e+00,  2.77379823e+00,  2.74722793e+00,
-         2.60498823e+00,  2.57124020e+00,  1.98098003e+00,
-         2.30978785e+00],
-       [ 1.59151126e+00,  1.44164644e+00,  7.66894740e-01,
-         9.63395740e-01,  1.63390681e+00,  2.10015313e+00,
-         8.85335094e-01],
-       [-1.31612679e+00, -1.29332236e+00, -1.32364344e+00,
-        -1.28605857e+00, -6.66579179e-01, -8.56730504e-01,
-        -1.33441092e+00],
-       [-1.58638439e-01, -1.97886575e-01, -2.15160322e-01,
-        -2.37705808e-01, -1.98965418e-01, -3.52185409e-01,
-        -2.19166080e-01],
-       [-1.02412882e+00, -1.03588121e+00, -1.20252984e+00,
-        -1.21294804e+00, -1.92445446e-01, -5.40375636e-01,
-        -1.09333356e+00],
-       [ 2.13296793e+00,  1.96601734e+00,  1.22505657e+00,
-         1.57491309e+00,  6.04298815e+00,  2.29526263e+00,
-         1.80509764e+00],
-       [-9.46140157e-01, -9.62469289e-01, -9.54988189e-01,
-        -9.49750139e-01, -6.31980120e-01, -5.74129053e-01,
-        -9.09643088e-01],
-       [-3.00436014e-01, -2.54318872e-01, -2.29984851e-01,
-        -2.32222519e-01, -4.83442922e-01, -3.90856077e-01,
-        -2.06064049e-01],
-       [ 8.40771878e-01,  7.78941503e-01,  9.50103531e-01,
-         8.57907691e-01, -3.44040248e-01,  4.32326894e-01,
-         9.64209317e-01],
-       [ 1.34520362e+00,  1.57498647e+00,  1.48322713e+00,
-         1.65951242e+00,  9.41643936e-01,  3.03868076e+00,
-         1.53205132e+00],
-       [ 7.79534411e-02,  5.40611579e-02,  1.19929955e-01,
-         2.65365322e-02, -4.97956969e-01, -4.36305527e-01,
-         9.24002062e-02],
-       [ 3.05092149e-01,  2.76544240e-01,  3.89568542e-01,
-         2.94695508e-01, -3.53106399e-01, -1.98415940e-01,
-         2.40453151e-01],
-       [ 2.82772161e-01,  3.39968149e-01,  2.23421944e-01,
-         3.58928330e-01,  7.04452632e-01,  9.28301923e-01,
-         1.22272836e-01],
-       [-7.87536943e-01, -7.85931085e-01, -7.51920124e-01,
-        -7.88123648e-01, -5.65434843e-01, -6.39388001e-01,
-        -7.82029311e-01],
-       [ 7.64621328e-01,  7.54221161e-01,  8.22276939e-01,
-         6.78264677e-01, -1.85359353e-01,  4.75844567e-01,
-         8.22969428e-01],
-       [ 1.34284033e+00,  1.20518014e+00,  1.07261567e+00,
-         9.92117733e-01,  3.68173627e-01,  1.91688015e+00,
-         8.17728616e-01],
-       [ 8.32052031e-02,  5.10647528e-02,  1.45942806e-01,
-         1.17663584e-01, -6.49786971e-01, -6.40476821e-01,
-         1.14411617e-01],
-       [ 6.87683014e-01,  7.01284670e-01,  7.81159852e-01,
-         7.63908439e-01, -1.19445835e-01,  4.99693236e-01,
-         6.78060971e-01],
-       [ 1.73199590e+00,  1.60869603e+00,  1.62643766e+00,
-         1.55924655e+00,  3.32010213e-01,  2.30035550e+00,
-         1.57476394e+00],
-       [ 1.11564718e-01,  4.08270352e-02,  9.61547685e-02,
-         8.52000895e-03, -3.62175286e-01, -3.05401276e-01,
-         3.76337186e-02],
-       [ 2.28474385e+00,  2.11458910e+00,  1.88936326e+00,
-         1.92427698e+00,  8.02140071e-01,  2.82860877e+00,
-         1.77784541e+00],
-       [ 2.95901566e-01,  2.31348463e-01,  3.39221088e-01,
-         2.26546051e-01, -5.07250116e-01, -2.53699892e-01,
-         1.79659729e-01],
-       [ 1.89138687e+00,  1.87362818e+00,  2.06725760e+00,
-         1.93237136e+00,  8.74466900e-01,  3.01978447e+00,
-         2.04093419e+00],
-       [-9.71928230e-02, -1.12988429e-01, -3.36297798e-02,
-        -1.02712439e-01,  2.04573237e-02, -4.55131575e-01,
-        -2.06326090e-01],
-       [-2.39851815e-03,  8.11627899e-03,  6.73448364e-02,
-         6.15251425e-02, -9.76186996e-02, -1.04566689e-01,
-         1.02357749e-01],
-       [-5.59610471e-01, -5.57205492e-01, -5.20601544e-01,
-        -5.13959165e-01, -4.00395335e-01, -6.30150594e-01,
-        -5.58770711e-01],
-       [ 5.04396519e-01,  4.26863898e-01,  5.96552520e-01,
-         4.96271681e-01, -5.74528343e-01, -5.39567802e-01,
-         5.36559041e-01],
-       [ 1.49120261e+00,  1.53828051e+00,  1.59566978e+00,
-         1.61381834e+00,  6.21320263e-01,  2.55591206e+00,
-         1.71626587e+00],
-       [-1.36470559e+00, -1.36298878e+00, -1.39916462e+00,
-        -1.37640230e+00, -7.06117445e-01, -8.48827778e-01,
-        -1.34646479e+00],
-       [-2.43191808e-01, -2.83533822e-01, -2.26068938e-01,
-        -2.58072313e-01, -3.81850065e-01, -3.88854053e-01,
-        -3.07735806e-01],
-       [-1.21030379e+00, -1.08282490e+00, -1.26042941e+00,
-        -1.08683238e+00, -6.54673648e-02, -5.25588760e-01,
-        -1.09674008e+00],
-       [-9.91830487e-01, -9.83943525e-01, -1.05680193e+00,
-        -9.66200008e-01, -4.37045560e-01, -6.65519679e-01,
-        -9.58644683e-01],
-       [-1.08484111e-01, -1.71668030e-01, -5.09716806e-02,
-        -1.12895691e-01, -6.87416285e-01, -6.93056286e-01,
-        -1.76715501e-01],
-       [ 8.92764322e-01,  8.85313886e-01,  9.88982954e-01,
-         9.50601397e-01,  1.51193140e-01,  1.30278572e+00,
-         1.04177334e+00],
-       [-2.44242160e-01, -2.33344036e-01, -1.77959148e-01,
-        -1.87050656e-01, -3.16538222e-01, -3.66515684e-01,
-        -9.28625055e-02],
-       [ 2.55363407e+00,  2.39300508e+00,  2.40178846e+00,
-         2.24752996e+00,  2.78379563e+00,  1.55012346e+00,
-         2.29380338e+00],
-       [ 8.32106470e-01,  8.26134884e-01,  7.48713715e-01,
-         8.00985922e-01,  5.48993435e-01,  1.78260407e+00,
-         9.29881997e-01],
-       [ 2.16599959e-01,  3.61941787e-01,  3.20760355e-01,
-         4.42483221e-01,  1.11244642e-01,  9.00238468e-01,
-         6.17267549e-01],
-       [-1.37862276e+00, -1.38146661e+00, -1.43552667e+00,
-        -1.41713531e+00, -7.37751886e-01, -8.01832906e-01,
-        -1.43398635e+00],
-       [ 6.92880337e-02,  6.67958798e-02,  1.38670396e-01,
-         1.04608133e-01,  1.77888375e-01, -9.24842999e-02,
-         6.82924700e-02],
-       [ 2.02241834e+00,  2.40598950e+00,  2.16767280e+00,
-         2.51438339e+00,  7.65976656e-01,  2.89829324e+00,
-         2.54614848e+00],
-       [ 1.74848451e-01,  1.48697621e-01,  2.15590118e-01,
-         1.83985279e-01, -6.17531711e-01, -6.03527191e-01,
-         2.39404989e-01],
-       [ 2.62190697e+00,  2.90838676e+00,  2.81435787e+00,
-         3.05409576e+00,  1.93357114e+00,  1.78520319e+00,
-         2.96908203e+00],
-       [ 1.57339268e+00,  1.59221580e+00,  1.73104849e+00,
-         1.57177979e+00,  3.32010213e-01,  2.21036980e+00,
-         9.64209317e-01],
-       [ 8.99066436e-01,  1.00816650e+00,  9.75836674e-01,
-         9.59479104e-01,  1.48925315e+00,  2.03900360e+00,
-         9.94868069e-01],
-       [ 2.20801369e-01,  1.36462299e-01,  1.33635651e-01,
-         8.60693915e-02,  7.82892501e-02,  9.57735183e-01,
-         2.92599233e-01],
-       [-7.84123298e-01, -7.97916706e-01, -7.55556329e-01,
-        -7.76634851e-01, -5.83772262e-01, -6.46096537e-01,
-        -6.19302092e-01],
-       [-8.41630092e-01, -8.59592712e-01, -8.34154299e-01,
-        -8.44784308e-01, -4.68081061e-01, -6.12975338e-01,
-        -8.14260306e-01],
-       [ 7.84786173e-02,  7.60347957e-02,  1.36432732e-01,
-         1.18446912e-01, -5.82582019e-02, -9.20713879e-03,
-         2.56961710e-01],
-       [-4.82409569e-01, -3.14246975e-01, -4.50115108e-01,
-        -3.23871789e-01,  4.14037687e-01, -2.22018745e-01,
-        -3.07735806e-01],
-       [-8.61641227e-02, -1.55437502e-01, -9.82423458e-02,
-        -1.71384114e-01,  5.98150865e-02, -3.55803101e-01,
-        -3.12452537e-01],
-       [-9.47715686e-01, -9.26762127e-01, -9.20863804e-01,
-        -9.03794950e-01, -6.51515420e-01, -5.79151674e-01,
-        -8.92610449e-01],
-       [ 2.62190697e+00,  2.46342060e+00,  2.41241736e+00,
-         2.30419062e+00,  3.77572284e+00,  2.07057937e+00,
-         2.09439047e+00],
-       [ 5.35327476e-02, -1.88513673e-02, -1.04116215e-01,
-        -1.65639716e-01, -2.98704022e-01, -3.41121594e-01,
-        -2.41177491e-01],
-       [-9.39575455e-01, -9.46488461e-01, -9.35128916e-01,
-        -9.46616831e-01, -6.12444821e-01, -5.70370869e-01,
-        -9.55762236e-01],
-       [-1.19796215e+00, -1.16647454e+00, -1.19497772e+00,
-        -1.15445962e+00, -5.37908203e-01, -8.18692053e-01,
-        -1.15045841e+00],
-       [-1.01940224e+00, -9.63717791e-01, -9.98063233e-01,
-        -9.39827996e-01, -5.83143238e-01, -5.67069286e-01,
-        -9.52617749e-01],
-       [-1.44558273e+00, -1.29057565e+00, -1.44979178e+00,
-        -1.30094179e+00, -6.74485738e-01, -8.36885883e-01,
-        -1.34751295e+00],
-       [ 3.30508756e-02,  2.85917142e-02,  8.55258615e-02,
-         2.49698780e-02, -3.31052268e-01, -4.16741892e-01,
-         4.60190181e-02],
-       [-1.89886423e-01, -5.45585287e-02, -3.93054660e-01,
-        -1.21076046e-02,  2.25338339e+00,  9.26616008e-01,
-        -4.96258047e-02],
-       [-9.31172635e-01, -9.54978276e-01, -9.79602500e-01,
-        -9.60194501e-01, -5.83143238e-01, -5.50912603e-01,
-        -9.56286317e-01],
-       [-8.06968463e-01, -7.93422098e-01, -7.75975019e-01,
-        -7.59401655e-01, -4.07328275e-01, -5.93095594e-01,
-        -8.46753342e-01],
-       [-2.05170972e-02, -4.60687141e-02,  2.73227037e-03,
-        -2.70767944e-03, -5.82582019e-02, -1.16789570e-01,
-         5.91210486e-02],
-       [ 1.01302967e+00,  9.72958737e-01,  7.79481603e-01,
-         8.17435791e-01,  5.85156849e-01,  1.84842499e+00,
-         8.01220058e-01],
-       [-9.77179992e-02, -1.55687202e-01, -1.24814613e-01,
-        -2.02978307e-01,  9.91728494e-02, -4.30650688e-01,
-        -1.74619176e-01],
-       [-1.01021165e+00, -1.02364589e+00, -1.00225885e+00,
-        -1.02051069e+00, -6.41746403e-01, -5.59763655e-01,
-        -9.45804693e-01],
-       [ 5.30655329e-01,  4.62820760e-01,  5.46484774e-01,
-         4.86871756e-01, -2.84225528e-01,  5.50446292e-01,
-         6.69937712e-01],
-       [ 3.83080816e-01,  4.31608207e-01,  4.85228705e-01,
-         5.07499370e-01, -5.74528343e-01, -5.29733300e-01,
-         4.95418665e-01],
-       [ 2.44171710e-01,  1.91396394e-01,  2.80482392e-01,
-         1.85290824e-01, -6.22908499e-01, -6.19718997e-01,
-         1.46380572e-01]])</pre>
+<pre>array([[-9.62587620e-01, -9.91588327e-01, -9.76794376e-01,
+        -9.96382483e-01, -6.94637035e-01, -6.83445681e-01],
+       [-6.00653669e-01, -6.47584789e-01, -6.44095980e-01,
+        -6.49060337e-01, -5.08876246e-01, -7.16246518e-01],
+       [ 2.75033866e-01,  2.05883143e-01,  3.12548260e-01,
+         1.96005091e-01, -5.85257283e-01, -6.02656684e-01],
+       [-8.38586235e-02, -9.30607762e-02,  1.39344890e-03,
+        -5.96342242e-02, -5.92607261e-01, -5.35132963e-01],
+       [-3.98143007e-01, -2.86623330e-01, -3.28850615e-01,
+        -2.30741458e-01, -5.53157814e-03, -3.04014674e-01],
+       [-3.25908289e-01, -3.42342213e-01, -2.51130088e-01,
+        -3.05313566e-01, -5.92607261e-01, -5.11280673e-01],
+       [ 2.37269049e-01,  1.49437493e-01, -1.22417313e-02,
+         1.56165198e-01,  1.54886548e+00,  6.69013805e-01],
+       [ 1.34366259e-01,  8.59664172e-02,  1.41835805e-01,
+         1.68679010e-01, -4.88117337e-01, -3.68229953e-01],
+       [-2.11600018e-01, -2.67969617e-01, -2.01770736e-01,
+        -2.76710566e-01, -6.97130431e-01, -7.83140060e-01],
+       [ 4.82106721e-01,  4.49834948e-01,  5.27984107e-01,
+         5.11148862e-01,  2.70202029e-01,  7.33008521e-01],
+       [-9.83117487e-01, -9.85774183e-01, -1.07305875e+00,
+        -1.03111470e+00, -3.35945365e-01, -8.19028776e-01],
+       [-1.03254124e+00, -1.06426513e+00, -1.10469237e+00,
+        -1.10747449e+00, -3.79804204e-01, -6.49321468e-01],
+       [-1.48850705e+00, -1.47803840e+00, -1.51783832e+00,
+        -1.48646425e+00, -8.05454645e-01, -8.83716690e-01],
+       [ 2.10802149e+00,  2.00051569e+00,  1.59098275e+00,
+         1.77708701e+00,  3.04095257e+00,  8.39823927e-01],
+       [ 2.97844829e-01,  2.27201673e-01,  3.50999468e-01,
+         2.59340306e-01, -6.48121343e-01, -6.73803937e-01],
+       [-1.37952134e+00, -1.36514710e+00, -1.39621252e+00,
+        -1.36490150e+00, -7.41368821e-01, -9.25056457e-01],
+       [-9.68670544e-01, -9.98371496e-01, -9.86066299e-01,
+        -9.79782528e-01, -6.26744626e-01, -7.19019308e-01],
+       [-1.43984366e+00, -1.45066347e+00, -1.50529396e+00,
+        -1.49310423e+00, -8.13466759e-01, -8.75807938e-01],
+       [-5.24301852e-02, -4.53363417e-02,  4.31171002e-02,
+         2.79624642e-02, -6.07309988e-01, -5.38724986e-01],
+       [ 2.90241174e-01,  2.43675081e-01,  2.69188387e-01,
+         1.65103635e-01, -4.78933327e-01,  3.02324717e-02],
+       [-1.82452676e-01, -2.25332559e-01, -1.34140242e-01,
+        -2.20526101e-01, -7.62476806e-01, -7.72868136e-01],
+       [ 1.85817654e-01,  1.39504996e-01,  1.97467340e-01,
+         1.29860653e-01, -4.51378528e-01, -3.49324572e-01],
+       [-1.04724164e+00, -1.07347086e+00, -1.08314878e+00,
+        -1.09674837e+00, -5.57904727e-01, -6.20333216e-01],
+       [ 8.82058944e-01,  8.49557369e-01,  1.02648629e+00,
+         9.44280009e-01,  1.39017190e+00,  3.96933856e-01],
+       [-1.28973640e-01, -1.55078315e-01, -1.03052031e-01,
+        -1.09689475e-01, -1.25139795e-01, -2.61257003e-01],
+       [ 3.78697021e-01,  3.48571935e-01,  5.05622411e-01,
+         4.18444495e-01, -6.69902545e-01, -6.52535382e-01],
+       [-9.79569115e-01, -9.98371496e-01, -9.73794636e-01,
+        -9.74419465e-01, -7.41077925e-01, -6.78908390e-01],
+       [-1.34530489e+00, -1.26824469e+00, -1.35421616e+00,
+        -1.26836637e+00, -5.87445931e-01, -9.04859208e-01],
+       [ 2.42154551e+00,  2.27959461e+00,  2.24628951e+00,
+         2.14662756e+00,  3.75868222e+00,  1.70102707e+00],
+       [ 2.55771274e-01,  2.01280279e-01,  6.22063524e-02,
+         1.28948122e-02, -3.31972553e-01, -1.77663707e-01],
+       [ 2.07304468e+00,  2.07391926e+00,  2.27574150e+00,
+         2.13104914e+00,  2.17967534e+00,  1.32005213e+00],
+       [-1.04343981e+00, -1.03422539e+00, -1.02615373e+00,
+        -1.03877622e+00, -5.63869485e-01, -7.45927967e-01],
+       [-1.21300131e+00, -1.23602464e+00, -1.25249772e+00,
+        -1.24563720e+00, -6.34601595e-01, -8.75492849e-01],
+       [ 2.27891208e-01,  1.77296934e-01,  3.20183961e-01,
+         2.59595690e-01, -6.80793145e-01, -6.25626723e-01],
+       [ 2.76573760e+00,  2.58071884e+00,  2.57271572e+00,
+         2.44082984e+00,  2.53854155e+00,  1.62064769e+00],
+       [ 1.84550378e-01,  2.92610796e-01,  2.96458748e-01,
+         3.77583066e-01, -4.30882811e-01, -5.95787729e-01],
+       [-1.38940609e+00, -1.39688264e+00, -1.41693799e+00,
+        -1.39503680e+00, -8.17470045e-01, -9.23701572e-01],
+       [ 1.47793200e+00,  1.92250925e+00,  1.68751983e+00,
+         2.01255099e+00,  1.74903533e+00,  2.32837065e+00],
+       [-3.33005034e-01, -3.19085636e-01, -2.66401490e-01,
+        -3.18082762e-01, -4.88117337e-01, -4.76053646e-01],
+       [ 1.30310976e-01,  1.44834628e-01,  1.23837367e-01,
+         1.02789956e-01,  1.46720737e-01,  7.13535978e-01],
+       [ 5.42744320e-02, -2.47445806e-02,  4.47533218e-02,
+        -4.53327240e-02, -7.13467718e-01, -7.58279483e-01],
+       [-1.02240304e+00, -1.04415788e+00, -1.03678917e+00,
+        -1.03596699e+00, -7.06319982e-01, -6.71535291e-01],
+       [ 1.82269282e-01,  1.15521651e-01,  2.56098614e-01,
+         1.48759064e-01, -6.07309988e-01, -5.80190789e-01],
+       [-1.08424609e+00, -1.10351061e+00, -1.08287608e+00,
+        -1.10517604e+00, -7.16213224e-01, -6.58648123e-01],
+       [-1.38712499e+00, -1.39252203e+00, -1.40221200e+00,
+        -1.39554757e+00, -7.93439246e-01, -9.15446222e-01],
+       [ 2.96892827e-02,  1.45008934e-02,  4.47533218e-02,
+         3.02609195e-02, -3.77898142e-01, -2.48149271e-01],
+       [-1.42767782e+00, -1.42692238e+00, -1.45157135e+00,
+        -1.45607356e+00, -8.53521784e-01, -8.73318730e-01],
+       [-2.88588564e-02, -6.08407265e-02,  3.65722137e-02,
+         8.04251753e-03, -7.24358318e-01, -7.31055734e-01],
+       [ 1.46754034e+00,  1.46997502e+00,  1.52935174e+00,
+         1.48314010e+00,  1.82080913e+00,  2.27445881e+00],
+       [ 8.01268570e-02,  7.95998110e-03,  1.42926619e-01,
+         5.09470179e-02, -7.35248919e-01, -7.52387306e-01],
+       [ 1.04266914e-02,  8.92900515e-03,  9.92940425e-02,
+         7.49531075e-02, -7.73367406e-01, -7.47156817e-01],
+       [-3.99156827e-01, -3.57119830e-01, -3.29941429e-01,
+        -3.34171950e-01, -5.55851831e-01, -5.07121490e-01],
+       [ 8.28579908e-01,  8.51495417e-01,  9.91034825e-01,
+         9.10824714e-01,  1.37645382e-02,  9.09836857e-01],
+       [-1.00820955e+00, -9.92557351e-01, -1.04797002e+00,
+        -9.81570215e-01, -4.49065211e-01, -6.52598400e-01],
+       [-1.63443540e-01, -1.90447693e-01, -1.39048907e-01,
+        -1.61532413e-01, -6.53565258e-01, -7.64329205e-01],
+       [ 1.47799381e-01,  2.41737033e-01,  2.55007800e-01,
+         2.83857163e-01,  4.33037426e-01, -1.44547781e-01],
+       [ 7.39363696e-01,  6.84338769e-01,  6.77698385e-01,
+         5.95680943e-01,  1.31827458e-02,  5.80032476e-01],
+       [ 3.78950476e-01,  2.95517868e-01,  2.61552686e-01,
+         1.59995956e-01, -4.82340969e-01, -5.96575453e-01],
+       [ 3.77683200e-01,  3.03754573e-01,  4.75897719e-01,
+         3.78349217e-01, -6.48121343e-01, -6.40530465e-01],
+       [-8.55629548e-01, -7.45698474e-01, -8.23262247e-01,
+        -7.08054025e-01, -3.60269830e-01, -7.39878245e-01],
+       [ 1.27077878e-02, -3.70996373e-02,  9.32945632e-02,
+         7.02098181e-03, -7.78814092e-01, -7.41264640e-01],
+       [-1.51359911e+00, -1.48675962e+00, -1.54783572e+00,
+        -1.50689496e+00, -7.49378164e-01, -9.00794551e-01],
+       [-1.09311702e+00, -1.04536916e+00, -1.07878552e+00,
+        -1.02626240e+00, -6.56848230e-01, -6.65201988e-01],
+       [ 1.26509149e-01,  7.53071526e-02,  1.67742647e-01,
+         7.41869557e-02, -6.97130431e-01, -7.12433933e-01],
+       [-9.12656956e-01, -9.36111700e-01, -1.02697184e+00,
+        -1.01911165e+00, -5.38115472e-01, -6.54362903e-01],
+       [ 4.15448017e-01,  3.42757791e-01,  4.42900583e-01,
+         3.66601557e-01, -6.80793145e-01, -6.58301524e-01],
+       [ 7.34041138e-01,  7.27460339e-01,  8.62046021e-01,
+         8.35231070e-01, -4.23820959e-01,  2.09707560e-01],
+       [-1.51461293e+00, -1.52479381e+00, -1.59555885e+00,
+        -1.58861782e+00, -7.81421076e-01, -8.95122937e-01],
+       [-5.59847391e-01, -5.64490977e-01, -5.11562029e-01,
+        -5.58654425e-01, -3.78845632e-01, -7.33355889e-01],
+       [-5.49709185e-01, -5.93319442e-01, -5.58739752e-01,
+        -5.64783640e-01, -5.18165532e-01, -7.30520081e-01],
+       [ 1.53597322e+00,  2.27111565e+00,  1.69515553e+00,
+         2.47224207e+00,  5.69655531e+00,  5.21614847e-01],
+       [-3.61898920e-01, -2.80566930e-01, -2.95035368e-01,
+        -2.91522834e-01,  4.72906831e-01, -6.53890268e-01],
+       [ 8.17427881e-01,  7.63798741e-01,  4.25720256e-01,
+         7.58360507e-01,  2.54150592e+00,  1.67941192e+00],
+       [-1.16585865e+00, -1.17739869e+00, -1.19850241e+00,
+        -1.18408967e+00, -5.97480466e-01, -6.09368095e-01],
+       [-1.38078861e+00, -1.39470233e+00, -1.46166138e+00,
+        -1.44126129e+00, -7.73411733e-01, -9.16864125e-01],
+       [-6.38165031e-01, -6.65996246e-01, -6.26370246e-01,
+        -6.36801908e-01, -5.08876246e-01, -7.11583191e-01],
+       [-8.91811816e-02, -1.26007594e-01, -7.63270780e-02,
+        -1.30375573e-01,  1.53948815e-01, -2.72222124e-01],
+       [-9.25076258e-01, -9.17942499e-01, -8.97710331e-01,
+        -8.98059670e-01, -4.77415126e-01, -6.98790549e-01],
+       [ 4.31162236e-01,  5.51340218e-01,  3.71179535e-01,
+         5.14468853e-01,  2.18730790e+00,  8.69801253e-02],
+       [-1.02316340e+00, -1.01266460e+00, -1.02424480e+00,
+        -1.04413928e+00, -5.67797969e-01, -6.49699575e-01],
+       [-1.09767921e+00, -1.11538115e+00, -1.27813186e+00,
+        -1.29339399e+00, -2.61071446e-01, -6.41255172e-01],
+       [-5.57566294e-01, -5.93319442e-01, -5.75101968e-01,
+        -5.84703586e-01, -3.97421434e-01, -7.28030873e-01]])</pre>
 </div>
 
 </div>
@@ -20917,7 +14471,7 @@ avg / total       0.58      0.59      0.58        82
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[166]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">traceTest</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">l</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">y_test</span><span class="p">,</span>
@@ -20943,7 +14497,7 @@ avg / total       0.58      0.59      0.58        82
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[166]:</div>
+<div class="prompt output_prompt">Out[28]:</div>
 
 
 
